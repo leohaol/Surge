@@ -3,5 +3,5 @@
 
 部分脚本未测试可用性.
 
-Surge全局配置：
+Surge配置文件：
 https://raw.githubusercontent.com/leohaol/Surge/main/Surge%20Ultra.conf
