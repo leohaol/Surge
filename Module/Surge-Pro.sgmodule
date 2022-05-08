@@ -1,0 +1,6 @@
+#!name=Surge-Pro
+#!desc=Surge
+#!system=ios
+
+[Panel]
+SurgePro=title="Surge Pro® Licenses Status",content="授权期限 : 2023-11-1",icon="checkmark.icloud",icon-color="#1B813E",update-interval=1
