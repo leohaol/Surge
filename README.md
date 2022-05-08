@@ -5,3 +5,6 @@
 
 Surge配置文件：
 https://raw.githubusercontent.com/leohaol/Surge/main/Surge%20Ultra.conf
+
+One-click connection
+https://gist.githubusercontent.com/githubdulong/6b058aecb40c1d4bfd66de8037e02737/raw/Yjl_2
