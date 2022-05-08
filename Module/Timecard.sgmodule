@@ -1,6 +1,6 @@
-#!name=节假日倒计时
-#!desc=节假日预览，节日当天早上有提醒。
+#!name=timecard
+#!desc=显示距离法定节假日还有几天，节日当天早上有提醒。
 [Panel]
-节假日倒计时 = script-name=节假日倒计时,update-interval=600
+timecard = script-name=timecard,update-interval=3600
 [Script]
-节假日倒计时 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/leohaol/Surge/main/Script/Timecard.js
+timecard = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
