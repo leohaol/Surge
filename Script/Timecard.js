@@ -74,7 +74,7 @@ function datenotice() {
 }
 $done({
 title:"节假日倒计时",
-icon:"leaf.circle.fill",
+icon:"clock.circle",
 'icon-color': "#11b63e",
 content:tlist[nowlist][0]+"  :  "+today(tnumcount(nowlist))+"天\n"+tlist[Number(nowlist) + Number(1)][0] +"  :  "+ tnumcount(Number(nowlist) + Number(1))+ "天\n"+tlist[Number(nowlist) + Number(2)][0]+"  :  "+tnumcount(Number(nowlist) + Number(2))+"天"
 })
