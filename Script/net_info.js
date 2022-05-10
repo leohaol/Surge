@@ -23,7 +23,7 @@ $httpClient.get('http://ip-api.com/json/?lang=en', function (error, response, da
 		`国家地区: ${jsonData.country} - ${jsonData.city}\n`+
       `运营商 : ${jsonData.isp}\n` +
 		`数据中心: ${jsonData.org}`,
-      icon: figure.walk.circle,
+      icon: arrow.left.arrow.right.circle,
 		  "icon-color":params.color
     });
   });
