@@ -22,6 +22,10 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 # > Safari 防跳转
 DOMAIN,app-site-association.cdn-apple.com,REJECT
 
+#高德地图去广告
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
+# 由于surge需特殊方法匹配域名下ip，因此用如下规则
+URL-REGEX,\/amdc\/mobileDispatch,REJECT
 
 # ------------------------------------------------------------------------------------
 
@@ -75,7 +79,21 @@ DOMAIN,app-site-association.cdn-apple.com,REJECT
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
+# ------------------------------------------------------------------------------------
 
+# 高德通用广告请求
+^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution - reject
+
+# ------------------------------------------------------------------------------------
+
+[Map Local]
+
+# 高德搜索框 | 左下天气
+^https?:\/\/m5\.amap\.com\/ws\/(shield\/scene\/recommend|valueadded\/weather) data="https://raw.githubusercontent.com/kokoryh/Script/master/data/blank_dict.json"
+# 高德Tip请求，如招聘代驾的广告等
+^https?:\/\/m5-zb\.amap\.com\/ws\/boss\/order_web\/\w{8}_information data="https://raw.githubusercontent.com/kokoryh/Script/master/data/blank.txt"
+
+# ------------------------------------------------------------------------------------
 
 [Script]
 
@@ -94,6 +112,16 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 
 # ------------------------------------------------------------------------------------
 
+# 高德搜索框热词 | 附近页面 | 我的页面
+http-response ^https?:\/\/m5\.amap\.com\/ws\/shield\/(search\/(new_hotword|nearbyrec_smart)|dsp\/profile\/index\/nodefaas) requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js
+# 高德高德高德开屏广告 | 首页底部
+http-response ^https?:\/\/m5\.amap\.com\/ws\/(valueadded\/alimama\/splash_screen|faas\/amap-navigation\/main-page) requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js
+# 高德高德打车页面
+http-response ^https?:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js
+# 高德首页顶部横幅
+http-response ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js
+
+# ------------------------------------------------------------------------------------
 
 [MITM]
 
@@ -103,5 +131,6 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 # 网易蜗牛读书解锁会员p.du.163.com
 # TestFlight区域限制解除  testflight.apple.com
 # 解锁 TikTok地区 *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+# 高德去广告 m5.amap.com, m5-zb.amap.com, sns.amap.com
 
-hostname = %APPEND% duckduckgo.com, spclient.wg.spotify.com, biz.caiyunapp.com,ad.caiyunapp.com, p.du.163.com, testflight.apple.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+hostname = %APPEND% duckduckgo.com, spclient.wg.spotify.com, biz.caiyunapp.com,ad.caiyunapp.com, p.du.163.com, testflight.apple.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, m5.amap.com, m5-zb.amap.com, sns.amap.com
