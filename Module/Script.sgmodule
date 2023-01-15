@@ -107,6 +107,7 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 
 # ------------------------------------------------------------------------------------
 
+# 网易蜗牛读书VIP
 网易蜗牛读书=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
 
 
