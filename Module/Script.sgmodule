@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-16 17:30
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-17 1:01
 #!system=ios
 
 # --------------
@@ -19,8 +19,6 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 # ------------------------------------------------------------------------------------
 
 [Rule]
-# > Safari 防跳转
-DOMAIN,app-site-association.cdn-apple.com,REJECT
 
 #高德地图去广告
 DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT
