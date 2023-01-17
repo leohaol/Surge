@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-17 1:01
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-18 17:07
 #!system=ios
 
 # --------------
@@ -35,14 +35,8 @@ URL-REGEX,\/amdc\/mobileDispatch,REJECT
 # 注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
 # 无指令则转 google 搜索
 
-# gh: (GitHub)
-^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
-# tf  (Google 搜索 TestFlight)
-^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
 # wb: 微博
 ^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
-# wx: 微信
-^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
 # jd : 京东
 ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
 # tb: 淘宝
