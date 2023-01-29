@@ -11,4 +11,3 @@ RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/cn.list,DIRECT
 RULE-SET,SYSTEM,Proxy
 RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
-FINAL,Proxy,dns-failed
