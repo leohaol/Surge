@@ -1,0 +1,14 @@
+#!name=规则合集
+#!desc=最后更新时间 2023-01-29
+#!system=ios
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/telegram.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/blocked.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list,JP
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list,Proxy
+RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/apple.list,DIRECT
+RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/cn.list,DIRECT
+RULE-SET,SYSTEM,Proxy
+RULE-SET,LAN,DIRECT
+GEOIP,CN,DIRECT
+FINAL,Proxy,dns-failed
