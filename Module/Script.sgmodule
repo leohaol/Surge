@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-27
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023-01-30
 #!system=ios
 
 # --------------
@@ -104,8 +104,7 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 
 # ------------------------------------------------------------------------------------
 
-# 网易蜗牛读书VIP
-网易蜗牛读书=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
+
 
 
 # ------------------------------------------------------------------------------------
@@ -132,12 +131,11 @@ http-response ^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull requires-body=1,scrip
 [MITM]
 
 # Spotif部分解锁 spclient.wg.spotify.com
-# 网易蜗牛读书解锁会员p.du.163.com
 # 解锁 TikTok地区 *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 # 高德去广告 m5.amap.com, m5-zb.amap.com, sns.amap.com
 # 酷我音乐VIP解锁 *.kuwo.cn, *.lrts.me
 #Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索 duckduckgo.com
 
 
-hostname = %APPEND% spclient.wg.spotify.com, p.du.163.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, m5.amap.com, m5-zb.amap.com, sns.amap.com, *.kuwo.cn, *.lrts.me, duckduckgo.com
+hostname = %APPEND% spclient.wg.spotify.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, m5.amap.com, m5-zb.amap.com, sns.amap.com, *.kuwo.cn, *.lrts.me, duckduckgo.com
 
