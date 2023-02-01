@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023-02-1
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023-02-1 23:53
 #!system=ios
 
 # --------------
@@ -36,9 +36,6 @@ URL-REGEX,\/amdc\/mobileDispatch,REJECT
 # tf  (Google 搜索 TestFlight)
 ^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
 
-
-# > 购物
-
 # jd : 京东
 ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
 # tb: 淘宝
@@ -46,16 +43,12 @@ URL-REGEX,\/amdc\/mobileDispatch,REJECT
 # tm: 天猫
 ^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
 
-# > 视频资源
-
 # ytb  (YouTube)
 ^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 # ph  (PornHub) 
 ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 # tga  (t.me/gdurl 搜索 阿里云盘 资源)
 ^https:\/\/duckduckgo.com\/\?q=tga\+([^&]+).+ https://t.me/YunPanPan?q=$1 302
-
-# > 搜索引擎
 
 # bd: 百度
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
