@@ -1,13 +1,20 @@
 #!name=Rule合集
-#!desc=最后更新时间 2023-01-29
+#!desc=最后更新时间 2月2日 00:06
 #!system=ios
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/telegram.list,Proxy
+DOMAIN-SET,https://anti-ad.net/surge2.txt,REJECT // anti-ad
+DOMAIN,wetype.weixin.qq.com,REJECT // weixin
+RULE-SET,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list,REJECT
+DOMAIN-KEYWORD,speedtest,DIRECT // speedtest
+RULE-SET,https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/surge.list,IP
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/telegram.list,Global
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,Global
 RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/blocked.list,Proxy
-RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list,JP
+RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list,Global
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list,Proxy
 RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/apple.list,DIRECT
 RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/cn.list,DIRECT
-RULE-SET,SYSTEM,Proxy
+IP-CIDR,0.0.0.0/32,REJECT,no-resolve // Surge 的自动 REJECT 保护丢包，防止应用循环请求
 RULE-SET,LAN,DIRECT
 GEOIP,CN,DIRECT
+FINAL,Proxy,dns-failed
