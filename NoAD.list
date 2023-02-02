@@ -30,122 +30,121 @@ DOMAIN-SUFFIX,image.bianxianmao.com
 # IP-CIDR,203.107.1.1/24
 # > VIVO商城
 DOMAIN-SUFFIX,paradisestatic.vivo.com.cn
-
 # > 酷安
-# > DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com 
+# > DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
 # > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
-# > DOMAIN-SUFFIX,xqimg.imedao.com 
+# > DOMAIN-SUFFIX,xqimg.imedao.com
 # > 滴滴青桔（支付界面图片有误杀）
-# > DOMAIN-SUFFIX,pt-starimg.didistatic.com 
+# > DOMAIN-SUFFIX,pt-starimg.didistatic.com
 # > 一刻相册
-DOMAIN-SUFFIX,sf1-be-tos.pglstatp-toutiao.com 
-DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com 
+DOMAIN-SUFFIX,sf1-be-tos.pglstatp-toutiao.com
+DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
 # > 酷狗音乐
-DOMAIN-SUFFIX,searchrecommend.kugou.com 
-DOMAIN-SUFFIX,nbcollectretry.kugou.com 
-DOMAIN-SUFFIX,rtmretry.kugou.com 
-DOMAIN-SUFFIX,rt-m.kugou.com 
-DOMAIN-SUFFIX,nbcollect.kugou.com 
-DOMAIN-SUFFIX,c1img.ali.kugou.com 
-DOMAIN-SUFFIX,kgstaticdlbssdlbig.tx.kugou.com 
-DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com 
-DOMAIN-SUFFIX,splashimgbssdl.yun.kugou.com 
-DOMAIN-SUFFIX,adservice.kugou.com,REJECT
-DOMAIN-SUFFIX,kgipadstat.kugou.com,REJECT
-DOMAIN-SUFFIX,kgipadstatbak.kugou.com,REJECT
-DOMAIN-SUFFIX,logwebs.kugou.com,REJECT
-DOMAIN-SUFFIX,tracker.kugou.com,REJECT
-DOMAIN-SUFFIX,trackercdnbj.kugou.com,REJECT
-DOMAIN-SUFFIX,rich.kuwo.cn 
-DOMAIN-SUFFIX,mobilead.kuwo.cn 
-DOMAIN,adsfile.bssdlbig.kugou.com 
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com 
-DOMAIN,pgdt.gtimg.cn 
-DOMAIN-SUFFIX,pgdt.gtimg.cn 
-DOMAIN,pgdt.gtimg.com 
-DOMAIN,adsmind.gdtimg.com 
-DOMAIN-SUFFIX,channel.fanxing.kugou.com 
-DOMAIN-SUFFIX,d.kugou.com 
-DOMAIN-SUFFIX,downmobile.kugou.com 
-DOMAIN-SUFFIX,gad.kugou.com 
-DOMAIN-SUFFIX,game.kugou.com 
-DOMAIN-SUFFIX,gamebox.kugou.com 
-DOMAIN-SUFFIX,gcapi.sy.kugou.com 
-DOMAIN-SUFFIX,gg.kugou.com 
-DOMAIN-SUFFIX,install.kugou.com 
-DOMAIN-SUFFIX,install2.kugou.com 
-DOMAIN-SUFFIX,minidcsc.kugou.com 
-DOMAIN-SUFFIX,mo.kugou.com 
-DOMAIN-SUFFIX,msg.mobile.kugou.com 
-DOMAIN-SUFFIX,mvads.kugou.com 
-DOMAIN-SUFFIX,p.kugou.com 
-DOMAIN-SUFFIX,push.mobile.kugou.com 
-DOMAIN-SUFFIX,rtmonitor.kugou.com 
-DOMAIN-SUFFIX,sdn.kugou.com 
-DOMAIN-SUFFIX,song.fanxing.kugou.com 
-DOMAIN-SUFFIX,update.mobile.kugou.com 
-DOMAIN-SUFFIX,youxi.kugou.com 
-DOMAIN-SUFFIX,adserviceretry.kugou.com 
-DOMAIN-SUFFIX,ads.service.kugou.com 
-DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com 
-DOMAIN-SUFFIX,log.stat.kugou.com 
-DOMAIN-SUFFIX,log.web.kugou.com 
-DOMAIN-SUFFIX,kgmobilestat.kugou.com 
-DOMAIN-SUFFIX,kgmobilestatbak.kugou.com 
-DOMAIN-SUFFIX,mobilelog.kugou.com 
+DOMAIN-SUFFIX,searchrecommend.kugou.com
+DOMAIN-SUFFIX,nbcollectretry.kugou.com
+DOMAIN-SUFFIX,rtmretry.kugou.com
+DOMAIN-SUFFIX,rt-m.kugou.com
+DOMAIN-SUFFIX,nbcollect.kugou.com
+DOMAIN-SUFFIX,c1img.ali.kugou.com
+DOMAIN-SUFFIX,kgstaticdlbssdlbig.tx.kugou.com
+DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com
+DOMAIN-SUFFIX,splashimgbssdl.yun.kugou.com
+DOMAIN-SUFFIX,adservice.kugou.com
+DOMAIN-SUFFIX,kgipadstat.kugou.com
+DOMAIN-SUFFIX,kgipadstatbak.kugou.com
+DOMAIN-SUFFIX,logwebs.kugou.com
+DOMAIN-SUFFIX,tracker.kugou.com
+DOMAIN-SUFFIX,trackercdnbj.kugou.com
+DOMAIN-SUFFIX,rich.kuwo.cn
+DOMAIN-SUFFIX,mobilead.kuwo.cn
+DOMAIN,adsfile.bssdlbig.kugou.com
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN-SUFFIX,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN-SUFFIX,channel.fanxing.kugou.com
+DOMAIN-SUFFIX,d.kugou.com
+DOMAIN-SUFFIX,downmobile.kugou.com
+DOMAIN-SUFFIX,gad.kugou.com
+DOMAIN-SUFFIX,game.kugou.com
+DOMAIN-SUFFIX,gamebox.kugou.com
+DOMAIN-SUFFIX,gcapi.sy.kugou.com
+DOMAIN-SUFFIX,gg.kugou.com
+DOMAIN-SUFFIX,install.kugou.com
+DOMAIN-SUFFIX,install2.kugou.com
+DOMAIN-SUFFIX,minidcsc.kugou.com
+DOMAIN-SUFFIX,mo.kugou.com
+DOMAIN-SUFFIX,msg.mobile.kugou.com
+DOMAIN-SUFFIX,mvads.kugou.com
+DOMAIN-SUFFIX,p.kugou.com
+DOMAIN-SUFFIX,push.mobile.kugou.com
+DOMAIN-SUFFIX,rtmonitor.kugou.com
+DOMAIN-SUFFIX,sdn.kugou.com
+DOMAIN-SUFFIX,song.fanxing.kugou.com
+DOMAIN-SUFFIX,update.mobile.kugou.com
+DOMAIN-SUFFIX,youxi.kugou.com
+DOMAIN-SUFFIX,adserviceretry.kugou.com
+DOMAIN-SUFFIX,ads.service.kugou.com
+DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com
+DOMAIN-SUFFIX,log.stat.kugou.com
+DOMAIN-SUFFIX,log.web.kugou.com
+DOMAIN-SUFFIX,kgmobilestat.kugou.com
+DOMAIN-SUFFIX,kgmobilestatbak.kugou.com
+DOMAIN-SUFFIX,mobilelog.kugou.com
 # > 酷我音乐
-DOMAIN-SUFFIX,c.kuwo.cn 
-DOMAIN-SUFFIX,deliver.kuwo.cn 
-DOMAIN-SUFFIX,game.kuwo.cn 
-DOMAIN-SUFFIX,kuwoyy.com 
-DOMAIN-SUFFIX,kwmsg.kuwo.cn 
-DOMAIN-SUFFIX,msclick2.kuwo.cn 
-DOMAIN-SUFFIX,msphoneclick.kuwo.cn 
-DOMAIN-SUFFIX,updatepage.kuwo.cn 
-DOMAIN-SUFFIX,wa.kuwo.cn 
-DOMAIN-SUFFIX,webstat.kuwo.cn 
-DOMAIN-SUFFIX,mobilead.kuwo.cn 
-DOMAIN-SUFFIX,rich.kuwo.cn 
+DOMAIN-SUFFIX,c.kuwo.cn
+DOMAIN-SUFFIX,deliver.kuwo.cn
+DOMAIN-SUFFIX,game.kuwo.cn
+DOMAIN-SUFFIX,kuwoyy.com
+DOMAIN-SUFFIX,kwmsg.kuwo.cn
+DOMAIN-SUFFIX,msclick2.kuwo.cn
+DOMAIN-SUFFIX,msphoneclick.kuwo.cn
+DOMAIN-SUFFIX,updatepage.kuwo.cn
+DOMAIN-SUFFIX,wa.kuwo.cn
+DOMAIN-SUFFIX,webstat.kuwo.cn
+DOMAIN-SUFFIX,mobilead.kuwo.cn
+DOMAIN-SUFFIX,rich.kuwo.cn
 # > 向日葵 见重写
 
 # > 小利生活
-DOMAIN-SUFFIX,mpos-pic.helipay.com 
+DOMAIN-SUFFIX,mpos-pic.helipay.com
 # > 懂车帝
-DOMAIN-SUFFIX,p3-pack.byteimg.com 
-DOMAIN-SUFFIX,p6-pack.byteimg.com 
+DOMAIN-SUFFIX,p3-pack.byteimg.com
+DOMAIN-SUFFIX,p6-pack.byteimg.com
 # > 懂球帝
-DOMAIN-SUFFIX,apimg.qunliao.info 
+DOMAIN-SUFFIX,apimg.qunliao.info
 # > 搜狗
-DOMAIN,indivi-cdn.shouji.sogou.com 
-DOMAIN-SUFFIX,epro.sogou.com 
-DOMAIN-SUFFIX,golden1.sogou.com 
-DOMAIN-SUFFIX,inte.sogou.com 
-DOMAIN-SUFFIX,inte.sogoucdn.com 
-DOMAIN-SUFFIX,lu.sogoucdn.com 
-DOMAIN-SUFFIX,theta.sogoucdn.com 
-DOMAIN-SUFFIX,uranus.sogou.com 
-DOMAIN-SUFFIX,123.sogou.com 
-DOMAIN-SUFFIX,a1click.cpc.sogou.com 
-DOMAIN-SUFFIX,adsence.sogou.com 
-DOMAIN-SUFFIX,adstream.123.sogoucdn.com 
-DOMAIN-SUFFIX,amfi.gou.sogou.com 
-DOMAIN-SUFFIX,art.theta.sogoucdn.com 
-DOMAIN-SUFFIX,athena.wan.sogou.com 
-DOMAIN-SUFFIX,bazinga.mse.sogou.com 
-DOMAIN-SUFFIX,bite.theta.sogoucdn.com 
-DOMAIN-SUFFIX,brand.sogou.com 
-DOMAIN-SUFFIX,bsiet.husky.sogou.com 
+DOMAIN,indivi-cdn.shouji.sogou.com
+DOMAIN-SUFFIX,epro.sogou.com
+DOMAIN-SUFFIX,golden1.sogou.com
+DOMAIN-SUFFIX,inte.sogou.com
+DOMAIN-SUFFIX,inte.sogoucdn.com
+DOMAIN-SUFFIX,lu.sogoucdn.com
+DOMAIN-SUFFIX,theta.sogoucdn.com
+DOMAIN-SUFFIX,uranus.sogou.com
+DOMAIN-SUFFIX,123.sogou.com
+DOMAIN-SUFFIX,a1click.cpc.sogou.com
+DOMAIN-SUFFIX,adsence.sogou.com
+DOMAIN-SUFFIX,adstream.123.sogoucdn.com
+DOMAIN-SUFFIX,amfi.gou.sogou.com
+DOMAIN-SUFFIX,art.theta.sogoucdn.com
+DOMAIN-SUFFIX,athena.wan.sogou.com
+DOMAIN-SUFFIX,bazinga.mse.sogou.com
+DOMAIN-SUFFIX,bite.theta.sogoucdn.com
+DOMAIN-SUFFIX,brand.sogou.com
+DOMAIN-SUFFIX,bsiet.husky.sogou.com
 # > 搜狗输入法
-DOMAIN-SUFFIX,business-cdn.shouji.sogou.com 
+DOMAIN-SUFFIX,business-cdn.shouji.sogou.com
 ## QQ音乐广告
-DOMAIN,tmeadcomm.y.qq.com 
-DOMAIN,ad.tencentmusic.com 
-DOMAIN,adstats.tencentmusic.com 
-DOMAIN,tmead.y.qq.com 
-DOMAIN-SUFFIX,rqd.qq.com 
-DOMAIN-SUFFIX,wup.imtt.qq.com 
-DOMAIN-SUFFIX,gdt.qq.com 
-DOMAIN-SUFFIX,android.rqd.qq.com 
-DOMAIN-SUFFIX,e.qq.com 
-DOMAIN-SUFFIX,beacon.qq.com 
-DOMAIN-SUFFIX,v.gdt.qq.com 
+DOMAIN,tmeadcomm.y.qq.com
+DOMAIN,ad.tencentmusic.com
+DOMAIN,adstats.tencentmusic.com
+DOMAIN,tmead.y.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN-SUFFIX,wup.imtt.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,android.rqd.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,v.gdt.qq.com
