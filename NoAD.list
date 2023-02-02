@@ -3482,7 +3482,7 @@ DOMAIN-SUFFIX,cnfanglei.com
 DOMAIN-SUFFIX,cnhbxx.com
 DOMAIN-SUFFIX,cnkok.com
 DOMAIN-SUFFIX,cnn.dyn.cnn.com
-DOMAIN-SUFFIX,cnnic.cn
+#DOMAIN-SUFFIX,cnnic.cn
 DOMAIN-SUFFIX,cnnic.net
 DOMAIN-SUFFIX,cnnic.net.cn
 DOMAIN-SUFFIX,cnpinzhuo.com
@@ -7643,7 +7643,7 @@ DOMAIN-SUFFIX,srv.carbonads.net
 DOMAIN-SUFFIX,srv.revdepo.com
 DOMAIN-SUFFIX,srv.thespacereporter.com
 DOMAIN-SUFFIX,ss.cnczjy.com
-DOMAIN-SUFFIX,ss.cnnic.cn
+#DOMAIN-SUFFIX,ss.cnnic.cn
 DOMAIN-SUFFIX,ss.he9630.com
 DOMAIN-SUFFIX,ss.knet.cn
 DOMAIN-SUFFIX,ss.missyouxi.com
