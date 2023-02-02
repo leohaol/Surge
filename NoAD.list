@@ -114,7 +114,7 @@ DOMAIN-SUFFIX,wa.kuwo.cn
 DOMAIN-SUFFIX,webstat.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,rich.kuwo.cn
-# 向日葵 见重写
+
 
 # 小利生活
 DOMAIN-SUFFIX,mpos-pic.helipay.com
@@ -426,10 +426,9 @@ DOMAIN-SUFFIX,cbjs.baidu.com
 DOMAIN-SUFFIX,cpro2.baidu.com
 DOMAIN-SUFFIX,cpu-admin.baidu.com
 # 百度贴吧屏蔽域名dns查询
-IP-CIDR,180.76.76.200/32,REJECT
+IP-CIDR,180.76.76.200/32
 # 百度贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
-DOMAINim.tieba.baidu.com,REJECT
-## /*  
+DOMAINim.tieba.baidu.com
 DOMAIN-SUFFIX,10086.cn.baidu.cdn.yiwk.com
 DOMAIN-SUFFIX,360baidus.com
 DOMAIN-SUFFIX,app.ibaiducdn.com
@@ -1006,38 +1005,38 @@ DOMAIN-SUFFIX,ads.aws.viber.com
 DOMAIN-SUFFIX,alitui.weibo.com
 DOMAIN,adimg.uve.weibo.com
 DOMAIN,adimg.vue.weibo.com
-DOMAIN-SUFFIX,adimg.uve.weibo.com,REJECT
+DOMAIN-SUFFIX,adimg.uve.weibo.com
 DOMAIN-SUFFIX,alitui.weibo.com,REJECT
-DOMAIN-SUFFIX,biz.weibo.com,REJECT
-DOMAIN-SUFFIX,game.weibo.cn,REJECT
-DOMAIN-SUFFIX,game.weibo.com,REJECT
-DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn,REJECT
-DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn,REJECT
-DOMAIN-SUFFIX,promote.biz.weibo.cn,REJECT
-DOMAIN-SUFFIX,s.alitui.weibo.com,REJECT
-DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,weibomingzi.com,REJECT
-DOMAIN-SUFFIX,zymo.mps.weibo.com,REJECT
-DOMAIN-SUFFIX,adimg.vue.weibo.com,REJECT
-DOMAIN-SUFFIX,dp.im.weibo.cn,REJECT
-DOMAIN-SUFFIX,m.game.weibo.cn,REJECT
-DOMAIN-SUFFIX,c.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,c.wcpt.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,click.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,wax.weibo.com,REJECT
-DOMAIN-SUFFIX,wbapp.uve.weibo.com,REJECT
-DOMAIN-SUFFIX,widget.weibo.com,REJECT
-DOMAIN-SUFFIX,zc.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,dsp.edm.weibo.cn,REJECT
-DOMAIN-SUFFIX,alitui.weibo.com.cn,REJECT
-DOMAIN-SUFFIX,biz.weibo.com.cn,REJECT
-DOMAIN-SUFFIX,game.weibo.com.cn,REJECT
-DOMAIN-SUFFIX,tui.weibo.com,REJECT
-DOMAIN-SUFFIX,wax.weibo.com.cn,REJECT
-DOMAIN-SUFFIX,ad.weibo.com,REJECT
-DOMAIN-SUFFIX,adstrategy.biz.weibo.com,REJECT
-DOMAIN-SUFFIX,s.weibo.com,REJECT
-DOMAIN-SUFFIX,vs.biz.weibo.com,REJECT
+DOMAIN-SUFFIX,biz.weibo.com
+DOMAIN-SUFFIX,game.weibo.cn
+DOMAIN-SUFFIX,game.weibo.com
+DOMAIN-SUFFIX,gw5.push.mcp.weibo.cn
+DOMAIN-SUFFIX,gw6.push.mcp.weibo.cn
+DOMAIN-SUFFIX,promote.biz.weibo.cn
+DOMAIN-SUFFIX,s.alitui.weibo.com
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com
+DOMAIN-SUFFIX,weibomingzi.com
+DOMAIN-SUFFIX,zymo.mps.weibo.com
+DOMAIN-SUFFIX,adimg.vue.weibo.com
+DOMAIN-SUFFIX,dp.im.weibo.cn
+DOMAIN-SUFFIX,m.game.weibo.cn
+DOMAIN-SUFFIX,c.biz.weibo.com
+DOMAIN-SUFFIX,c.wcpt.biz.weibo.com
+DOMAIN-SUFFIX,click.uve.weibo.com
+DOMAIN-SUFFIX,wax.weibo.com
+DOMAIN-SUFFIX,wbapp.uve.weibo.com
+DOMAIN-SUFFIX,widget.weibo.com
+DOMAIN-SUFFIX,zc.biz.weibo.com
+DOMAIN-SUFFIX,dsp.edm.weibo.cn
+DOMAIN-SUFFIX,alitui.weibo.com.cn
+DOMAIN-SUFFIX,biz.weibo.com.cn
+DOMAIN-SUFFIX,game.weibo.com.cn
+DOMAIN-SUFFIX,tui.weibo.com
+DOMAIN-SUFFIX,wax.weibo.com.cn
+DOMAIN-SUFFIX,ad.weibo.com
+DOMAIN-SUFFIX,adstrategy.biz.weibo.com
+DOMAIN-SUFFIX,s.weibo.com
+DOMAIN-SUFFIX,vs.biz.weibo.com
 # keep
 DOMAIN,apm.gotokeep.com
 DOMAIN,kad.gotokeep.com
