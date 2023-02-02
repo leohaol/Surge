@@ -1,7 +1,7 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update2023年2月3日00点50分
+#去广告合集/Update2023年2月3日01点03分
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
@@ -8906,7 +8906,7 @@ DOMAIN-SUFFIX,zhichi08.com
 DOMAIN-SUFFIX,zhidian3g.cn
 DOMAIN-SUFFIX,zhifenjie.com
 DOMAIN-SUFFIX,zhihei.com
-DOMAIN-SUFFIX,zhihu.xmcimg.com
+#DOMAIN-SUFFIX,zhihu.xmcimg.com
 DOMAIN-SUFFIX,zhiong.net
 DOMAIN-SUFFIX,zhiyuanteam.com
 DOMAIN-SUFFIX,zhiziyun.com
@@ -9084,7 +9084,7 @@ DOMAIN-SUFFIX,mads.suning.com
 DOMAIN-SUFFIX,mopnativeadv.037201.com
 DOMAIN-SUFFIX,nativeadv.dftoutiao.com
 DOMAIN-SUFFIX,optimus-ads.amap.com
-DOMAIN-SUFFIX,sugar.zhihu.com
+#DOMAIN-SUFFIX,sugar.zhihu.com
 DOMAIN-SUFFIX,track.tiara.daum.net
 DOMAIN-SUFFIX,track.tiara.kakao.com
 DOMAIN-SUFFIX,trackapp.guahao.cn
@@ -9574,8 +9574,6 @@ IP-CIDR,180.166.52.24/32,no-resolve
 IP-CIDR,211.161.101.106/32,no-resolve
 IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
-#知乎
-IP-CIDR,188.89.204.198/32,no-resolve
 # 运营商劫持
 DOMAIN-SUFFIX,189key.com
 DOMAIN-SUFFIX,bkyhq.cn
