@@ -1,7 +1,7 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update2023年2月2日22点38分
+#去广告合集/Update2023年2月3日00点50分
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
@@ -619,7 +619,7 @@ DOMAIN-SUFFIX,afs.googlesyndication.com
 DOMAIN-SUFFIX,afd.l.google.com
 DOMAIN-SUFFIX,www.googleadservices.com
 DOMAIN-SUFFIX,www.google-analytics.com
-DOMAIN,ads.youtube.com
+#DOMAIN,ads.youtube.com
 # (H)
 # > 湖南卫视
 DOMAIN-SUFFIX,da.mgtv.com
@@ -1497,7 +1497,7 @@ DOMAIN-SUFFIX,zamplus.com
 DOMAIN-SUFFIX,azabu-u.ac.jp
 DOMAIN-SUFFIX,couchcoaster.jp
 DOMAIN-SUFFIX,delivery.dmkt-sp.jp
-DOMAIN-SUFFIX,ehg-youtube.hitbox.com
+#DOMAIN-SUFFIX,ehg-youtube.hitbox.com
 DOMAIN-SUFFIX,m-78.jp
 DOMAIN-SUFFIX,nichibenren.or.jp
 DOMAIN-SUFFIX,nicorette.co.kr
