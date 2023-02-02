@@ -7,3 +7,6 @@ https://raw.githubusercontent.com/kokoryh/Script/master/Surge/module/amap.sgmodu
 
 Youtube Block AD
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.conf
+
+Surge的模块商店
+https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/LoonGalleryforSurge.sgmodule
