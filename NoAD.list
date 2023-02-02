@@ -1,7 +1,7 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update2023年2月3日2:07
+#去广告合集/Update2023年2月3日2:33
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
@@ -165,20 +165,20 @@ DOMAIN,errlog.umeng.com
 DOMAIN,lf9-cdn-tos.bytegecko.com
 DOMAIN,novel.pangolin-sdk-toutiao.com
 # > 高德
-DOMAIN-SUFFIX,adiu.amap.com
-DOMAIN,aboard.apilocate.amap.com
-DOMAIN,apiinit.amap.com
-DOMAIN,icloud-amap.com
-DOMAIN,logs.amap.com
-DOMAIN-SUFFIX,dualstack-logs.amap.com
-DOMAIN-SUFFIX,logs.amap.com
-DOMAIN-SUFFIX,optimus-ads.amap.com
-DOMAIN-SUFFIX,page.amap.com
-DOMAIN,optimus-ads.amap.com
-DOMAIN,optimus-ads.amap.com.w.alikunlun.com
-DOMAIN-SUFFIX,shouji.sougou.com
-DOMAIN,u51.me
-DOMAIN-SUFFIX,u51.me
+#DOMAIN-SUFFIX,adiu.amap.com
+#DOMAIN,aboard.apilocate.amap.com
+#DOMAIN,apiinit.amap.com
+#DOMAIN,icloud-amap.com
+#DOMAIN,logs.amap.com
+#DOMAIN-SUFFIX,dualstack-logs.amap.com
+#DOMAIN-SUFFIX,logs.amap.com
+#DOMAIN-SUFFIX,optimus-ads.amap.com
+#DOMAIN-SUFFIX,page.amap.com
+#DOMAIN,optimus-ads.amap.com
+#DOMAIN,optimus-ads.amap.com.w.alikunlun.com
+#DOMAIN-SUFFIX,shouji.sougou.com
+#DOMAIN,u51.me
+#DOMAIN-SUFFIX,u51.me
 # > 美团
 DOMAIN,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
