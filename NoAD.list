@@ -505,7 +505,7 @@ DOMAIN-SUFFIX,bingads.microsoft.com
 DOMAIN-SUFFIX,rads.msn.com
 DOMAIN,mobileads.msn.com
 # > 讯飞输入法广告
-DOMAIN-SUFFIX,ossp.voicecloud.cn
+DOMAIN,ossp.voicecloud.cn
 DOMAIN-SUFFIX,bj.imp.voiceads.cn
 DOMAIN-SUFFIX,m.panda.voiceads.cn
 DOMAIN-SUFFIX,iflyad.bj.openstorage.cn
