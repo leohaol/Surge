@@ -1067,7 +1067,7 @@ DOMAIN,ads.yahoo.com
 DOMAIN,ads.yahoo.de
 # (Z)
 # > 知乎
-USER-AGENT,AVOS*
+# USER-AGENT,AVOS*
 DOMAIN,appcloud2.in.zhihu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
@@ -1186,5 +1186,5 @@ DOMAIN-SUFFIX,mssdk-bu.bytedance.com
 DOMAIN-SUFFIX,365yg.com
 DOMAIN-SUFFIX,ppx.byteimg.com
 DOMAIN-SUFFIX,i.snssdk.com
-影响端传媒正常运行，默认关闭
+# 影响端传媒正常运行，默认关闭
 DOMAIN-SUFFIX,cloudfront.net
