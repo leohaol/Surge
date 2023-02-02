@@ -1,5 +1,8 @@
 Surge自用配置以及模块和脚本
 
+自用去广告
+https://raw.githubusercontent.com/leohaol/Surge/main/NoAD.list
+
 常用模块
 
 高德净化 
