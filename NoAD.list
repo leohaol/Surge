@@ -1,7 +1,7 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update2023年2月3日01点03分
+#去广告合集/Update2023年2月3日2:07
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
@@ -2173,7 +2173,7 @@ DOMAIN-SUFFIX,ad.epochtimes.com
 DOMAIN-SUFFIX,ad.eporner.com
 DOMAIN-SUFFIX,ad.evozi.com
 DOMAIN-SUFFIX,ad.flipboard.com
-DOMAIN-SUFFIX,ad.flurry.com
+DOMAIN,ad.flurry.com
 DOMAIN-SUFFIX,ad.flux.com
 DOMAIN-SUFFIX,ad.fnnews.com
 DOMAIN-SUFFIX,ad.foxnetworks.com
@@ -2391,7 +2391,7 @@ DOMAIN-SUFFIX,adlink.shopsafe.co.nz
 DOMAIN-SUFFIX,adlive.cn
 DOMAIN-SUFFIX,adlocus.com
 DOMAIN-SUFFIX,ad-locus.com
-DOMAIN-SUFFIX,adlog.flurry.com
+DOMAIN,adlog.flurry.com
 DOMAIN-SUFFIX,adm.265g.com
 DOMAIN-SUFFIX,adm.72zx.com
 DOMAIN-SUFFIX,adm.86wan.com
@@ -6943,7 +6943,7 @@ DOMAIN-SUFFIX,promotion.gomlab.com
 DOMAIN-SUFFIX,promotions.iasbet.com
 DOMAIN-SUFFIX,propellerads.com
 DOMAIN-SUFFIX,prophet.heise.de
-DOMAIN-SUFFIX,proton.flurry.com
+DOMAIN,proton.flurry.com
 DOMAIN-SUFFIX,proxy.sec.miui.com
 DOMAIN-SUFFIX,prw.lenovomm.com
 DOMAIN-SUFFIX,ps.3fenge.com
@@ -9010,7 +9010,7 @@ DOMAIN-SUFFIX,axonix.com
 DOMAIN-SUFFIX,cloudmobi.net
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,ctrmi.com
-DOMAIN-SUFFIX,flurry.com
+DOMAIN,flurry.com
 DOMAIN-SUFFIX,go2cloud.org
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,haloapps.com
