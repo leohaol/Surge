@@ -58,12 +58,12 @@ DOMAIN-SUFFIX,c1img.ali.kugou.com
 DOMAIN-SUFFIX,kgstaticdlbssdlbig.tx.kugou.com
 DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com
 DOMAIN-SUFFIX,splashimgbssdl.yun.kugou.com
-DOMAIN-SUFFIX,adservice.kugou.com,REJECT
-DOMAIN-SUFFIX,kgipadstat.kugou.com,REJECT
-DOMAIN-SUFFIX,kgipadstatbak.kugou.com,REJECT
-DOMAIN-SUFFIX,logwebs.kugou.com,REJECT
-DOMAIN-SUFFIX,tracker.kugou.com,REJECT
-DOMAIN-SUFFIX,trackercdnbj.kugou.com,REJECT
+DOMAIN-SUFFIX,adservice.kugou.com
+DOMAIN-SUFFIX,kgipadstat.kugou.com
+DOMAIN-SUFFIX,kgipadstatbak.kugou.com
+DOMAIN-SUFFIX,logwebs.kugou.com
+DOMAIN-SUFFIX,tracker.kugou.com
+DOMAIN-SUFFIX,trackercdnbj.kugou.com
 DOMAIN-SUFFIX,rich.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN adsfile.bssdlbig.kugou.com
@@ -169,15 +169,15 @@ DOMAIN errlog.umeng.com
 DOMAIN lf9-cdn-tos.bytegecko.com
 DOMAIN,novel.pangolin-sdk-toutiao.com
 # 高德
-DOMAIN-SUFFIX,adiu.amap.com,REJECT
-DOMAIN,aboard.apilocate.amap.com,REJECT
-DOMAIN,apiinit.amap.com,REJECT
-DOMAIN,icloud-amap.com,REJECT
-DOMAIN,logs.amap.com,REJECT
-DOMAIN-SUFFIX,dualstack-logs.amap.com,REJECT
-DOMAIN-SUFFIX,logs.amap.com,REJECT
-DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
-DOMAIN-SUFFIX,page.amap.com,REJECT
+DOMAIN-SUFFIX,adiu.amap.com
+DOMAIN,aboard.apilocate.amap.com
+DOMAIN,apiinit.amap.com
+DOMAIN,icloud-amap.com
+DOMAIN,logs.amap.com
+DOMAIN-SUFFIX,dualstack-logs.amap.com
+DOMAIN-SUFFIX,logs.amap.com
+DOMAIN-SUFFIX,optimus-ads.amap.com
+DOMAIN-SUFFIX,page.amap.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,optimus-ads.amap.com.w.alikunlun.com
 DOMAIN-SUFFIX,shouji.sougou.com
