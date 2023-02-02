@@ -536,14 +536,6 @@ DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 
-# >爱奇艺
-DOMAIN,t7z.cupid.iqiyi.com
-DOMAIN,t7z.cupid.ptqy.gitv.tv
-IP-CIDR,203.107.63.154/32
-IP-CIDR,101.227.97.240/32
-IP-CIDR,101.227.200.11/32
-IP-CIDR,101.227.200.28/32
-IP-CIDR,124.192.153.42/32
 # > 字节跳动
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
@@ -1066,14 +1058,7 @@ DOMAIN,ads.finance.yahoo.com
 DOMAIN,ads.yahoo.com
 DOMAIN,ads.yahoo.de
 # (Z)
-# > 知乎
-# USER-AGENT,AVOS*
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-DOMAIN,118.89.204.198
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+
 # > 中关村
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
@@ -1186,5 +1171,3 @@ DOMAIN-SUFFIX,mssdk-bu.bytedance.com
 DOMAIN-SUFFIX,365yg.com
 DOMAIN-SUFFIX,ppx.byteimg.com
 DOMAIN-SUFFIX,i.snssdk.com
-# 影响端传媒正常运行，默认关闭
-DOMAIN-SUFFIX,cloudfront.net
