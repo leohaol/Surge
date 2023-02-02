@@ -9443,7 +9443,4 @@ DOMAIN,track.tiara.kakao.com
 DOMAIN-SUFFIX,gozendata.com
 DOMAIN-SUFFIX,gzads.com
 DOMAIN-SUFFIX,gz-data.com
-# > GrowingIO
-DOMAIN-SUFFIX,giocdn.com
-# > 深圳通微信小程序
-DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
+
