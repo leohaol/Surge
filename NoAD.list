@@ -59,7 +59,7 @@ DOMAIN-SUFFIX,tracker.kugou.com,REJECT
 DOMAIN-SUFFIX,trackercdnbj.kugou.com,REJECT
 DOMAIN-SUFFIX,rich.kuwo.cn 
 DOMAIN-SUFFIX,mobilead.kuwo.cn 
-DOMAIN, adsfile.bssdlbig.kugou.com 
+DOMAIN,adsfile.bssdlbig.kugou.com 
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com 
 DOMAIN,pgdt.gtimg.cn 
 DOMAIN-SUFFIX,pgdt.gtimg.cn 
@@ -117,7 +117,7 @@ DOMAIN-SUFFIX,p6-pack.byteimg.com
 # > 懂球帝
 DOMAIN-SUFFIX,apimg.qunliao.info 
 # > 搜狗
-DOMAIN, indivi-cdn.shouji.sogou.com 
+DOMAIN,indivi-cdn.shouji.sogou.com 
 DOMAIN-SUFFIX,epro.sogou.com 
 DOMAIN-SUFFIX,golden1.sogou.com 
 DOMAIN-SUFFIX,inte.sogou.com 
