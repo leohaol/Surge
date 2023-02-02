@@ -1,23 +1,14 @@
-# 光大银行阳光惠生活
-DOMAIN-SUFFIX,talk.bz.getui.com
-# 民生银行
-DOMAIN-SUFFIX,cm-10-134.getui.com
-DOMAIN-SUFFIX,sdk.open.talk.getui.com
-DOMAIN-SUFFIX,cm-10-35.getui.com
-DOMAIN-SUFFIX,c-hzgt2.getui.com
-DOMAIN-SUFFIX,sdk.open.talk.igexin.com
-# 云闪付
-DOMAIN-SUFFIX,switch.cup.com.cn
-DOMAIN-SUFFIX,sdk.open.talk.getui.net
-DOMAIN-SUFFIX,sdk-conf.getui.com
-DOMAIN-SUFFIX,cm-10-138.getui.com
-DOMAIN-SUFFIX,ads.95516.com
-# 中信银行
-DOMAIN-SUFFIX,sis.jpush.io
-DOMAIN-SUFFIX,s.jpush.cn
-DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,im64.jpush.cn
-DOMAIN-SUFFIX,im.jpush.cn
-DOMAIN-SUFFIX,jpush.html5.qq.com
-
-
+DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,mcupdate.gstarcad.com
+DOMAIN-SUFFIX,adx.open-adx.com
+DOMAIN-SUFFIX,adservice.sigmob.cn
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,static-s.iqiyi.com
+DOMAIN-SUFFIX,mobile2.da.mgtv.com
+DOMAIN-SUFFIX,mobile.da.mgtv.com
+DOMAIN-SUFFIX,gwp.xiaojukeji.com
+DOMAIN-SUFFIX,ct.xiaojukeji.com
+DOMAIN-SUFFIX,news.ssp.qq.com
+DOMAIN-SUFFIX,news.l.qq.com
+DOMAIN-SUFFIX,unidesk.alicdn.com
+DOMAIN-SUFFIX,idealads.net
