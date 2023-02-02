@@ -19,24 +19,5 @@ DOMAIN-SUFFIX,jpush.cn
 DOMAIN-SUFFIX,im64.jpush.cn
 DOMAIN-SUFFIX,im.jpush.cn
 DOMAIN-SUFFIX,jpush.html5.qq.com
-# 买单吧
-DOMAIN-SUFFIX,c-hzgt2.getui.com
-# 招钱进宝
-DOMAIN-SUFFIX,p26-be-pack-sign.pglstatp-toutiao.com
-# 哈啰
-DOMAIN-SUFFIX,assets.51downapp.cn
-# 叮嗒出行
-DOMAIN-SUFFIX,image.bianxianmao.com
-# ip-cidr, 203.107.1.1/24
-# VIVO商城
-DOMAIN-SUFFIX,paradisestatic.vivo.com.cn
-# 酷安
-# DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
-# 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
-# DOMAIN-SUFFIX,xqimg.imedao.com
-# 滴滴青桔（支付界面图片有误杀）
-# DOMAIN-SUFFIX,pt-starimg.didistatic.com
-# 一刻相册
-DOMAIN-SUFFIX,sf1-be-tos.pglstatp-toutiao.com
-DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
+
 
