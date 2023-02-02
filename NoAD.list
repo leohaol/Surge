@@ -1,12 +1,3 @@
-
-# 更新时间：2023.02.02 09:40
-# 策略选择：reject
-
-
-#surge自用修改时间2023年2月2日19点09分
-
-
-
 # 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
 # 民生银行
@@ -36,7 +27,7 @@ DOMAIN-SUFFIX,p26-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-SUFFIX,assets.51downapp.cn
 # 叮嗒出行
 DOMAIN-SUFFIX,image.bianxianmao.com
-ip-cidr, 203.107.1.1/24
+# ip-cidr, 203.107.1.1/24
 # VIVO商城
 DOMAIN-SUFFIX,paradisestatic.vivo.com.cn
 # 酷安
