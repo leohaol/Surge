@@ -3,17 +3,6 @@
 
 #去广告合集/Update 2023年2月4日0:58
 
-#知乎
-USER-AGENT,AVOS*
-DOMAIN,appcloud2.in.zhihu.com
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-IP-CIDR,118.89.204.198/32
-IP-CIDR,188.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-DOMAIN-SUFFIX,zhihu.xmcimg.com
-DOMAIN-SUFFIX,sugar.zhihu.com
-
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
 # > 民生银行
