@@ -1,7 +1,7 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update 2023年2月3日2:55
+#去广告合集/Update 2023年2月3日15:21
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
@@ -27,11 +27,7 @@ DOMAIN-SUFFIX,jpush.html5.qq.com
 # > 买单吧
 DOMAIN-SUFFIX,c-hzgt2.getui.com
 # > 酷安
-# > DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
-# > 雪球（可以去掉倒计时，但是误杀很多图片，默认关闭）
-# > DOMAIN-SUFFIX,xqimg.imedao.com
-# > 滴滴青桔（支付界面图片有误杀）
-# > DOMAIN-SUFFIX,pt-starimg.didistatic.com
+DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
 # > 一刻相册
 DOMAIN-SUFFIX,sf1-be-tos.pglstatp-toutiao.com
 DOMAIN-SUFFIX,sf3-fe-tos.pglstatp-toutiao.com
@@ -101,8 +97,6 @@ DOMAIN-SUFFIX,wa.kuwo.cn
 DOMAIN-SUFFIX,webstat.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,rich.kuwo.cn
-# > 向日葵 见重写
-
 # > 小利生活
 DOMAIN-SUFFIX,mpos-pic.helipay.com
 # > 懂车帝
@@ -149,21 +143,6 @@ DOMAIN,data.mistat.xiaomi.com
 DOMAIN,tracking.intl.miui.com
 # > TalkingData
 DOMAIN-SUFFIX,cpatrk.net
-# > 高德
-#DOMAIN-SUFFIX,adiu.amap.com
-#DOMAIN,aboard.apilocate.amap.com
-#DOMAIN,apiinit.amap.com
-#DOMAIN,icloud-amap.com
-#DOMAIN,logs.amap.com
-#DOMAIN-SUFFIX,dualstack-logs.amap.com
-#DOMAIN-SUFFIX,logs.amap.com
-#DOMAIN-SUFFIX,optimus-ads.amap.com
-#DOMAIN-SUFFIX,page.amap.com
-#DOMAIN,optimus-ads.amap.com
-#DOMAIN,optimus-ads.amap.com.w.alikunlun.com
-#DOMAIN-SUFFIX,shouji.sougou.com
-#DOMAIN,u51.me
-#DOMAIN-SUFFIX,u51.me
 # > 美团
 DOMAIN,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
@@ -247,7 +226,6 @@ DOMAIN,adm0.autoimg.cn
 DOMAIN,adm1.autoimg.cn
 DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
-# (B)
 # > 百度
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
@@ -475,28 +453,6 @@ DOMAIN,goblin.hupu.com
 DOMAIN,richmanapi.jxedt.com
 DOMAIN,richmanmain.jxedt.com
 DOMAIN,richmanrules.jxedt.com
-# (K)
-# > 金山词霸
-DOMAIN,ad-stat.ksosoft.com
-DOMAIN,img.auction-ads.wpscdn.cn
-DOMAIN,counter.kingsoft.com
-DOMAIN,counter.ksosoft.com
-DOMAIN,minfo.wps.cn
-DOMAIN,mobad.ijinshan.com
-DOMAIN,ups.ksmobile.net
-DOMAIN,ws.ksmobile.net
-# (L)
-# > 乐视
-DOMAIN-SUFFIX,webp2p.letv.com
-DOMAIN,ark.letv.com
-DOMAIN,emma-414870e223.huodonghezi.com
-DOMAIN,g3.letv.com
-DOMAIN,n.mark.letv.com
-# > LinkWiFi
-DOMAIN,a.wkanx.com
-DOMAIN,cwx.lianwangtech.com
-DOMAIN,c1wx.lianwangtech.com
-# (M)
 # > 微软
 DOMAIN-SUFFIX,ads.msn.com
 DOMAIN-SUFFIX,ads1.msn.com
@@ -586,10 +542,6 @@ DOMAIN,ifengad.3g.ifeng.com
 DOMAIN,ad.qingting.fm
 DOMAIN,adlaunch.qingting.fm
 DOMAIN,ad-cdn.qingting.fm
-# > OPPO
-DOMAIN-SUFFIX,ads.oppomobile.com
-DOMAIN,adsfs.oppomobile.com
-# (S)
 # > 新浪
 DOMAIN-SUFFIX,beacon.sina.com.cn
 DOMAIN,u1.img.mobile.sina.cn
@@ -920,22 +872,6 @@ DOMAIN-SUFFIX,admobile.top
 DOMAIN-SUFFIX,bds.snssdk.com
 DOMAIN-SUFFIX,p6-ad-sign.byteimg.com
 DOMAIN-SUFFIX,p3.pstatp.com
-# > 皮皮虾（推荐视频不能预览）
-DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao-b.com
-DOMAIN-SUFFIX,log-api.pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao.com
-# > 皮皮虾（比较激进，需要的自己开启）
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,mssdk.bytedance.com
-DOMAIN-SUFFIX,api.ribaoapi.com
-DOMAIN-SUFFIX,apps.bytesfield.com
-DOMAIN-SUFFIX,bytesmanager.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-SUFFIX,mssdk-bu.bytedance.com
-DOMAIN-SUFFIX,365yg.com
-DOMAIN-SUFFIX,ppx.byteimg.com
-DOMAIN-SUFFIX,i.snssdk.com
-
 
 # > 其他广告
 DOMAIN-SUFFIX,extlog.snssdk.com
