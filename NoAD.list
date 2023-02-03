@@ -1,7 +1,19 @@
 #张军/Update 2023.02.02 09:40
 #野比/Update 2022/08/01   
 
-#去广告合集/Update 2023年2月3日15:21
+#去广告合集/Update 2023年2月4日0:58
+
+#知乎
+USER-AGENT,AVOS*
+DOMAIN,appcloud2.in.zhihu.com
+DOMAIN,mqtt.zhihu.com
+DOMAIN,sugar.zhihu.com
+DOMAIN,118.89.204.198
+IP-CIDR,118.89.204.198/32
+IP-CIDR,188.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+DOMAIN-SUFFIX,zhihu.xmcimg.com
+DOMAIN-SUFFIX,sugar.zhihu.com
 
 # > 光大银行阳光惠生活
 DOMAIN-SUFFIX,talk.bz.getui.com
