@@ -8603,7 +8603,7 @@ DOMAIN-SUFFIX,zhichi08.com
 DOMAIN-SUFFIX,zhidian3g.cn
 DOMAIN-SUFFIX,zhifenjie.com
 DOMAIN-SUFFIX,zhihei.com
-#DOMAIN-SUFFIX,zhihu.xmcimg.com
+DOMAIN-SUFFIX,zhihu.xmcimg.com
 DOMAIN-SUFFIX,zhiong.net
 DOMAIN-SUFFIX,zhiyuanteam.com
 DOMAIN-SUFFIX,zhiziyun.com
@@ -8780,7 +8780,6 @@ DOMAIN-SUFFIX,mads.suning.com
 DOMAIN-SUFFIX,mopnativeadv.037201.com
 DOMAIN-SUFFIX,nativeadv.dftoutiao.com
 DOMAIN-SUFFIX,optimus-ads.amap.com
-#DOMAIN-SUFFIX,sugar.zhihu.com
 DOMAIN-SUFFIX,track.tiara.daum.net
 DOMAIN-SUFFIX,track.tiara.kakao.com
 DOMAIN-SUFFIX,trackapp.guahao.cn
