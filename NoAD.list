@@ -830,13 +830,6 @@ DOMAIN-SUFFIX,sf6-fe-tos.pglstatp-toutiao.com
 DOMAIN-SUFFIX,s3-fe-scm.pglstatp-toutiao.com
 DOMAIN-SUFFIX,sf6-be-pack.pglstatp-toutiao.com
 DOMAIN-SUFFIX,p9-be-pack-sign.pglstatp-toutiao.com
-# > 哔哩哔哩
-DOMAIN-SUFFIX,cm.bilibili.com
-DOMAIN-SUFFIX,api.sobot.com
-DOMAIN-SUFFIX,cm.ad.bilibili.com
-DOMAIN-SUFFIX,cm.adcommon.bilibili.com
-DOMAIN-SUFFIX,cm.game.bilibili.com
-DOMAIN-SUFFIX,cm.track.biligame.bilibili.com
 # > 快手
 DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,e.kuaishou.com
