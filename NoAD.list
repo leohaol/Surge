@@ -4,7 +4,6 @@
 #去广告合集/Update 2023年2月4日0:58
 
 #知乎
-USER-AGENT,AVOS*
 DOMAIN,appcloud2.in.zhihu.com
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
