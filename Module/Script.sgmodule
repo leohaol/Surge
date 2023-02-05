@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月2日23点49分
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月6日0:28
 #!system=ios
 
 # --------------
@@ -22,33 +22,6 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 
 [URL Rewrite]
 
-# gm   (Google图片)
-^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
-# gh   (GitHub)
-^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
-# tf  (Google 搜索 TestFlight)
-^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
-
-# jd : 京东
-^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
-# tb: 淘宝
-^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
-# tm: 天猫
-^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
-
-# ytb  (YouTube)
-^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
-# ph  (PornHub) 
-^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
-# tga  (t.me/gdurl 搜索 阿里云盘 资源)
-^https:\/\/duckduckgo.com\/\?q=tga\+([^&]+).+ https://t.me/YunPanPan?q=$1 302
-
-# bd: 百度
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
-# ddg: DuckDuckGo 
-^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
-# 无指令: google
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 # ------------------------------------------------------------------------------------
 
@@ -80,8 +53,7 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 # Spotif部分解锁 spclient.wg.spotify.com
 # 解锁 TikTok地区 *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 # 酷我音乐VIP解锁 *.kuwo.cn, *.lrts.me
-#Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索 duckduckgo.com
 
 
-hostname = %APPEND% spclient.wg.spotify.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.kuwo.cn, *.lrts.me, duckduckgo.com
+hostname = %APPEND% spclient.wg.spotify.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.kuwo.cn, *.lrts.me
 
