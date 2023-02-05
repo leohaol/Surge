@@ -284,7 +284,7 @@ DOMAIN-SUFFIX,cpu-admin.baidu.com
 # > 百度贴吧屏蔽域名dns查询
 IP-CIDR,180.76.76.200/32
 # > 百度贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
-DOMAIN,als.baidu.com
+#DOMAIN,als.baidu.com
 DOMAIN-SUFFIX,10086.cn.baidu.cdn.yiwk.com
 DOMAIN-SUFFIX,360baidus.com
 DOMAIN-SUFFIX,app.ibaiducdn.com
