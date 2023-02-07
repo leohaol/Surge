@@ -13,3 +13,6 @@ https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/YoutubeAds.c
 
 Surge的模块商店
 https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/LoonGalleryforSurge.sgmodule
+
+重写规则转换模块
+https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.sgmodule
