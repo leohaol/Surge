@@ -1,4 +1,8 @@
-#自用免流规则 2023.2.8
+#!name=Stream-free rule
+#!desc=自用免流规则 2023.2.8
+#!system=ios
+
+[Rule]
 
 DOMAIN-KEYWORD,speedtest,China // speedtest
 RULE-SET,https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/surge.list,IP
