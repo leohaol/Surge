@@ -1,0 +1,14 @@
+#自用常规规则 2023.2.8
+
+DOMAIN-KEYWORD,speedtest,DIRECT // speedtest
+RULE-SET,https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/surge.list,IP
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/telegram.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/blocked.list,Proxy
+RULE-SET,https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/AppleID.list,DIRECT
+RULE-SET,https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/AppStore.list,Proxy
+RULE-SET,https://github.com/Blankwonder/surge-list/raw/master/apple.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/cn.list,DIRECT
+IP-CIDR,0.0.0.0/32,REJECT,no-resolve // Surge 的自动 REJECT 保护丢包，防止应用循环请求
+RULE-SET,LAN,DIRECT
+GEOIP,CN,DIRECT
