@@ -5,7 +5,6 @@
 [Rule]
 
 DOMAIN-KEYWORD,speedtest,DIRECT // speedtest
-RULE-SET,https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/surge.list,IP
 RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/telegram.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/Blankwonder/surge-list/master/blocked.list,Proxy
