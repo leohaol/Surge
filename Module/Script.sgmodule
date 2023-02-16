@@ -1,5 +1,5 @@
 #!name=常用合集
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月6日0:28
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月16日14:12
 #!system=ios
 
 # --------------
@@ -41,7 +41,10 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 # Spotif部分解锁premium
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 
-# ------------------------------------------------------------------------------------
+# > 阿里云盘签到
+# # https://auth.aliyundrive.com/v2/account/token
+# 阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+阿里云盘签到 = type=cron,cronexp=0 10 0 * * ?,wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
 # 酷我音乐VIP解锁
 酷我音乐=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js,script-update-interval=0
@@ -53,7 +56,7 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 # Spotif部分解锁 spclient.wg.spotify.com
 # 解锁 TikTok地区 *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 # 酷我音乐VIP解锁 *.kuwo.cn, *.lrts.me
+# 阿里云签到 auth.aliyundrive.com
 
-
-hostname = %APPEND% spclient.wg.spotify.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.kuwo.cn, *.lrts.me
+hostname = %APPEND% spclient.wg.spotify.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.kuwo.cn, *.lrts.me, auth.aliyundrive.com
 
