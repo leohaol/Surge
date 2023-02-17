@@ -1,5 +1,5 @@
 
-# > 去广告合集/Update 2023年2月16日17：30
+# > 去广告合集/Update 2023年2月18日
 
 # > 民生银行
 DOMAIN-SUFFIX,cm-10-134.getui.com
@@ -194,7 +194,8 @@ DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
 # > 百度
 DOMAIN-SUFFIX,b.bdstatic.com
-#~~~~~
+
+
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
