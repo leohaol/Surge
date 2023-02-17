@@ -193,6 +193,8 @@ DOMAIN,adm1.autoimg.cn
 DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
 # > 百度
+DOMAIN-SUFFIX,b.bdstatic.com
+#~~~~~
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
