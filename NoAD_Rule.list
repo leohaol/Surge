@@ -360,30 +360,6 @@ DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
-# > 谷歌
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN,safebrowsing.googleapis.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
-DOMAIN-SUFFIX,tpc.googlesyndication.com
-DOMAIN-SUFFIX,pagead.google.com
-DOMAIN-SUFFIX,pagead.l.google.com
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,pagead-tpc.l.google.com
-DOMAIN-SUFFIX,mobileads.google.com
-DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,blaaaa12.googlecode.com
-DOMAIN-SUFFIX,badad.googleplex.com
-DOMAIN-SUFFIX,afs.googlesyndication.com
-DOMAIN-SUFFIX,afd.l.google.com
-DOMAIN-SUFFIX,www.googleadservices.com
-DOMAIN-SUFFIX,www.google-analytics.com
-#DOMAIN,ads.youtube.com
 # > 虎扑
 DOMAIN,adx.hupu.com
 DOMAIN,adx-api.hupu.com
