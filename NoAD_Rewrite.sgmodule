@@ -1,5 +1,5 @@
-#!name=开屏广告，应用内广告进行拦截
-#!desc=更新时间 2023-02-16 17:10
+#!name=开屏应用内广告进行拦截
+#!desc=更新时间 2023-02-18 10:55
 #!system=ios
 
 # 重写作用：针对部分APP开屏广告，应用内广告进行拦截
@@ -434,62 +434,18 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 # > 迅雷
 "^https?:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/" - reject
 "^https?:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v\d\/slots:batchGet" - reject
-# > 迅游加速器
-"^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/" - reject
-"^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(?>splash_ad|ad_urls)" - reject
-
-# > 喜马拉雅_修复轮播Ad失效Bug
-"^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF" - reject
-# 喜马拉雅_播放页_Live
-"^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/" - reject
-# 喜马拉雅_MyInfo红点提醒
-"^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list" - reject
-# 喜马拉雅_屏蔽大红包Tips
-"^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status" - reject
-# 喜马拉雅_屏蔽gif弹窗Ad
-"^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$" - reject
-# 喜马拉雅_gslb
-"^https?:\/\/gslb.*\.xima.*\.com\/" - reject
-# 喜马拉雅_屏蔽Aged请求
-"^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query)" - reject
-# 喜马拉雅_部分Tab弹窗
-"^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant" - reject
-# 喜马拉雅_屏蔽红点提示
-"^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread" - reject
-# 喜马拉雅_屏蔽minor请求
-"^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop" - reject
-# 喜马拉雅_屏蔽隐私搜集
-"^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d" - reject
-# 喜马拉雅_屏蔽版本更新
-"^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck" - reject
-# 喜马拉雅_屏蔽开屏广告
-"^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.*" - reject
-# 喜马拉雅_屏蔽位置请求
-"^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location" - reject
-# 喜马拉雅_屏蔽热搜词
-"^https?:\/\/.*\.xima.*\.com\/hotWord" - reject
-# 喜马拉雅_屏蔽搜索框定时_Ad
-"^https?:\/\/.*\.xima.*\.com\/guideWord" - reject
-# 喜马拉雅_屏蔽实时Ad请求
-"^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime" - reject
-# 喜马拉雅_屏蔽ting_Ad
-"^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)?" - reject
 # > 小红书
 "^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record*" - reject
 "^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage*" - reject
 "^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource*" - reject
 "^https:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches*" - reject
 "^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(open|get_style)\?" - reject
-
 # > 心悦俱乐部
 "^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash" - reject
-
 # > 熊猫直播
 "^https?:\/\/static\.api\.m\.panda\.tv\/index\.php\?method=clientconf\.firstscreen&__version=(play_cnmb|(\d+\.){0,3}\d+)&__plat=ios&__channel=appstore" - reject
-
 # > 讯飞
 "^https?:\/\/imeclient\.openspeech\.cn\/adservice\/" - reject
-
 # > 携程
 # 8.47.0以上版本会有部分图片加载不出来
 "^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds" - reject
@@ -507,7 +463,6 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https:\/\/gw.alicdn.com\/tfs\/.+\d{3,4}-\d{4}" - reject
 # > 新浪新闻
 "^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv" - reject
-
 # > 云闪付
 # 默认关闭,只使用分流去云闪付广告
 # > "^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long" - reject
@@ -547,11 +502,8 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads" - reject
 "^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)" - reject
 "^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext" - reject
-
-
 # > 印象笔记
 "^https?:\/\/app\.yinxiang\.com\/ads\/" - reject
-
 # > 有道词典
 "^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish" - reject
 "^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish" - reject
@@ -568,16 +520,8 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https?:\/\/mobile-api2011\.elong\.com\/ad(?>v|gateway)" - reject
 "^https?:\/\/webboot\.zhangyue\.com\/zycl\/api\/ad\/" - reject
 "^https?:\/\/saad\.ms\.zhangyue\.net\/ad" - reject
-
-# > 央视
-"^https?:\/\/www\.cntv\.cn\/nettv\/adp\/" - reject
-
-# > 央视频
-"^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/m8uTS50pt3DC0Xd6\.json" - reject
-
 # > 猿辅导
 "^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d" - reject
-
 # > 招商银行
 "^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig" - reject
 # > 掌上生活（设置打不开,8.5.10以上版本很多功能打不开,添加主机名生效）
@@ -598,19 +542,15 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https?:\/\/["^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(\/|\.js)" - reject
 "^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3}" - reject
 "^https?:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer=" - reject
-
 # > 中国电信
 "^https?:\/\/cloud\.189\.cn\/include\/splash\/" - reject
 "^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation" - reject
 # > 天翼云盘
 "^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners" - reject
-
 # > 中国广电
 "^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage" - reject
-
 # > 中油优途
 "^https?:\/\/sichuan\.95504\.net\/v\d\/gd\/index\/get" - reject
-
 # > 字节跳动
 "^https?:\/\/.+/img\/ad\.union\.api\/" - reject
 "^https?:\/\/.+\.pstatp\.com\/img\/ad" - reject
