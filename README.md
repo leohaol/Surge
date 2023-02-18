@@ -16,3 +16,6 @@ https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/LoonGalleryf
 
 重写规则转换模块
 https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.sgmodule
+
+解除微信链接限制
+https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
