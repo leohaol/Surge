@@ -8,11 +8,12 @@ DOMAIN-SUFFIX,cm-10-35.getui.com
 DOMAIN-SUFFIX,c-hzgt2.getui.com
 DOMAIN-SUFFIX,sdk.open.talk.igexin.com
 # > 云闪付
-DOMAIN-SUFFIX,switch.cup.com.cn
-DOMAIN-SUFFIX,sdk.open.talk.getui.net
-DOMAIN-SUFFIX,sdk-conf.getui.com
-DOMAIN-SUFFIX,cm-10-138.getui.com
-DOMAIN-SUFFIX,ads.95516.com
+DOMAIN,ads.95516.com
+DOMAIN,cm-10-138.getui.com
+DOMAIN,sdk.open.talk.getui.net
+DOMAIN,sdk-conf.getui.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
 # > 酷安
 # > DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
 # > 酷狗音乐
