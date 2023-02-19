@@ -1,5 +1,5 @@
 #!name=开屏应用内广告进行拦截
-#!desc=更新时间 2023-02-18 21:55
+#!desc=更新时间 2023-02-19
 #!system=ios
 #修改自：@fmz200
 
@@ -426,6 +426,8 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/" - reject
 # > 唯品会
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get" - reject
+# APP+小程序弹窗广告
+"^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v" - reject
 # > 迅雷
 "^https?:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/" - reject
 "^https?:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v\d\/slots:batchGet" - reject
