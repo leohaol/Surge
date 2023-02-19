@@ -428,6 +428,8 @@ http:\/\/analytics\.163\.com\/ntes" - reject
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get" - reject
 # APP+小程序弹窗广告
 "^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v" - reject
+# 右下角悬浮窗，需手动关闭广告一次
+"^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key" - reject
 # > 迅雷
 "^https?:\/\/images\.client\.vip\.xunlei\.com\/.+?\/advert\/" - reject
 "^https?:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v\d\/slots:batchGet" - reject
