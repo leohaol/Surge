@@ -19,3 +19,9 @@ https://raw.githubusercontent.com/chengkongyiban/Surge/main/modules/QX_to_Surge.
 
 解除微信链接限制
 https://raw.githubusercontent.com/zZPiglet/Task/master/UnblockURLinWeChat.sgmodule
+
+BoxJs
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+
+Sub-Store
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/e93332048e0678ba0f85d8a42430a87d8bbdf5fc/config/Surge.sgmodule
