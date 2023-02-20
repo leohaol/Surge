@@ -41,7 +41,6 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 [MITM]
 # Spotif部分解锁 spclient.wg.spotify.com
 # 酷我音乐VIP解锁 *.kuwo.cn, *.lrts.me
-# 阿里云签到 auth.aliyundrive.com
 # duckduckgo引擎 duckduckgo.com
 
 hostname = %APPEND% spclient.wg.spotify.com, *.kuwo.cn, *.lrts.me,duckduckgo.com
