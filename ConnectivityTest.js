@@ -7,7 +7,7 @@ GH:'https://www.github.com'
 }
 
 !(async () => {
-await Promise.all([http('BD'),http('GH'),http('GG'),http('YT')]).then((x)=>{
+await Promise.all([http('BD')http('GH')http('GG')http('YT')]).then((x)=>{
 	$done({
     title: 'Network Connectivity Test',
     content: x.join('\n'),
