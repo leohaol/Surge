@@ -1,5 +1,5 @@
 DOMAIN-SUFFIX,tetrack.qq.com
-#DOMAIN-SUFFIX,tpns.tencent.com
+DOMAIN-SUFFIX,tpns.tencent.com
 #DOMAIN-SUFFIX,api.poll.video.qq.com
 #DOMAIN-SUFFIX,static-res.qq.com
 #DOMAIN-SUFFIX,stat.tpns.tencent.com
