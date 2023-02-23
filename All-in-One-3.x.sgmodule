@@ -2,5 +2,6 @@
 #!desc=与 🚫 AD ByeBye 1.x 、🚫 AD ByeBye 2.x 互补, 自行抓包，以最优性能表现去除各种广告。
 
 [Rule]
+
 # > 百度
 DOMAIN-SUFFIX,b.bdstatic.com
