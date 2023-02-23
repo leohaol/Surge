@@ -4,4 +4,4 @@
 [Rule]
 
 # > 百度
-DOMAIN-SUFFIX,b.bdstatic.com
+DOMAIN-SUFFIX,b.bdstatic.com,REJECT
