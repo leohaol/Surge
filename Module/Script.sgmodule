@@ -1,5 +1,5 @@
 #!name=Frequently used collections
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月20日19点46分
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023年2月25日22点43分
 #!system=ios
 
 [General]
@@ -13,16 +13,12 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 [Rule]
 
 [URL Rewrite]
-# ytb  (YouTube)
-^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 # ph  (PornHub) 
 ^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
 # jd : 京东
 ^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
 # tb: 淘宝
 ^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
-# bi: 必应
-^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
 # bd: 百度
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 # ddg: DuckDuckGo 
@@ -35,13 +31,10 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 [Script]
 # Spotif部分解锁premium
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
-# 酷我音乐VIP解锁
-酷我音乐=type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js,script-update-interval=0
 
 [MITM]
 # Spotif部分解锁 spclient.wg.spotify.com
-# 酷我音乐VIP解锁 *.kuwo.cn, *.lrts.me
 # duckduckgo引擎 duckduckgo.com
 
-hostname = %APPEND% spclient.wg.spotify.com, *.kuwo.cn, *.lrts.me,duckduckgo.com
+hostname = %APPEND% spclient.wg.spotify.com,duckduckgo.com
 
