@@ -28,3 +28,6 @@ https://raw.githubusercontent.com/sub-store-org/Sub-Store/e93332048e0678ba0f85d8
 
 免流 
 https://raw.githubusercontent.com/xream/scripts/main/boxjs/boxjs.json
+
+脚本
+https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/mega/index.js
