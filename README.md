@@ -26,5 +26,5 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 Sub-Store
 https://raw.githubusercontent.com/sub-store-org/Sub-Store/e93332048e0678ba0f85d8a42430a87d8bbdf5fc/config/Surge.sgmodule
 
-免流
+免流 
 https://raw.githubusercontent.com/xream/scripts/main/boxjs/boxjs.json
