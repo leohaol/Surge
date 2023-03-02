@@ -1,7 +1,0 @@
-#!name=🚫 AD ByeBye+ 3.x
-#!desc=与 🚫 AD ByeBye 1.x 、🚫 AD ByeBye 2.x 互补, 自行抓包.
-
-[Rule]
-
-# > 百度
-DOMAIN-SUFFIX,b.bdstatic.com,REJECT
