@@ -1,5 +1,5 @@
 #!name=Frequently used collections
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023年3月6日08点15分
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023年3月12日14点10分
 #!system=ios
 
 [General]
@@ -12,12 +12,8 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 
 [Rule]
 
+
 [URL Rewrite]
-# TIKTOK JP
-(?<=_region=)CN(?=&) JP 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 
 [Map Local]
@@ -28,6 +24,5 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 
 [MITM]
 # Spotif部分解锁 spclient.wg.spotify.com    
-# TIKTOK *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 
-hostname = %APPEND% spclient.wg.spotify.com,*.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+hostname = %APPEND% spclient.wg.spotify.com
