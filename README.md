@@ -31,3 +31,6 @@ https://raw.githubusercontent.com/xream/scripts/main/boxjs/boxjs.json
 
 脚本
 https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/mega/index.js
+
+Netmini
+https://raw.githubusercontent.com/Keywos/rule/key/module/Netmini.sgmodule
