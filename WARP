@@ -1,0 +1,56 @@
+t.c9422d98-a888-11ed-ad33-9e6111b460a4
+
+
+[Proxy]
+WARP US = wireguard, section-name=Cloudflare US, underlying-proxy=US, test-url=http://cp.cloudflare.com/generate_204
+WARP SG = wireguard, section-name=Cloudflare SG, underlying-proxy=SG, test-url=http://cp.cloudflare.com/generate_204
+WARP JP = wireguard, section-name=Cloudflare JP, underlying-proxy=JP, test-url=http://cp.cloudflare.com/generate_204
+WARP TW = wireguard, section-name=Cloudflare TW, underlying-proxy=TW, test-url=http://cp.cloudflare.com/generate_204
+WARP HK = wireguard, section-name=Cloudflare HK, underlying-proxy=HK, test-url=http://cp.cloudflare.com/generate_204
+
+
+[WireGuard Cloudflare JP]
+private-key = WGeskD62Y9+W8zKdtNMVUSQt/wQn+9AsWn5z8UpClk0=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8302:ded6:2115:94c9:ce88
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.19:2408, keepalive = 45, client-id = 122/207/97)
+
+[WireGuard Cloudflare SG]
+private-key = 0J5KkIW9R8Y9g12UI80M98+L3JpTrgX3QftULdmt2m0=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8c7c:4f87:45c6:be7f:67f9
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.192.97:1701, keepalive = 45, client-id = 98/224/139)
+
+[WireGuard Cloudflare TW]
+private-key = gCgpzW3+U+lWIp4jy91I0dmjuZLrFd6oFDF5OfUlWH8=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8f33:b81f:887:564f:4519
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.30:4500, keepalive = 45, client-id = 42/85/140)
+
+[WireGuard Cloudflare HK]
+private-key = +Ns9xTTToFbxGUTR/6G0n+ZIgVcVLWDCys5XxLIvN3Y=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8246:485c:395c:640c:7c7
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.192.53:4500, keepalive = 45, client-id = 153/221/216)
+
+[WireGuard Cloudflare US]
+private-key = GCSLvwFng8YATCaW5XRSYrxymsCUsX3+dWPAyXzBo2U=
+self-ip = 172.16.0.2
+self-ip-v6 = 2606:4700:110:8539:3eec:a30c:4110:38b1
+dns-server = 162.159.36.1, 2606:4700:4700::1111
+mtu = 1280
+peer = (public-key = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, allowed-ips = "0.0.0.0/0, ::0/0", endpoint = 162.159.195.1:4500, keepalive = 45, client-id = 237/161/175)
+
+
+[Host]
+example.com = 1.1.1.1, 2.2.2.2
+
+
