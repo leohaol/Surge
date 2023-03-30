@@ -189,8 +189,6 @@ DOMAIN-SUFFIX,mobads-logs.baidu.com
 DOMAIN-SUFFIX,nsclick.baidu.com
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
-# > 百度贴吧屏蔽域名dns查询
-IP-CIDR,180.76.76.200/32
 # > 哔哩哔哩
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-KEYWORD,api.sobot.com
@@ -9612,18 +9610,6 @@ DOMAIN-SUFFIX,wsgblw.com
 DOMAIN-SUFFIX,xchmai.com
 DOMAIN-SUFFIX,ygyzx.cn
 DOMAIN-SUFFIX,zmlled.cn
-# > ChinaTelecom
-IP-CIDR,122.229.8.47/32
-IP-CIDR,122.229.29.89/32
-# > ChinaUnicom
-# > ChinaMobile
-IP-CIDR,120.240.95.37/32
-# > Dr.Peng
-# IP-CIDR,10.72.25.0/24
-IP-CIDR,211.161.101.110/32
-# Malware
-# > Huawei AspiegelBot
-IP-CIDR,114.119.160.0/21
 # > KuaiZip
 # https://zhuanlan.zhihu.com/p/39534279
 DOMAIN-SUFFIX,kuaizip.com
