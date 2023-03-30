@@ -1,7 +1,7 @@
 # 分流作用：1.针对部分APP开屏广告，应用内广告进行拦截，2.决定所访问的域名/主机使用哪个地区节点
 # 重要提示：某些APP要清除缓存或者重新安装APP，拦截广告才会生效！
 # fmz200  2023.03.17 22:40
-# Update  2023年3月30日22点06分
+# Update  2023年3月30日22点25分
 
 
 # > 交管12123
@@ -931,8 +931,8 @@ DOMAIN,adsdk.vivo.com.cn
 DOMAIN,adsstatic.vivo.com.cn
 DOMAIN,adxlog.vivo.com.cn
 DOMAIN,vcardsdkservice.vivo.com.cn
-HOST-KEYWORD,stsdk.vivo.com.cn
-HOST-KEYWORD,stsdk.vivoglobal.com
+DOMAIN-SUFFIX,stsdk.vivo.com.cn
+DOMAIN-SUFFIX,stsdk.vivoglobal.com
 # > VIVO商城
 DOMAIN-KEYWORD,paradisestatic.vivo.com.cn
 # > 微博
@@ -1076,7 +1076,7 @@ DOMAIN,t-ads.xiaohongshu.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,tracking.intl.miui.com
 # > 小小影视
-host,39d83s.com
+DOMAIN,39d83s.com
 # > 小利生活
 DOMAIN-KEYWORD,mpos-pic.helipay.com
 # > 新浪
