@@ -1,5 +1,14 @@
 #!name=开屏应用内广告拦截
-#!desc=更新时间 2023-3-2
-#修改自：@fmz200
+#!desc=更新时间 2023年3月30日17点56分
 
 [URL Rewrite]
+# 网易蜗牛读书
+^https?:\/\/p\.du\.163\.com\/ad\/ - reject
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ - reject
+# 红板报
+^https://fbchina.flipchina.cn/v2/ad/query/* - reject
+# 中国电信
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject
+
+hostname=%APPEND% p.du.163.com, easyreadfs.nosdn.127.net, fbchina.flipchina.cn, cloud.189.cn, zt-app.go189.cn
