@@ -1,5 +1,5 @@
 #!name=Frequently used collections
-#!desc=Script脚本/Rewrite重定向/Rule规则 2023年4月4日
+#!desc=Script脚本/Rewrite重定向/Rule规则 2023年4月6日
 #!system=ios
 
 [General]
@@ -14,11 +14,7 @@ skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login
 
 
 [URL Rewrite]
-#Tiktok Unlock TW🇨🇳
-(?<=_region=)CN(?=&) TW 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
+
 
 [Map Local]
 
@@ -29,5 +25,5 @@ Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/ga
 [MITM]
 # SpotifVIP spclient.wg.spotify.com    
 # Netease snail readingVIP p.du.163.com
-# tiktokv  *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com 
-hostname = %APPEND% spclient.wg.spotify.com, p.du.163.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+
+hostname = %APPEND% spclient.wg.spotify.com, p.du.163.com
