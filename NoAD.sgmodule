@@ -1,5 +1,5 @@
 #!name=NOAD
-#!desc=Update 2023年4月18日
+#!desc=Update 2023年4月18日23点39分
 
 [Rule]
 # ------------------------------------ 交管12123 ---------------------------------------
@@ -162,6 +162,296 @@ DOMAIN,hm.baidu.com,REJECT
 DOMAIN,hmma.baidu.com,REJECT
 # > 百度贴吧屏蔽域名dns查询
 IP-CIDR,180.76.76.200/32,REJECT
+# ------------------------------------ 懂车帝 ---------------------------------------
+DOMAIN-KEYWORD,p3-pack.byteimg.com,REJECT
+DOMAIN-KEYWORD,p6-pack.byteimg.com,REJECT
+# ------------------------------------ 抖音 ---------------------------------------
+DOMAIN-KEYWORD,bds.snssdk.com,REJECT
+DOMAIN-KEYWORD,p6-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,p3.pstatp.com,REJECT
+# ------------------------------------ 谷歌 ---------------------------------------
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+DOMAIN,safebrowsing.googleapis.com,REJECT
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN-SUFFIX,googleadsserving.cn,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googletagservices.com,REJECT
+DOMAIN-SUFFIX,googletagmanager.com,REJECT
+DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,tpc.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,pagead.google.com,REJECT
+DOMAIN-SUFFIX,pagead.l.google.com,REJECT
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,pagead-tpc.l.google.com,REJECT
+DOMAIN-SUFFIX,mobileads.google.com,REJECT
+DOMAIN-SUFFIX,googlecommerce.com,REJECT
+DOMAIN-SUFFIX,blaaaa12.googlecode.com,REJECT
+DOMAIN-SUFFIX,badad.googleplex.com,REJECT
+DOMAIN-SUFFIX,afs.googlesyndication.com,REJECT
+DOMAIN-SUFFIX,afd.l.google.com,REJECT
+DOMAIN-SUFFIX,www.googleadservices.com,REJECT
+DOMAIN-SUFFIX,www.google-analytics.com,REJECT
+DOMAIN,ads.youtube.com,REJECT
+# ------------------------------------ 高德 ---------------------------------------
+DOMAIN-SUFFIX,adiu.amap.com,REJECT
+DOMAIN,aboard.apilocate.amap.com,REJECT
+DOMAIN,apiinit.amap.com,REJECT
+DOMAIN,icloud-amap.com,REJECT
+DOMAIN,logs.amap.com,REJECT
+DOMAIN-SUFFIX,dualstack-logs.amap.com,REJECT
+DOMAIN-SUFFIX,logs.amap.com,REJECT
+DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
+DOMAIN-SUFFIX,page.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com,REJECT
+DOMAIN,optimus-ads.amap.com.w.alikunlun.com,REJECT
+DOMAIN-SUFFIX, shouji.sougou.com,REJECT
+DOMAIN,u51.me,REJECT
+DOMAIN-SUFFIX,u51.me,REJECT
+
+# ------------------------------------ 屏蔽京东和搜狗收集信息 ---------------------------------------
+DOMAIN-SUFFIX,jdqd.jd.com,REJECT
+DOMAIN-SUFFIX,shouji.sougou.com,REJECT
+
+
+# ------------------------------------ 快手 ---------------------------------------
+# DOMAIN-SUFFIX,yximgs.com,REJECT
+DOMAIN-SUFFIX,e.kuaishou.com,REJECT
+# DOMAIN,js-ad.a.yximgs.com,REJECT
+DOMAIN-SUFFIX,cm.downloader.commercial.kuaishou.com,REJECT
+DOMAIN-SUFFIX,cm.ad.gifshow.com,REJECT
+DOMAIN-SUFFIX,cm.kwad.com,REJECT
+
+# ------------------------------------ 美团 ---------------------------------------
+DOMAIN,flowplus.meituan.net,REJECT
+DOMAIN-SUFFIX,analytics.meituan.net,REJECT
+DOMAIN-SUFFIX,meituan.xn--io0a7i,REJECT
+DOMAIN-SUFFIX,meituan.yoga,REJECT
+DOMAIN-SUFFIX,meituangov.cn,REJECT
+DOMAIN-SUFFIX,report.meituan.com,REJECT
+DOMAIN-SUFFIX,wmlog.meituan.com,REJECT
+# ------------------------------------ 美颜相机 ---------------------------------------
+DOMAIN,adui.tg.meitu.com,REJECT
+DOMAIN,aaid.uyunad.com,REJECT
+# ------------------------------------ 买单吧 ---------------------------------------
+DOMAIN-KEYWORD,c-hzgt2.getui.com,REJECT
+# ------------------------------------ 民生银行 ---------------------------------------
+DOMAIN-KEYWORD,cm-10-134.getui.com,REJECT
+DOMAIN-KEYWORD,sdk.open.talk.getui.com,REJECT
+DOMAIN-KEYWORD,cm-10-35.getui.com,REJECT
+DOMAIN-KEYWORD,c-hzgt2.getui.com,REJECT
+DOMAIN-SUFFIX,sdk.open.talk.igexin.com,REJECT
+# ------------------------------------ 汽车之家 ---------------------------------------
+DOMAIN-KEYWORD,adm3.autoimg.cn,REJECT
+DOMAIN-KEYWORD,audid-api.taobao.com,REJECT
+DOMAIN-KEYWORD,collectionpv.che168.com,REJECT
+DOMAIN-KEYWORD,adproxy.autohome.com,REJECT
+DOMAIN-KEYWORD,applogapi.autohome.com,REJECT
+DOMAIN,adproxy.autohome.com.cn,REJECT
+DOMAIN,rd.autohome.com.cn,REJECT
+DOMAIN,al.autohome.com.cn,REJECT
+DOMAIN,applogapi.autohome.com.cn,REJECT
+DOMAIN,adm0.autoimg.cn,REJECT
+DOMAIN,adm1.autoimg.cn,REJECT
+DOMAIN,adm2.autoimg.cn,REJECT
+DOMAIN,adm3.autoimg.cn,REJECT
+
+# ------------------------------------ 淘宝 ---------------------------------------
+DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,w.m.taobao.com,REJECT
+DOMAIN,tunion-api.m.taobao.com,REJECT
+DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
+DOMAIN-SUFFIX,re.m.taobao.com,REJECT
+DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
+DOMAIN-SUFFIX,ai.taobao.com,REJECT
+DOMAIN-SUFFIX,api.waptest.taobao.com,REJECT
+DOMAIN-SUFFIX,dsp.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,fav.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,m.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,mclick.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,re.taobao.com,REJECT
+DOMAIN-SUFFIX,redirect.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,simba.m.taobao.com,REJECT
+DOMAIN-SUFFIX,srd.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,temai.taobao.com,REJECT
+DOMAIN-SUFFIX,textlink.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,unitacs.m.taobao.com,REJECT
+DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com,REJECT
+DOMAIN-SUFFIX,tunion-api.m.taobao.com,REJECT
+DOMAIN-SUFFIX,tns.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.mz.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.tz.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,stat.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,m-adash.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashbc.m.taobao.com,REJECT
+# ------------------------------------ 腾讯 ---------------------------------------
+DOMAIN-SUFFIX,news.ssp.qq.com,REJECT
+DOMAIN-SUFFIX,news.l.qq.com,REJECT
+DOMAIN-SUFFIX,activeqq.3g.qq.com,REJECT
+DOMAIN-SUFFIX,ad.qq.com,REJECT
+DOMAIN-SUFFIX,adping.qq.com,REJECT
+DOMAIN-SUFFIX,adpm.app.qq.com,REJECT
+DOMAIN-SUFFIX,adrdir.qq.com,REJECT
+DOMAIN-SUFFIX,adsclick.qq.com,REJECT
+DOMAIN-SUFFIX,adsense.html5.qq.com,REJECT
+DOMAIN-SUFFIX,adsfile.qq.com,REJECT
+DOMAIN-SUFFIX,adsgroup.qq.com,REJECT
+DOMAIN-SUFFIX,adshmct.qq.com,REJECT
+DOMAIN-SUFFIX,adshmmsg.qq.com,REJECT
+DOMAIN-SUFFIX,adslvfile.qq.com,REJECT
+DOMAIN-SUFFIX,adslvseed.qq.com,REJECT
+DOMAIN-SUFFIX,adsolution.imtt.qq.com,REJECT
+DOMAIN-SUFFIX,adsqqclick.qq.com,REJECT
+DOMAIN-SUFFIX,adstextview.qq.com,REJECT
+DOMAIN-SUFFIX,adsview.qq.com,REJECT
+DOMAIN-SUFFIX,adsview2.qq.com,REJECT
+DOMAIN-SUFFIX,adv.app.qq.com,REJECT
+DOMAIN-SUFFIX,adver.qq.com,REJECT
+DOMAIN-SUFFIX,aeventlog.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,analy.qq.com,REJECT
+DOMAIN-SUFFIX,astrategy.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,c.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,c.gj.qq.com,REJECT
+DOMAIN-SUFFIX,canvas.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,d.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,d3g.qq.com,REJECT
+DOMAIN-SUFFIX,download.sj.qq.com,REJECT
+DOMAIN-SUFFIX,dp3.qq.com,REJECT
+DOMAIN-SUFFIX,eventlog.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,game.html5.qq.com,REJECT
+DOMAIN-SUFFIX,ggmmqq.com,REJECT
+DOMAIN-SUFFIX,j.wit.qq.com,REJECT
+DOMAIN-SUFFIX,jqmt.qq.com,REJECT
+DOMAIN-SUFFIX,jrlt.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,jsqmt.qq.com,REJECT
+DOMAIN-SUFFIX,lives.l.qq.com,REJECT
+DOMAIN-SUFFIX,livep.l.qq.com,REJECT
+DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,livep.l.ott.video.qq.com,REJECT
+DOMAIN-SUFFIX,lives.l.ott.video.qq.com,REJECT
+DOMAIN-SUFFIX,masdk.3g.qq.com,REJECT
+DOMAIN-SUFFIX,mfm.video.qq.com,REJECT
+DOMAIN-SUFFIX,mini2015.qq.com,REJECT
+DOMAIN-SUFFIX,monitor.uu.qq.com,REJECT
+DOMAIN-SUFFIX,mqqad.cs0309.html5.qq.com,REJECT
+DOMAIN-SUFFIX,mqqad.html5.qq.com,REJECT
+DOMAIN-SUFFIX,mqqadr.reader.qq.com,REJECT
+DOMAIN-SUFFIX,nc.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,news.mpush.qq.com,REJECT
+DOMAIN-SUFFIX,news-l.play.ott.video.qq.com,REJECT
+DOMAIN-SUFFIX,novelsns.html5.qq.com,REJECT
+DOMAIN-SUFFIX,oth.update.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,pcbrowser.dd.qq.com,REJECT
+DOMAIN-SUFFIX,pmir.3g.qq.com,REJECT
+DOMAIN-SUFFIX,pvstat.html5.qq.com,REJECT
+DOMAIN-SUFFIX,q.i.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,qqshow2-item.qq.com,REJECT
+DOMAIN-SUFFIX,rm.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,scdown.qq.com,REJECT
+DOMAIN-SUFFIX,setting.snswin.qq.com,REJECT
+DOMAIN-SUFFIX,sngmta.qq.com,REJECT
+DOMAIN-SUFFIX,strategy.beacon.qq.com,REJECT
+DOMAIN-SUFFIX,t.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,t.sj.qq.com,REJECT
+DOMAIN-SUFFIX,ta.qq.com,REJECT
+DOMAIN-SUFFIX,tcss.qq.com,REJECT
+DOMAIN-SUFFIX,tpush.html5.qq.com,REJECT
+DOMAIN-SUFFIX,updatecenter.qq.com,REJECT
+DOMAIN-SUFFIX,video.ureport.push.qq.com,REJECT
+DOMAIN-SUFFIX,video.wap.mpush.qq.com,REJECT
+DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT
+DOMAIN-SUFFIX,wap.mpush.qq.com,REJECT
+DOMAIN-SUFFIX,win.gdt.qq.com,REJECT
+DOMAIN-SUFFIX,ws.sj.qq.com,REJECT
+DOMAIN-SUFFIX,wxsnsdy.tc.qq.com,REJECT
+DOMAIN-SUFFIX,wxsnsdy.video.qq.com,REJECT
+DOMAIN-SUFFIX,adsmind.tc.qq.com,REJECT
+DOMAIN-SUFFIX,btrace.qq.com,REJECT
+DOMAIN-SUFFIX,mtrace.qq.com,REJECT
+DOMAIN-SUFFIX,pingma.qq.com,REJECT
+DOMAIN-SUFFIX,pingtcss.qq.com,REJECT
+DOMAIN-SUFFIX,tajs.qq.com,REJECT
+DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN-SUFFIX,fusion.qq.com,REJECT
+DOMAIN-SUFFIX,ios.bugly.qq.com,REJECT
+DOMAIN,safebrowsing.urlsec.qq.com,REJECT
+DOMAIN-SUFFIX,oth.str.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,livep.l.t002.ottcn.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,vv.video.qq.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+# DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+# DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# ------------------------------------ 腾讯视频 ---------------------------------------
+DOMAIN-SUFFIX,tetrack.qq.com,REJECT
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT
+DOMAIN-SUFFIX,static-res.qq.com,REJECT
+DOMAIN-SUFFIX,stat.tpns.tencent.com,REJECT
+DOMAIN, h.trace.qq.com,REJECT
+DOMAIN-KEYWORD,omgmta.qq.com,REJECT
+DOMAIN-KEYWORD,omgmta1.qq.com,REJECT
+# ------------------------------------ 腾讯音乐 ---------------------------------------
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adsfile.bssdlbig.kugou.com,REJECT
+DOMAIN,g.koowo.com,REJECT
+DOMAIN,kgmobilestat.kugou.com,REJECT
+DOMAIN,kgmobilestatbak.kugou.com,REJECT
+DOMAIN,mobilelog.kugou.com,REJECT
+DOMAIN,mobilead.kuwo.cn,REJECT
+DOMAIN,rich.kuwo.cn,REJECT
+# ------------------------------------ 同花顺 ---------------------------------------
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+# ------------------------------------ 迅雷 ---------------------------------------
+DOMAIN,adsp.xunlei.com,REJECT
+DOMAIN,etl.xlmc.sandai.net,REJECT
+# ------------------------------------ 微软 ---------------------------------------
+DOMAIN-SUFFIX,ads.msn.com,REJECT
+DOMAIN-SUFFIX,ads1.msn.com,REJECT
+DOMAIN-SUFFIX,ads2.msn.com,REJECT
+DOMAIN-SUFFIX,bingads.microsoft.com,REJECT
+DOMAIN-SUFFIX,rads.msn.com,REJECT
+DOMAIN,mobileads.msn.com,REJECT
+# ------------------------------------ 威锋 ---------------------------------------
+DOMAIN-KEYWORD,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf3-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf1-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf1-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf1-ttcdn-tos.pstatp.com,REJECT
+DOMAIN-KEYWORD,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf3-ttcdn-tos.pstatp.com,REJECT
+DOMAIN-KEYWORD,sf6-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,s3-fe-scm.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,sf6-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,p9-be-pack-sign.pglstatp-toutiao.com,REJECT
+# ------------------------------------ 云闪付 ---------------------------------------
+DOMAIN,ads.95516.com,REJECT
+DOMAIN,cm-10-138.getui.com,REJECT
+DOMAIN,sdk.open.talk.getui.net,REJECT
+DOMAIN,sdk-conf.getui.com,REJECT
+DOMAIN,switch.cup.com.cn,REJECT
+DOMAIN,tysdk.95516.com,REJECT
+# ------------------------------------ 中国联通 ---------------------------------------
+DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
+# ------------------------------------ 中国电信 ---------------------------------------
+DOMAIN,ad.21cn.com,REJECT
+DOMAIN,ad.k.21cn.com,REJECT
+DOMAIN,admarket.21cn.com,REJECT
+DOMAIN,adshows.21cn.com,REJECT
 
 
 
