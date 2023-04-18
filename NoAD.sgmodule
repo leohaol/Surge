@@ -1,5 +1,5 @@
 #!name=NOAD
-#!desc=Update 2023年4月18日23点49分
+#!desc=Update 2023年4月18日23点51分
 
 [Rule]
 # ------------------------------------ 交管12123 ---------------------------------------
@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,alexametrics.com,REJECT
 DOMAIN-SUFFIX,in-page-push,REJECT
 
 # ------------------------------------ 百度 ---------------------------------------
-DOMAIN,b.bdstatic.com,REJECT
+DOMAIN-SUFFIX,b.bdstatic.com,REJECT
 DOMAIN-SUFFIX,duapps.com,REJECT
 DOMAIN-SUFFIX,cpro.baidu.com,REJECT
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
