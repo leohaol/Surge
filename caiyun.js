@@ -120,7 +120,7 @@ chxm1023.result.bound_status.qq = {
       };
 chxm1023.result.bound_status.weixin = {
         "id" : "639ac02db1839300133031c0",
-        "username" : "chxm1023",
+        "username" : "LEO",
         "is_bound" : true
       };
 chxm1023.result.bound_statuscaiyun = {
