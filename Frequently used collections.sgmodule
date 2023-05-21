@@ -11,63 +11,17 @@
 skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,www.abchina.com.cn,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com
 
 [Rule]
-# > 淘宝去广告
-DOMAIN-SUFFIX,apoll.m.taobao.com,reject
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,reject
-DOMAIN-SUFFIX,w.m.taobao.com,reject
-DOMAIN,tunion-api.m.taobao.com,reject
-DOMAIN-SUFFIX,ai.m.taobao.com,reject
-DOMAIN-SUFFIX,re.m.taobao.com,reject
-DOMAIN-SUFFIX,agoodm.m.taobao.com,reject
-DOMAIN-SUFFIX,ai.taobao.com,reject
-DOMAIN-SUFFIX,api.waptest.taobao.com,reject
-DOMAIN-SUFFIX,dsp.simba.taobao.com,reject
-DOMAIN-SUFFIX,fav.simba.taobao.com,reject
-DOMAIN-SUFFIX,m.simba.taobao.com,reject
-DOMAIN-SUFFIX,mclick.simba.taobao.com,reject
-DOMAIN-SUFFIX,re.taobao.com,reject
-DOMAIN-SUFFIX,redirect.simba.taobao.com,reject
-DOMAIN-SUFFIX,simba.m.taobao.com,reject
-DOMAIN-SUFFIX,srd.simba.taobao.com,reject
-DOMAIN-SUFFIX,temai.taobao.com,reject
-DOMAIN-SUFFIX,textlink.simba.taobao.com,reject
-DOMAIN-SUFFIX,unitacs.m.taobao.com,reject
-DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,reject
-DOMAIN-SUFFIX,adashbc.ut.taobao.com,reject
-DOMAIN-SUFFIX,adash-c.ut.taobao.com,reject
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com,reject
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com,reject
-DOMAIN-SUFFIX,tunion-api.m.taobao.com,reject
-DOMAIN-SUFFIX,tns.simba.taobao.com,reject
-DOMAIN-SUFFIX,click.mz.simba.taobao.com,reject
-DOMAIN-SUFFIX,click.simba.taobao.com,reject
-DOMAIN-SUFFIX,click.tz.simba.taobao.com,reject
-DOMAIN-SUFFIX,stat.simba.taobao.com,reject
-DOMAIN-SUFFIX,m-adash.m.taobao.com,reject
-DOMAIN-SUFFIX,adashbc.m.taobao.com,reject
 
-# > 屏蔽京东和搜狗收集信息 @jFrecht
-DOMAIN-SUFFIX, jdqd.jd.com, reject
-DOMAIN-SUFFIX, shouji.sougou.com, reject
 
 
 [URL Rewrite]
-# > 淘宝
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome\/ - reject
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless - reject
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/ - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/ - reject
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/ - reject
-# 开屏广告
-^https?:\/\/gw\.alicdn\.com\/imgextra\/i\d\/.+1125-1602\.jpg - reject
-^https:\/\/heic\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0\.jpg_\.heic$ - reject
-^https:\/\/(heic|gw)\.alicdn\.com\/imgextra\/i\d\/.+-tps-(702-758|1125-1602)\.(heic|jpg|png) - reject
+
 
 
 
 [Map Local]
+
+
 
 [Script]
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
@@ -77,4 +31,4 @@ Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/ga
 # SpotifVIP spclient.wg.spotify.com    
 # Netease snail readingVIP p.du.163.com
 
-hostname = %APPEND% spclient.wg.spotify.com, p.du.163.com, acs.m.taobao.com, guide-acs.m.taobao.com, guide-acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, heic|gw.alicdn.com
+hostname = %APPEND% spclient.wg.spotify.com, p.du.163.com
