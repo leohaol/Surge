@@ -1,0 +1,11 @@
+#!name=All in one to advertise
+#!desc=常用小程序/app去广告
+
+[URL Rewrite]
+^https:\/\/apis\.alenable\.com\/ycx\/v1\/api\/adPut - reject //广州地铁乘车码
+^https:\/\/apis\.alenable\.com\/mall\/v1\/api\/mall\/skin\/user\/get - reject //广州地铁乘车码
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad - reject // 简讯
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity? - reject // 彩云
+
+[MITM]
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn
