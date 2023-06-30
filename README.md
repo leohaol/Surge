@@ -1,7 +1,8 @@
 Surge自用配置以及模块和脚本
 
 自用去广告
-https://raw.githubusercontent.com/leohaol/Surge/main/NoAD.list
+https://raw.githubusercontent.com/leohaol/Surge/main/All-in-one-to-Ad-Rule.list
+https://raw.githubusercontent.com/leohaol/Surge/main/All-in-one-to-Ad.sgmodule
 
 常用模块
 
