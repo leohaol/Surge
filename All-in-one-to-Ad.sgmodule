@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/07/09 A2
+#!desc=常用小程序/app去广告 Update: 2023/07/09 A3
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -65,6 +65,14 @@ EMS = type=http-response,pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-ex
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
 #  加油广东
 ^https?:\/\/img\.gdoil\.cn\/upload\/ad\/.*.(jpg|png) - reject
+#  广东移动
+^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject
+#  中国电信
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ - reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation - reject
+
+
+
 
 [MITM]
-hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn
