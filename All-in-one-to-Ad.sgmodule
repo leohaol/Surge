@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/7/9 A1
+#!desc=常用小程序/app去广告 Update: 2023/07/09 A2
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -16,6 +16,8 @@
 ^https:\/\/api\.maoyan\.com\/sns\/common\/feed\/channel\/v2\/list\.json - reject
 # 横店电影
 ^https:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= - reject
+^https:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/4\?cid= - reject
+
 
 # 广州地铁乘车码
 ^https:\/\/apis\.alenable\.com\/ycx\/v1\/api\/adPut - reject
