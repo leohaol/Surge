@@ -1,0 +1,58 @@
+#!name=App unlock collection
+#!desc=App解锁合集 2023.7.16 A1
+#!url=https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
+#!system=ios
+
+[URL Rewrite]
+# 酷我音乐_AdBlock
+^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ - reject
+# 酷我音乐_AdBlock
+^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ - reject
+# 酷我音乐_AdBlock
+^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad - reject
+# 酷我听书_Blockad
+https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright - reject-dict
+# 酷我听书_Blockad
+https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright - reject-dict
+# 酷我音乐_添加已购音乐
+^https?:\/\/.*\.kuwo\.cn\/music\.pay\?uid\=\d+ http://musicpay.kuwo.cn/music.pay?uid=2 302
+
+
+[Script]
+# 彩云天气
+# hostname = *.cyapi.cn, *.caiyunapp.com
+彩云天气 = type=http-response,pattern=^https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+
+# 酷我音乐
+# hostname = *.kuwo.cn, *.kwcdn.kuwo.cn, *.lrts.me
+酷我音乐 = type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/kwyy.js
+
+# 百度网盘_在线视频倍率/清晰度
+# hostname = pan.baidu.com
+百度网盘 = type=http-response,pattern=^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
+
+# 阿里云盘 净化/解锁SVIP
+# hostname = *.aliyundrive.com
+阿里云盘 = type=http-response,pattern=^https?:\/\/(api|member)\.aliyundrive\.com,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js
+
+# Spotify (不能超高音质)
+# hostname = spclient.wg.spotify.com
+Spotify-json = type=http-request,pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/,requires-body=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+Spotify-proto = type=http-response,pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
+
+# 网易蜗牛读书
+# hostname = p.du.163.com
+网易蜗牛读书 = type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/wywnds.js
+
+# 图纸通
+# hostname = api.tuzhitong.com
+图纸通 = type=http-response,pattern=^https?:\/\/api\.tuzhitong\.com\/api\/User\/GetUserVipInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/tuzhitong.js
+
+# 大神水印
+# hostname = dashen-api.shuiyinyu.com
+大神水印 = type=http-response,pattern=^https?:\/\/dashen-api\.shuiyinyu\.com\/.+\/user\/get_user_info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/dssy.js
+
+
+[MITM]
+
+hostname = %APPEND% *.cyapi.cn, *.caiyunapp.com, *.kuwo.cn, *.kwcdn.kuwo.cn, *.lrts.me, pan.baidu.com, *.aliyundrive.com, spclient.wg.spotify.com, p.du.163.com, api.tuzhitong.com, dashen-api.shuiyinyu.com
