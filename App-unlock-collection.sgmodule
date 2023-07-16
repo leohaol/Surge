@@ -1,21 +1,9 @@
 #!name=App unlock collection
-#!desc=App解锁合集 2023.7.16 A3
+#!desc=App解锁合集 2023.7.16 A4
 #!url=https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
 #!system=ios
 
 [URL Rewrite]
-# 酷我音乐_AdBlock
-^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ - reject
-# 酷我音乐_AdBlock
-^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ - reject
-# 酷我音乐_AdBlock
-^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad - reject
-# 酷我听书_Blockad
-https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright - reject-dict
-# 酷我听书_Blockad
-https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright - reject-dict
-# 酷我音乐_添加已购音乐
-^https?:\/\/.*\.kuwo\.cn\/music\.pay\?uid\=\d+ http://musicpay.kuwo.cn/music.pay?uid=2 302
 
 
 [Script]
@@ -23,9 +11,7 @@ https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright - reject-dict
 # hostname = *.cyapi.cn, *.caiyunapp.com
 彩云天气 = type=http-response,pattern=^https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
 
-# 酷我音乐
-# hostname = *.kuwo.cn, *.kwcdn.kuwo.cn, *.lrts.me
-酷我音乐 = type=http-response,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/kwyy.js
+
 
 # 百度网盘_在线视频倍率/清晰度
 # hostname = pan.baidu.com
@@ -55,4 +41,4 @@ Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/ga
 
 [MITM]
 
-hostname = %APPEND% *.cyapi.cn, *.caiyunapp.com, *.kuwo.cn, *.kwcdn.kuwo.cn, *.lrts.me, pan.baidu.com, *.aliyundrive.com, spclient.wg.spotify.com, p.du.163.com, api.tuzhitong.com, dashen-api.shuiyinyu.com
+hostname = %APPEND% *.cyapi.cn, *.caiyunapp.com, pan.baidu.com, *.aliyundrive.com, spclient.wg.spotify.com, p.du.163.com, api.tuzhitong.com, dashen-api.shuiyinyu.com
