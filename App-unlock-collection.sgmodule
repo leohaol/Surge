@@ -1,5 +1,5 @@
 #!name=App unlock collection
-#!desc=App解锁合集 2023.7.16 A1
+#!desc=App解锁合集 2023.7.16 A2
 #!url=https://raw.githubusercontent.com/chxm1023/Script_X/main/Collections.sgmodule
 #!system=ios
 
@@ -42,7 +42,7 @@ Spotify-proto = type=http-response,pattern=^https?:\/\/spclient\.wg\.spotify\.co
 
 # 网易蜗牛读书
 # hostname = p.du.163.com
-网易蜗牛读书 = type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/wywnds.js
+Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
 
 # 图纸通
 # hostname = api.tuzhitong.com
