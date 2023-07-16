@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/07/16 A1
+#!desc=常用小程序/app去广告 Update: 2023/07/16 A3
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -45,7 +45,8 @@ EMS = type=http-response,pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-ex
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject
 携程旅行 = type=http-response,pattern=^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13012\/getWaterflowInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/T3.js,script-update-interval=0 
-
+# 顺丰速运小程序
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
 
 # --------------app去广告---------------
 
@@ -83,10 +84,18 @@ EMS = type=http-response,pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-ex
 ^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo - reject
 ^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend - reject
 ^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ - reject
-
-
-
+# 虎牙直播
+^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject
+^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject
+# 红版报
+https://fbchina.flipchina.cn/v2/ad/query/* - reject
+# 猫眼 开屏广告
+^https?:\/\/p0\.pipi\.cn\/adAdmin\/.+\.jpg\?imageMogr2\/quality\/85\?may_covertWebp - reject
+^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
+# 淘票票/开屏广告
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)\/ - reject
 
 
 [MITM]
-hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com
