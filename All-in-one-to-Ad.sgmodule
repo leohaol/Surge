@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/07/16 A3
+#!desc=常用小程序/app去广告 Update: 2023/07/16 A4
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -95,7 +95,16 @@ https://fbchina.flipchina.cn/v2/ad/query/* - reject
 ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? - reject
 # 淘票票/开屏广告
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)\/ - reject
+# 虎扑
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/status\/init - reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init - reject
+^https?:\/\/du\.hupucdn\.com\/\w+h\d{4} - reject
+^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
+^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
+^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} - reject
 
 
 [MITM]
-hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com, games.mobileapi.hupu.com, du.hupucdn.com, *.hoopchina.com, goblin.hupu.com
