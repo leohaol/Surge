@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/07/16 A5
+#!desc=常用小程序/app去广告 Update: 2023/07/20 A1
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -105,7 +105,50 @@ https://fbchina.flipchina.cn/v2/ad/query/* - reject
 ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ - reject
 ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject
 ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} - reject
+# 百度
+^https?:\/\/fcvbjbcebos.baidu.com\/.+.mp4 - reject
+^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ - reject
+^https?:\/\/baichuan.baidu.com\/rs\/adpmobile\/launch - reject
+^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch - reject
+^https?:\/\/api\d\.tuisong\.baidu\.com - reject
+^https?:\/\/afd.baidu.com\/afd\/entry - reject
+^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.+ - reject
+(ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com - reject
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ - reject
+^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php - reject
+^https?:\/\/afd\.baidu\.com\/afd\/entry url - reject
+^https?:\/\/als.baidu.com\/clog\/clog - reject
+^https?:\/\/fcvbjbcebos\.baidu\.com\/.+?\.mp4 - reject
+^https?:\/\/t\d{2}\.baidu\.com - reject
+^https?:\/\/update\.pan\.baidu\.com\/statistics - reject
+^https?:\/\/log.+?baidu\.com - reject
+^https?:\/\/sa\d\.tuisong\.baidu\.com - reject
+^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*? - reject
+# 百度网盘
+^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
+^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad - reject
+^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list - reject
+^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
+^https?:\/\/pan\.baidu\.com\/pmall\/order\/privilege\/info - reject
+^https?:\/\/pan\.baidu\.com\/rest\/.+\/pcs\/adx - reject
+^https?:\/\/pan\.baidu\.com\/api\/useractivity\/activity - reject
+^https?:\/\/pan\.baidu\.com\/act\/.+\/bchannel\/list - reject
+^https?:\/\/pan\.baidu\.com\/api\/certuser\/get - reject
+^https?:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip - reject
+^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js - reject
+^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html - reject
+^https?:\/\/staticsns\.cdn\.bcebos\.com\/amis\/.+/banner.png - reject
+^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao - reject
+^https?:\/\/update.pan.baidu.com\/statistics - reject
+^https?:\/\/fc-video\.cdn\.bcebos\.com - reject
+^https?:\/\/rp\.hpplay\.cn\/logouts - reject
+# 百度翻译
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+# 百度文库
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad - reject
+
 
 
 [MITM]
-hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com, games.mobileapi.hupu.com, du.hupucdn.com, *.hoopchina.com, goblin.hupu.com
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com, games.mobileapi.hupu.com, du.hupucdn.com, *.hoopchina.com, goblin.hupu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api\d\.tuisong\.baidu\.com,  baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, afd.baidu.com, als.baidu.com, fcvbjbcebos.baidu.com, update.pan.baidu.com, www.baidu.com, pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn\.bcebos\.com, rp.hpplay.cn, mime.baidu.com, appwk.baidu.com
