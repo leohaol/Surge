@@ -1,7 +1,8 @@
 #!name=All in one to advertise Rule 
-#!desc=Update 2023.6.30.A1
+#!desc=Update 2023.7.28.A1
 # 更新时间：@fmz200/2023.06.30    @野比/2023.04.28
-
+# 广州地铁乘车码
+DOMAIN,apis.alenable.com
 #朵朵校友圈微信小程序去广告
 DOMAIN-SUFFIX,ad.duoduo.link
 #万能钥匙
