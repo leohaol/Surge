@@ -1,5 +1,5 @@
 #!name=App-unlock-collection
-#!desc=APP解锁合集 2023.7.16 A7
+#!desc=APP解锁合集 2023.8.3 A1
 #!system=ios
 
 
@@ -7,7 +7,7 @@
 
 [Script]
 # 彩云VIP
-caiyun = type=http-response,pattern=^https?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+彩云天气 = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
 # 网易读书VIP
 Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
 # spotify VIP
