@@ -1,5 +1,5 @@
 #!name=All in one to advertise Rule 
-#!desc=Update 2023.7.28.A1
+#!desc=Update 2023.8.5.A1
 # 更新时间：@fmz200/2023.06.30    @野比/2023.04.28
 
 # 广州地铁乘车码
@@ -8570,7 +8570,6 @@ DOMAIN-SUFFIX,zlne800.com
 DOMAIN-SUFFIX,zunmi.cn
 DOMAIN-SUFFIX,zzd6.com
 DOMAIN-SUFFIX,mackeeper.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,api.joybj.com
 DOMAIN-SUFFIX,api.whizzone.com
@@ -17076,7 +17075,6 @@ DOMAIN-SUFFIX,zlne800.com
 DOMAIN-SUFFIX,zunmi.cn
 DOMAIN-SUFFIX,zzd6.com
 DOMAIN-SUFFIX,mackeeper.com
-DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,api.joybj.com
 DOMAIN-SUFFIX,api.whizzone.com
 DOMAIN-SUFFIX,mmstat.com
