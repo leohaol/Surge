@@ -1,17 +1,81 @@
 #!name=All in one to advertise Rule 
-#!desc=Update 2023.8.8.A1
+#!desc=Update 2023.8.18.A1
 # 更新时间：@fmz200/2023.06.30    @野比/2023.04.28
 
-# > 讯飞输入法
+#  小红书
+DOMAIN,ads-img-qc.xhscdn.com
+DOMAIN,ads-video-al.xhscdn.com
+DOMAIN,ads-video-qc.xhscdn.com
+DOMAIN,t-ads.xiaohongshu.com
+# 喜马拉雅
+DOMAIN,adbehavior.ximalaya.com
+DOMAIN,adwbs.ximalaya.com
+DOMAIN-SUFFIX,ad.test.ximalaya.com
+DOMAIN-SUFFIX,adse.test.ximalaya.com
+DOMAIN-SUFFIX,adweb.test.ximalaya.com
+DOMAIN-SUFFIX,adweb.ximalaya.com
+DOMAIN-SUFFIX,linkeye.ximalaya.com
+DOMAIN-SUFFIX,location.ximalaya.com
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com
+DOMAIN-SUFFIX,ad.ximalaya.com
+DOMAIN-SUFFIX,adse.ximalaya.com
+DOMAIN-SUFFIX,adse.wsa.ximalaya.com
+DOMAIN-SUFFIX,adbehavior.wsa.ximalaya.com
+DOMAIN-SUFFIX,adsebs.ximalaya.com
+DOMAIN-SUFFIX,adbs.ximalaya.com
+# 万能钥匙专业版
+DOMAIN-SUFFIX,mi.gdt.qq.com
+DOMAIN-SUFFIX,p9-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-SUFFIX,p6-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-SUFFIX,p3-be-pack-sign.pglstatp-toutiao.com
+# WiFi万能钥匙
+DOMAIN-KEYWORD,app.51y5.net
+DOMAIN-KEYWORD,apiinit.amap.com
+DOMAIN-KEYWORD,c.51y5.net
+DOMAIN-KEYWORD,msg.push.51y5.net
+DOMAIN-KEYWORD,a.wkanx.com
+DOMAIN-KEYWORD,c.wkanx.com
+DOMAIN-KEYWORD,c1.wkanx.com
+DOMAIN-KEYWORD,ap.51y5.net
+DOMAIN-KEYWORD,dc.51y5.net
+DOMAIN-KEYWORD,push-dc.51y5.net
+DOMAIN-KEYWORD,news-log.51y5.net
+DOMAIN-KEYWORD,login.push.51y5.net
+DOMAIN-KEYWORD,news.51y5.net
+DOMAIN-KEYWORD,cds.51y5.net
+DOMAIN-KEYWORD,insurance.lianwifi.com
+DOMAIN-KEYWORD,config.51y5.net
+DOMAIN-KEYWORD,static.wkanx.com
+DOMAIN-KEYWORD,config.y5en.com
+# 蜻蜓FM
+DOMAIN,ad.qingting.fm
+DOMAIN,adlaunch.qingting.fm
+DOMAIN,ad-cdn.qingting.fm
+# Outlook
+DOMAIN,acdn.adnxs.com
+DOMAIN,mediation.adnxs.com
+DOMAIN,sin3-ib.adnxs.com
+DOMAIN,sdkconfig.ad.xiaomi.com
+# 车来了（包括小程序）
+DOMAIN-SUFFIX,atrace.chelaile.net.cn
+DOMAIN,logs.chelaile.net.cn
+DOMAIN,ad.chelaile.net.cn
+#  Apple
+DOMAIN,api-adservices.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+#  58同城
+DOMAIN,track.58.com
+DOMAIN,tracklog.58.com
+# 讯飞输入法
 DOMAIN-KEYWORD,ossp.voicecloud.cn
 DOMAIN-KEYWORD,bj.imp.voiceads.cn
 DOMAIN-KEYWORD,m.panda.voiceads.cn
 DOMAIN-KEYWORD,iflyad.bj.openstorage.cn
 # 广州地铁乘车码
 DOMAIN,apis.alenable.com
-#朵朵校友圈微信小程序去广告
+# 朵朵校友圈微信小程序去广告
 DOMAIN-SUFFIX,ad.duoduo.link
-#万能钥匙
+# 万能钥匙
 DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com
 # 交管12123
 DOMAIN,static.122.gov.cn
@@ -20,6 +84,11 @@ DOMAIN-SUFFIX,wss.haoyundmn.com
 DOMAIN-SUFFIX,new.xiongzhangad.com
 DOMAIN-SUFFIX,alexametrics.com
 DOMAIN-SUFFIX,in-page-push
+# 百度地图
+DOMAIN,afd.baidu.com
+DOMAIN, afdconf.baidu.com
+DOMAIN,httpdns.baidubce.com
+DOMAIN,lc.map.baidu.com
 # 百度 
 DOMAIN-SUFFIX,b.bdstatic.com
 DOMAIN-SUFFIX,duapps.com
@@ -419,6 +488,19 @@ DOMAIN,kgmobilestatbak.kugou.com
 DOMAIN,mobilelog.kugou.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
+#  酷我音乐
+DOMAIN-SUFFIX,c.kuwo.cn
+DOMAIN-SUFFIX,deliver.kuwo.cn
+DOMAIN-SUFFIX,game.kuwo.cn
+DOMAIN-SUFFIX,kuwoyy.com
+DOMAIN-SUFFIX,kwmsg.kuwo.cn
+DOMAIN-SUFFIX,msclick2.kuwo.cn
+DOMAIN-SUFFIX,msphoneclick.kuwo.cn
+DOMAIN-SUFFIX,updatepage.kuwo.cn
+DOMAIN-SUFFIX,wa.kuwo.cn
+DOMAIN-SUFFIX,webstat.kuwo.cn
+DOMAIN-SUFFIX,mobilead.kuwo.cn
+DOMAIN-SUFFIX,rich.kuwo.cn
 #同花顺
 DOMAIN,adm.10jqka.com.cn
 DOMAIN,stat.10jqka.com.cn
@@ -458,6 +540,19 @@ DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
+#  虎扑
+DOMAIN,adx.hupu.com
+DOMAIN,adx-api.hupu.com
+DOMAIN,goblin.hupu.com
+# 虎牙直播 开屏广告
+DOMAIN,pp-cdnfile2pcdn.msstatic.com
+DOMAIN,livewebbs2pcdn.msstatic.com
+DOMAIN,huyafile.msstatic.com
+DOMAIN,livewebbs2.msstatic.com
+DOMAIN,business.msstatic.com
+# > 哈啰
+DOMAIN-KEYWORD,assets.51downapp.cn
+
 #其他其广告
 DOMAIN-KEYWORD,extlog.snssdk.com
 # DOMAIN-KEYWORD,is.snssdk.com
