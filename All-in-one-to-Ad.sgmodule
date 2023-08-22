@@ -1,5 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/08/11 A2
+#!desc=常用小程序/app去广告 Update: 2023/08/22 A1
 
 [URL Rewrite]
 # -------------小程序去广告--------------
@@ -53,6 +53,53 @@ EMS = type=http-response,pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-ex
 ^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
 
 # --------------app去广告---------------
+
+# 1.高德地图（张军）m5.amap.com, md.amap.com, optimus-ads.amap.com, 
+^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? - reject
+^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
+^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
+^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
+
+# 2.高德地图 RuCu6 kokoryh 2023-08-21 20:10   m5.amap.com, m5-zb.amap.com, sns.amap.com
+# 此条可以屏蔽首次进入的天气动效图层  但是会导致足迹不显示地图数据
+#^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? - reject
+# 其他
+^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch AMapiPhone url-and-header - reject
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? - reject
+# 导航详情页,路线规划,地点详情页,搜索详情页
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? - reject
+高德地图_01 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/routePlan\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=0
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? - reject
+高德地图_02 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=0
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? - reject
+高德地图_03 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+# 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+高德地图_04 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? - reject
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? - reject
+高德地图_05 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? - reject
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? - reject
+# 我的页面,推广卡片
+高德地图_06 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+# 附近页
+高德地图_07 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+# 开屏广告
+高德地图_08 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+# 打车页,红点角标,弹窗,天气图标,推广卡片
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? - reject
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? - reject
+高德地图_09 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+高德地图_09 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+,script-update-interval=0
+
 
 # 简讯
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad - reject
@@ -148,4 +195,4 @@ redbook_json_37 = type=http-response, pattern=^https?:\/\/edith\.xiaohongshu\.co
 
 
 [MITM]
-hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com, games.mobileapi.hupu.com, du.hupucdn.com, *.hoopchina.com, goblin.hupu.com, imeclient.openspeech.cn, home.umetrip.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, ucmp.sf-express.com
+hostname = %APPEND% apis.alenable.com, api.tipsoon.com, wrapper.cyapi.cn, common.diditaxi.com.cn, conf.diditaxi.com.cn, res.pizzahut.com.cn, ump.ems.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, m.ctrip.com, oneapph5.dongfeng-nissan.com.cn, easyreadfs.nosdn.127.net, p.du.163.com, yunbusiness.ccb.com, gab.122.gov.cn,img.gdoil.cn, ad.maoyan.com, wx.maoyan.com, vod-movie.maoyan.com, api.maoyan.com, api.hengdianfilm.com, gd.10086.cn,loud.189.cn, zt-app.go189.cn, daoyu.sdo.com, staticlive.douyucdn.cn, douyucdn.cn, rtbapi.douyucdn.cn, capi.douyucdn.cn, business.msstatic.com, cdnfile1.msstatic.com, fbchina.flipchina.cn, p0.pipi.cn, ucmp.sf-express.com, acs.m.taobao.com, games.mobileapi.hupu.com, du.hupucdn.com, *.hoopchina.com, goblin.hupu.com, imeclient.openspeech.cn, home.umetrip.com, edith.xiaohongshu.com, www.xiaohongshu.com, pages.xiaohongshu.com, referee.xiaohongshu.com, ucmp.sf-express.com, m5.amap.com, md.amap.com, optimus-ads.amap.com, m5-zb.amap.com, sns.amap.com
