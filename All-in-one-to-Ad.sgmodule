@@ -8,7 +8,6 @@
 ^https?:\/\/m5-zb\.amap\.com\/ws\/boss\/order_web\/\w{8}_information data="https://raw.githubusercontent.com/kokoryh/Script/master/data/blank.txt"
 
 [URL Rewrite]
-
 # 高德通用广告请求
 ^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution - reject
 
