@@ -1,10 +1,5 @@
 #!name=App&小程序净化合集
-#!desc=去除一些冗余的模块，遇到异常时关闭此脚本
-#!author=fmz200
-#!homepage=https://github.com/fmz200/wool_scripts
-#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/gif/naisi-01.gif
-#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/QuantumultX/rewrite/chongxie.txt
-#!tg-group=https://t.me/lanjieguanggao
+#!desc=去除一些冗余的模块，遇到异常时关闭此脚本,更新时间8月27号23:40 A1
 #!update-time=2023.07.14 19:36
 #!support=约88款app
 
