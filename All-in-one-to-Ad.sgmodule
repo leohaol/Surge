@@ -1,8 +1,5 @@
 #!name=All in one to advertise
-#!desc=常用小程序/app去广告 Update: 2023/08/27  23:35 A1
-
-#!name=广告拦截合集-重写
-#!desc=(R)针对部分APP开屏广告，应用内广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!desc=(R)针对部分APP开屏广告，应用内广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！Update: 2023/08/27  23:35 A1
 #!update-time=2023.08.26 10:25
 #!support=约482款app
 
