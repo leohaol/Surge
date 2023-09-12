@@ -1,7 +1,7 @@
-#规则数量:9535
+#规则数量:9526
 #不支持的规则数量:0
 #已排除的规则数量:0
-#更新时间：8月27日23.32
+#更新时间2023.9.12
 #-----------------以下为解析后的规则-----------------#
 
 DOMAIN,static.122.gov.cn
@@ -19,11 +19,11 @@ DOMAIN,mc.51.la
 DOMAIN,wc.51.la
 DOMAIN,track.58.com
 DOMAIN,tracklog.58.com
+DOMAIN,geo2.adobe.com
 DOMAIN,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 IP-CIDR,203.107.1.1/24
 DOMAIN,cr-status.iqiyi.com
-DOMAIN-SUFFIX,cupid.iqiyi.com
 DOMAIN,f74f7f7765f8a2f6.ngaa.net.cn
 DOMAIN,ef-dongfeng.tanx.com
 DOMAIN,iqiyim.adtrack.enlightent.cn
@@ -32,6 +32,7 @@ DOMAIN,ads3-normal-lq.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
+DOMAIN-SUFFIX,cupid.iqiyi.com
 IP-CIDR,203.107.63.154/32
 IP-CIDR,101.227.97.240/32
 IP-CIDR,101.227.200.11/32
@@ -190,7 +191,6 @@ DOMAIN,afdconf.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,lc.map.baidu.com
 IP-CIDR,180.76.76.200/32
-DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-KEYWORD,api.sobot.com
 DOMAIN-SUFFIX,cm.ad.bilibili.com
 DOMAIN-SUFFIX,cm.adcommon.bilibili.com
@@ -232,6 +232,7 @@ DOMAIN,data-hoisin.coocaa.com
 DOMAIN-SUFFIX,atrace.chelaile.net.cn
 DOMAIN,logs.chelaile.net.cn
 DOMAIN,ad.chelaile.net.cn
+IP-CIDR,211.161.101.110/32
 DOMAIN-KEYWORD,image.bianxianmao.com
 IP-CIDR,203.107.1.1/24
 DOMAIN-KEYWORD,p3-pack.byteimg.com
@@ -291,6 +292,7 @@ DOMAIN-SUFFIX,shouji.sougou.com
 DOMAIN,u51.me
 DOMAIN-SUFFIX,u51.me
 DOMAIN,apis.alenable.com
+IP-CIDR,114.119.160.0/21
 DOMAIN-SUFFIX,da.mgtv.com
 DOMAIN-SUFFIX,da.hunantv.com
 DOMAIN-SUFFIX,log.hunantv.com
@@ -359,6 +361,7 @@ DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN-SUFFIX,cm.downloader.commercial.kuaishou.com
 DOMAIN-SUFFIX,cm.ad.gifshow.com
 DOMAIN-SUFFIX,cm.kwad.com
+DOMAIN-SUFFIX,kuaizip.com
 DOMAIN-KEYWORD,searchrecommend.kugou.com
 DOMAIN-KEYWORD,nbcollectretry.kugou.com
 DOMAIN-KEYWORD,rtmretry.kugou.com
@@ -433,6 +436,7 @@ DOMAIN,cwx.lianwangtech.com
 DOMAIN,c1wx.lianwangtech.com
 DOMAIN-KEYWORD,medicine.lanjiyin.com.cn
 DOMAIN-SUFFIX,admobile.top
+DOMAIN-SUFFIX,zryydi.com
 DOMAIN,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
 DOMAIN-SUFFIX,meituan.xn--io0a7i
@@ -494,7 +498,6 @@ DOMAIN,ad.qingting.fm
 DOMAIN,adlaunch.qingting.fm
 DOMAIN,ad-cdn.qingting.fm
 DOMAIN-KEYWORD,adm3.autoimg.cn
-DOMAIN-KEYWORD,audid-api.taobao.com
 DOMAIN-KEYWORD,collectionpv.che168.com
 DOMAIN-KEYWORD,adproxy.autohome.com
 DOMAIN-KEYWORD,applogapi.autohome.com
@@ -745,11 +748,11 @@ DOMAIN-KEYWORD,www.qmlog.cn
 DOMAIN-KEYWORD,cpu.baidu.com
 DOMAIN-KEYWORD,caclick.baidu.com
 DOMAIN-KEYWORD,rescn.u3.ucweb.com
-DOMAIN,safe.ucweb.com
-DOMAIN,px.ucweb.com
 DOMAIN-KEYWORD,editor.sm.cn
 DOMAIN-KEYWORD,fc-video.cdn.bcebos.com
 DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com
+DOMAIN,safe.ucweb.com
+DOMAIN,px.ucweb.com
 DOMAIN,navigis.uc.cn
 DOMAIN,order.sm.cn
 DOMAIN,ucdc-upaas.uc.cn
@@ -1076,17 +1079,14 @@ IP-CIDR,118.89.204.198/32
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
+IP-CIDR,120.240.95.37/32
 DOMAIN-SUFFIX,m1.ad.10010.com
 DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
-DOMAIN-SUFFIX,sis.jpush.io
-DOMAIN-SUFFIX,s.jpush.cn
-DOMAIN-SUFFIX,jpush.cn
-DOMAIN-SUFFIX,im64.jpush.cn
-DOMAIN-SUFFIX,im.jpush.cn
-DOMAIN-SUFFIX,jpush.html5.qq.com
+IP-CIDR,122.229.8.47/32
+IP-CIDR,122.229.29.89/32
 DOMAIN-KEYWORD,lkme.cc
 DOMAIN-KEYWORD,api.freed.so
 DOMAIN-KEYWORD,log-dmp.suishenyun.cn
@@ -1097,7 +1097,7 @@ DOMAIN-KEYWORD,p26-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-SUFFIX,ttayy.cn
 DOMAIN-SUFFIX,zhengxiaoliu.top
 DOMAIN,ad.zijieapi.com
-DOMAIN-KEYWORD,-ad-sign.byteimg.com
+DOMAIN-KEYWORD,ad-sign.byteimg.com
 DOMAIN-KEYWORD,extlog.snssdk.com
 DOMAIN-KEYWORD,mobads.baidu.com
 DOMAIN-KEYWORD,s3a.pstatp.com
@@ -9474,7 +9474,6 @@ IP-CIDR,180.166.52.24/32
 IP-CIDR,211.161.101.106/32
 IP-CIDR,220.115.251.25/32
 IP-CIDR,222.73.156.235/32
-IP-CIDR,188.89.204.198/32
 DOMAIN-SUFFIX,189key.com
 DOMAIN-SUFFIX,bkyhq.cn
 DOMAIN-SUFFIX,gscxs.cn
@@ -9490,14 +9489,6 @@ DOMAIN-SUFFIX,wsgblw.com
 DOMAIN-SUFFIX,xchmai.com
 DOMAIN-SUFFIX,ygyzx.cn
 DOMAIN-SUFFIX,zmlled.cn
-IP-CIDR,122.229.8.47/32
-IP-CIDR,122.229.29.89/32
-IP-CIDR,120.240.95.37/32
-IP-CIDR,211.161.101.110/32
-IP-CIDR,114.119.160.0/21
-DOMAIN-SUFFIX,kuaizip.com
-DOMAIN-SUFFIX,zryydi.com
-DOMAIN,geo2.adobe.com
 DOMAIN-SUFFIX,airpr.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,hotjar.io
