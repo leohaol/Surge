@@ -1,7 +1,8 @@
-#规则数量:9555
-#更新时间：2023.09.26
+#规则数量:9559
+#更新时间：23.10.14
 
-DOMAIN,static.122.gov.cn
+#-----------------以下为解析后的规则-----------------#
+
 DOMAIN-SUFFIX,v3.fstats.xyz
 DOMAIN-SUFFIX,wss.haoyundmn.com
 DOMAIN-SUFFIX,new.xiongzhangad.com
@@ -341,7 +342,6 @@ DOMAIN,livewebbs2pcdn.msstatic.com
 DOMAIN,huyafile.msstatic.com
 DOMAIN,livewebbs2.msstatic.com
 DOMAIN,business.msstatic.com
-DOMAIN-KEYWORD,assets.51downapp.cn
 DOMAIN-SUFFIX,anythinktech.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,mob.com
@@ -363,14 +363,9 @@ DOMAIN-KEYWORD,dm.toutiao.com
 DOMAIN-KEYWORD,dm.pstatp.com
 DOMAIN-KEYWORD,dm.bytedance.com
 DOMAIN-KEYWORD,uop.umeng.com
-DOMAIN-KEYWORD,policy.jd.com
-DOMAIN-KEYWORD,kepler.jd.com
-DOMAIN-KEYWORD,bdsp.x.jd.com
-DOMAIN-KEYWORD,keplerapi.jd.com
 DOMAIN-KEYWORD,m.suning.com
 DOMAIN-KEYWORD,adshare.toutiao.com
 DOMAIN-KEYWORD,tunion-api.m.taobao.com
-DOMAIN-KEYWORD,mapi.m.jd.com
 DOMAIN-KEYWORD,s1.pstatp.com
 DOMAIN-KEYWORD,s2.pstatp.com
 DOMAIN-KEYWORD,s3.pstatp.com
@@ -382,8 +377,16 @@ DOMAIN-SUFFIX,api-access.pangolin-sdk-toutiao-b.com
 DOMAIN,ad.toutiao.com
 DOMAIN,dsp.toutiao.com
 DOMAIN-KEYWORD,pangolin.snssdk.com
-DOMAIN-SUFFIX,jdqd.jd.com
-DOMAIN-SUFFIX,shouji.sougou.com
+DOMAIN-SUFFIX,jzt.jd.com
+DOMAIN-SUFFIX,img-x.jd.com
+DOMAIN-SUFFIX,du.jd.com
+DOMAIN-SUFFIX,c-nfa.jd.com
+DOMAIN-SUFFIX,cm.jd.com
+DOMAIN-KEYWORD,policy.jd.com
+DOMAIN-KEYWORD,kepler.jd.com
+DOMAIN-KEYWORD,bdsp.x.jd.com
+DOMAIN-KEYWORD,keplerapi.jd.com
+DOMAIN-KEYWORD,mapi.m.jd.com
 DOMAIN,apm.gotokeep.com
 DOMAIN,kad.gotokeep.com
 DOMAIN,ad.hpplay.cn
@@ -469,16 +472,16 @@ DOMAIN-SUFFIX,wa.kuwo.cn
 DOMAIN-SUFFIX,webstat.kuwo.cn
 DOMAIN-SUFFIX,mobilead.kuwo.cn
 DOMAIN-SUFFIX,rich.kuwo.cn
-DOMAIN-SUFFIX,webp2p.letv.com
-DOMAIN,ark.letv.com
-DOMAIN,emma-414870e223.huodonghezi.com
-DOMAIN,g3.letv.com
-DOMAIN,n.mark.letv.com
 DOMAIN,a.wkanx.com
 DOMAIN,cwx.lianwangtech.com
 DOMAIN,c1wx.lianwangtech.com
 DOMAIN-KEYWORD,medicine.lanjiyin.com.cn
 DOMAIN-SUFFIX,admobile.top
+DOMAIN-SUFFIX,webp2p.letv.com
+DOMAIN,ark.letv.com
+DOMAIN,emma-414870e223.huodonghezi.com
+DOMAIN,g3.letv.com
+DOMAIN,n.mark.letv.com
 DOMAIN-SUFFIX,zryydi.com
 DOMAIN,flowplus.meituan.net
 DOMAIN-SUFFIX,analytics.meituan.net
@@ -592,6 +595,12 @@ DOMAIN-SUFFIX,android.rqd.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,v.gdt.qq.com
+DOMAIN,soul-ad.soulapp.cn
+DOMAIN,ad-r.soulapp.cn
+DOMAIN,ssp.soulapp.cn
+DOMAIN,insight.soulapp.cn
+DOMAIN,increase-openapi.soulapp.cn
+DOMAIN,media-service.soulapp.cn
 DOMAIN,ads.snapchat.com
 DOMAIN,adsapi.snapchat.com
 DOMAIN-SUFFIX,ad.sohu.com
@@ -616,6 +625,8 @@ DOMAIN-SUFFIX,bazinga.mse.sogou.com
 DOMAIN-SUFFIX,bite.theta.sogoucdn.com
 DOMAIN-SUFFIX,brand.sogou.com
 DOMAIN-SUFFIX,bsiet.husky.sogou.com
+DOMAIN-SUFFIX,jdqd.jd.com
+DOMAIN-SUFFIX,shouji.sougou.com
 DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,applvn.com
@@ -3397,7 +3408,6 @@ DOMAIN-SUFFIX,cloudcdn.yousee.com
 DOMAIN-SUFFIX,cm.adgrx.com
 DOMAIN-SUFFIX,cm.ctnsnet.com
 DOMAIN-SUFFIX,cm.eyereturn.com
-DOMAIN-SUFFIX,cm.jd.com
 DOMAIN-SUFFIX,cm.mct01.com
 DOMAIN-SUFFIX,cm.netseer.com
 DOMAIN-SUFFIX,cm.p4p.cn.yahoo.com
@@ -3423,7 +3433,6 @@ DOMAIN-SUFFIX,cncy8.com
 DOMAIN-SUFFIX,cndjs-1251973891.coshk.myqcloud.com
 DOMAIN-SUFFIX,cnetdirectintl.com
 DOMAIN-SUFFIX,cnetwidget.creativemark.co.uk
-DOMAIN-SUFFIX,c-nfa.jd.com
 DOMAIN-SUFFIX,cnfanglei.com
 DOMAIN-SUFFIX,cnhbxx.com
 DOMAIN-SUFFIX,cnkok.com
@@ -4004,7 +4013,6 @@ DOMAIN-SUFFIX,dt.adsafeprotected.com
 DOMAIN-SUFFIX,d-track.send.microad-cn.com
 DOMAIN-SUFFIX,dtrk.slimcdn.com
 DOMAIN-SUFFIX,dts.akamai.startappexchange.com
-DOMAIN-SUFFIX,du.jd.com
 DOMAIN-SUFFIX,duanat.com
 DOMAIN-SUFFIX,duapp.com
 DOMAIN-SUFFIX,dugbvb.com
@@ -5109,7 +5117,6 @@ DOMAIN-SUFFIX,imgg.marketgid.com
 DOMAIN-SUFFIX,imgg.mgid.com
 DOMAIN-SUFFIX,imgp.cymzc.com
 DOMAIN-SUFFIX,imgsreview.dftoutiao.com
-DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,immob.cn
 DOMAIN-SUFFIX,imneinei.com
 DOMAIN-SUFFIX,i-mobile.co.jp
@@ -5510,7 +5517,6 @@ DOMAIN-SUFFIX,jystea.com
 DOMAIN-SUFFIX,jyz.fjtzjy.com
 DOMAIN-SUFFIX,jzkapp.com
 DOMAIN-SUFFIX,jzm81.com
-DOMAIN-SUFFIX,jzt.jd.com
 DOMAIN-SUFFIX,k.85wa.cn
 DOMAIN-SUFFIX,k.ctsywy.com
 DOMAIN-SUFFIX,k1w5.me
