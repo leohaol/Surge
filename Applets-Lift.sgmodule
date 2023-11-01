@@ -1,14 +1,8 @@
 #!name=App&小程序净化合集
 #!desc=去除一些冗余的模块
-#!update-time=2023.10.3
+#!update-time=2023.11.2
 
 [URL Rewrite]
-
-# > 乘车码 @jinlvei
-^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-
-# 海尔服务小程序
-^https:\/\/service\.haiersmarthomes\.com\/management\/banner\/getBannerList\?source=4 - reject
 
 #中油好客e站小程序 
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
@@ -17,19 +11,8 @@
 #易捷加油小程序
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
 
-#交通银行信用卡小程序
-^https:\/\/creditcardapp\.bankcomm\.com\/cnsvPmpaMdbcardWeb\/page\/getGuidePageAds - reject
 
 [Script]
-
-# > 茶颜悦色 微信小程序净化
-cyys_61 = type=http-response, pattern=^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/cyys.js, timeout=60, script-update-interval=0
-
-# > 滴滴出行 微信小程序个人中心净化 由TEXAS和豆豆提供
-didi_70 = type=http-response, pattern=^https:\/\/common\.diditaxi\.com\.cn\/common\/v5, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/didi.js, timeout=60, script-update-interval=0
-
-# > EMS 微信小程序净化 由TEXAS和豆豆提供
-ems_83 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/ems.js, timeout=60, script-update-interval=0
 
 # > 喜茶 微信小程序净化
 heytea_286 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/service-portal\/vip, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/scripts/heytea.js, timeout=60, script-update-interval=0
@@ -38,15 +21,6 @@ heytea_286 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/servic
 
 # > 必胜客 微信小程序净化
 ^https:\/\/res\.pizzahut\.com\.cn\/CRM data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 达达快送 微信小程序净化
-^https:\/\/supplier-api\.imdada\.cn\/fe\/public\/ad\/spot\?forwardServiceName=growth-activity data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 滴滴打车 小程序净化 感谢#豆豆分享
-^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v1\/core data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 德邦快递 微信小程序净化（删除Top轮播）
-^https:\/\/www\.deppon\.com\/gwapi\/memberService\/eco\/member\/grade\/commonInterface data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 # > 丰巢 微信小程序净化
 ^https:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/api\/v2\/clientPage data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -57,18 +31,6 @@ heytea_286 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/servic
 ^https:\/\/apis\.alenable\.com\/mall\/v1\/api\/mall\/skin\/user\/get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 ^https:\/\/apis\.alenable\.com\/ycx\/v1\/api\/adPut data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 货拉拉 微信小程序净化
-^https:\/\/qapi\.huolala\.cn\/ads data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/appuser-static\.huolala\.cn\/imgs data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/qapi\.huolala\.cn\/home_new_user data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/qapi\.huolala\.cn\/get_service_list data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 极兔快递 微信小程序净化
-^https:\/\/applets\.jtexpress\.com\.cn data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 # > 肯德基 微信小程序净化
 ^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -106,26 +68,6 @@ heytea_286 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/servic
 # 演出页面全部拦截
 ^https:\/\/wx\.maoyan\.com\/maoyansh\/myshow\/ajax\/ad\/detail data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# > 申通快递 微信小程序净化
-^https:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/sto-customer-app\.oss-cn-shanghai\.aliyuncs\.com\/images data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ABOTTOM data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ACENTER data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AMINE%3ABOTTOM data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/api\.sodalife\.xyz\/v1\/goods data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AREWARDS%3ACENTER data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-# > 神州租车 微信小程序净化
-^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/marketing data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/apiproxy\.zuche\.com\/resource\/carrctapi\/home\/page\/advertising data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
 # > 星巴克 微信小程序净化
 ^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
@@ -138,15 +80,6 @@ heytea_286 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/servic
 
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
-# > 中通快递 微信小程序净化
-^https:\/\/hdgateway\.zto\.com\/getApolloConfig data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/hdgateway\.zto\.com\/track data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/hdgateway\.zto\.com\/getAdInfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
-^https:\/\/hdgateway\.zto\.com\/listJumperShow data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
 [MITM]
 
-hostname = %APPEND% ccmsupport-sz.tenpay.com, service.haiersmarthomes.com, minipro.95504.net, ocrifs.ejoy.sinopec.com,creditcardapp.bankcomm.com, miniapp.sexytea2013.com, ommon.diditaxi.com.cn, ump.ems.com.cn, go.heytea.com, res.pizzahut.com.cn, upplier-api.imdada.cn, conf.diditaxi.com.cn, www.deppon.com, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, qapi.huolala.cn, appuser-static.huolala.cn, qapi.huolala.cn, applets.jtexpress.com.cn, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, customer-app.sto.cn, sto-customer-app.oss-cn-shanghai.aliyuncs.com, api.sodalife.xyz, apiproxy.zuche.com, 3pp.starbucks.com.cn, m.ctrip.com, hdgateway.zto.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, go.heytea.com, res.pizzahut.com.cn, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.mcd.cn, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, 3pp.starbucks.com.cn, m.ctrip.com
