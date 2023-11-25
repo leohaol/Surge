@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,surge.mitsea.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,surge-activation.com
+DOMAIN-SUFFIX,dl.nssurge.com
+DOMAIN,www.nssurge.com
 
 # Apple
 DOMAIN,testflight.apple.com
