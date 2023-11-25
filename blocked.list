@@ -1,9 +1,9 @@
+# Update 2023.11.25
 DOMAIN-SUFFIX,tw
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -48,3 +48,17 @@ DOMAIN,news-client-search.apple.com
 DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
+# > Spotify
+USER-AGENT,Spotify*
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-KEYWORD,-spotify-com
+# > YouTube
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN,youtubei.googleapis.com
