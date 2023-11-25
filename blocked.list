@@ -1,4 +1,4 @@
-# Update 2023.11.25 A1
+# Update 2023.11.25 A2
 DOMAIN-SUFFIX,tw
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gstatic.com
@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,surge.mitsea.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,dl.nssurge.com
-DOMAIN,www.nssurge.com
+# DOMAIN,www.nssurge.com
 
 # Apple
 DOMAIN,testflight.apple.com
