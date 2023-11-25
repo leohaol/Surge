@@ -1,5 +1,6 @@
+# DIRECT
+# Update 2023.11.25 
 #苹果修正
-
 # > 苹果推送服务
 DOMAIN-KEYWORD,push.apple.com
 # > 苹果时间同步
@@ -30,7 +31,7 @@ DOMAIN-KEYWORD,ess.apple.com
 # > 苹果app store
 DOMAIN,itunes.apple.com
 
-
+# 刘亚晨
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
@@ -39,7 +40,7 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,itunes.apple.com
+# DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
 DOMAIN-SUFFIX,me.com
 PROCESS-NAME,storedownloadd // Mac App Store
