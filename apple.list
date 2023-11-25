@@ -1,0 +1,47 @@
+#苹果修正
+
+# > 苹果推送服务
+DOMAIN-KEYWORD,push.apple.com
+# > 苹果时间同步
+DOMAIN,time.apple.com
+# > 苹果天气服务
+DOMAIN-KEYWORD,weather-edge.apple.com
+DOMAIN-KEYWORD,weather-adge.apple.com
+DOMAIN-SUFFIX,weather-data.apple.com
+DOMAIN-SUFFIX,weather-map.apple.com
+DOMAIN-SUFFIX,weather-analytics-events.apple.com
+# > 苹果内购服务
+DOMAIN-KEYWORD,buy.itunes.apple.com
+# > 苹果icloud
+DOMAIN-KEYWORD,icloud.com
+# > 苹果输入法相关服务
+DOMAIN-KEYWORD,api.smoot.apple.com
+DOMAIN-KEYWORD,api.smoot.apple.cn
+# > 苹果iMessage服务
+DOMAIN,init.ess.apple.com
+# > 苹果其他服务
+DOMAIN-KEYWORD,ssl.apple.com
+DOMAIN-KEYWORD,humb.apple.com
+DOMAIN,smp-device-content.apple.com
+DOMAIN-KEYWORD,api-adservices.apple.com
+DOMAIN-KEYWORD,ls.apple.com
+DOMAIN-KEYWORD,gsa.apple.com
+DOMAIN-KEYWORD,ess.apple.com
+# > 苹果app store
+DOMAIN,itunes.apple.com
+
+
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
+DOMAIN-SUFFIX,me.com
+PROCESS-NAME,storedownloadd // Mac App Store
+USER-AGENT,com.apple.appstored* // iOS App Store
+
