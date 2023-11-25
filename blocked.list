@@ -1,4 +1,4 @@
-# Update 2023.11.25
+# Update 2023.11.25 A1
 DOMAIN-SUFFIX,tw
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gstatic.com
@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,beta.music.apple.com
 DOMAIN,books.itunes.apple.com
+DOMAIN,sandbox.itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,radio.itunes.apple.com
 # Web Preview
