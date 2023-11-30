@@ -14,6 +14,8 @@ http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scr
 
 http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt/_end_/chongxie.sgmodule?type=qx-rewrite&target=surge-module
 
+http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet/_end_/cleanup.sgmodule?type=qx-rewrite&target=surge-module
+
 常用模块
 
 高德净化 
