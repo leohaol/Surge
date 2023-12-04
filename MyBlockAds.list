@@ -1,11 +1,7 @@
-
-#规则数量:149
+#规则数量:148
 #不支持的规则数量:0
-#已排除的规则数量:2
-#已排除规则:
-#HOST, mall.bilibili.com, REJECT
-#HOST, passport.bilibili.com, REJECT
-#更新时间2023.11.30
+#已排除的规则数量:0
+#更新时间2023.12.4
 #-----------------以下为解析后的规则-----------------#
 
 DOMAIN,ossgw.alicdn.com
@@ -35,7 +31,6 @@ DOMAIN,mobads.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN,afd.baidu.com
 DOMAIN,afdconf.baidu.com
-DOMAIN,httpdns.baidubce.com,extended-matching
 DOMAIN,lc.map.baidu.com
 IP-CIDR,180.76.76.200/32,no-resolve
 DOMAIN,ad.cyapi.cn
@@ -67,6 +62,8 @@ DOMAIN-KEYWORD,pangolin.snssdk.com
 DOMAIN-KEYWORD,pglstatp-toutiao
 DOMAIN-KEYWORD,video-cn.snssdk.com
 DOMAIN-SUFFIX,ehaier.com
+DOMAIN-KEYWORD,httpdns.,extended-matching
+DOMAIN-KEYWORD,httpdns-,extended-matching
 DOMAIN-KEYWORD,adv.ccb.com
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
@@ -103,6 +100,7 @@ DOMAIN,mediation.adnxs.com
 DOMAIN,sin3-ib.adnxs.com
 DOMAIN,api.zuihuimai.com
 DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,ad.gt
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,info4.video.qq.com
 DOMAIN,info6.video.qq.com
@@ -116,8 +114,6 @@ DOMAIN-SUFFIX,l.qq.com
 DOMAIN-KEYWORD,trace.qq.com
 DOMAIN-KEYWORD,trace.video.qq.com
 IP-CIDR,47.110.187.87/32,no-resolve
-DOMAIN,httpdns.music.163.com,extended-matching
-DOMAIN,httpdns.n.netease.com,extended-matching
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
 DOMAIN,iadmusicmat.music.126.net
@@ -131,7 +127,6 @@ DOMAIN,amdc.m.youku.com
 DOMAIN,api.sm.cn
 DOMAIN,apiv4-iyes.youku.com
 DOMAIN,baichuan-sdk.alicdn.com
-DOMAIN,httpdns.alicdn.com,extended-matching
 DOMAIN,huichuan-mc.sm.cn
 DOMAIN,huichuan.sm.cn
 DOMAIN,iyes.youku.com
