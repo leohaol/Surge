@@ -275,139 +275,139 @@ hostname = %APPEND% member.alipan.com,vod-movie.maoyan.com,wx.maoyan.com,api.mao
 [Script]
 
 # hostname = tan.ipnas.ltd
-applet_40 = type=http-response, pattern=^https:\/\/tan\.ipnas\.ltd\/wp-json\/wp\/v2, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/tan\.ipnas\.ltd\/wp-json\/wp\/v2, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # 弹框显示内容
-applet_44 = type=http-response, pattern=^https:\/\/iosoi\.cn\/wp-json\/wp\/v2\/posts/\d+, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/iosoi\.cn\/wp-json\/wp\/v2\/posts/\d+, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # 辅助去除页面嵌入式式卡片广告
-applet_46 = type=http-response, pattern=^https:\/\/iosoi\.cn\/wp-content\/plugins, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/iosoi\.cn\/wp-content\/plugins, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = wx.wxqqurl.cn
-applet_49 = type=http-response, pattern=^https:\/\/wx\.wxqqurl\.cn\/wp-json\/watch-life-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/wx\.wxqqurl\.cn\/wp-json\/watch-life-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = 4thdimension.top
-applet_60 = type=http-response, pattern=^https:\/\/4thdimension\.top\/wp\-json\/watch\-life\-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/4thdimension\.top\/wp\-json\/watch\-life\-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = miniapp.sexytea2013.com
-cyys_75 = type=http-response, pattern=^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cyys.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+cyys = type=http-response, pattern=^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cyys.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = coco-com.e.verystar.net
-coco_81 = type=http-response, pattern=^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coco.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+coco = type=http-response, pattern=^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coco.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = common.diditaxi.com.cn, conf.diditaxi.com.cn
-didi_88 = type=http-response, pattern=^https:\/\/common\.diditaxi\.com\.cn\/common\/v5, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+didi = type=http-response, pattern=^https:\/\/common\.diditaxi\.com\.cn\/common\/v5, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi.js, requires-body=true, max-size=-1, timeout=60
 
 # hostname = tvapp.guilaile.cn
-applet_99 = type=http-response, pattern=^https:\/\/tvapp\.guilaile\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/tvapp\.guilaile\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > EMS 微信小程序净化 由TEXAS和豆豆提供
-ems_105 = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ems.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+ems = type=http-response, pattern=^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ems.js, requires-body=true, max-size=-1, timeout=60
 
 # > free黑科技
-applet_111 = type=http-response, pattern=^https:\/\/www\.freeheikeji\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/www\.freeheikeji\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 公子黑科技
-applet_124 = type=http-response, pattern=^https:\/\/gz\.gongzijx\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/gz\.gongzijx\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 搞机师兄
-applet_126 = type=http-response, pattern=^https:\/\/gjsx\.vip\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/gjsx\.vip\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 古茗 微信小程序净化
-ming_128 = type=http-response, pattern=^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ming.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+ming = type=http-response, pattern=^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ming.js, requires-body=true, max-size=-1, timeout=60
 
-applet_144 = type=http-response, pattern=^https:\/\/hkj178\.com\/wp\-json\/mp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/hkj178\.com\/wp\-json\/mp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 黑科技软件源
-applet_146 = type=http-response, pattern=^https:\/\/qj\.bpojie\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/qj\.bpojie\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 火箭软件库
-applet_148 = type=http-response, pattern=^https:\/\/jt\.jxjt888\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/jt\.jxjt888\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 科技窝
-applet_166 = type=http-response, pattern=^https:\/\/www\.benbenfx\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/www\.benbenfx\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
-applet_167 = type=http-response, pattern=^https:\/\/www\.bbkj\.work\/wp-json\/watch-life-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/www\.bbkj\.work\/wp-json\/watch-life-net\/v1\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
-lawson_174 = type=http-response, pattern=^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lawson.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+lawson = type=http-response, pattern=^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lawson.js, requires-body=true, max-size=-1, timeout=60
 
 # > 老胡群英会
-applet_178 = type=http-response, pattern=^https:\/\/g\.syshhc\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/g\.syshhc\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 老鬼黑科技
-applet_180 = type=http-response, pattern=^https:\/\/www\.laoguikeji\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/www\.laoguikeji\.cn\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 漫画台 Lite
-manhuatailite_191 = type=http-response, pattern=^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/manhuatailite.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+manhuatailite = type=http-response, pattern=^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/manhuatailite.js, requires-body=true, max-size=-1, timeout=60
 
 # > 挪瓦咖啡 微信小程序净化
-kff_218 = type=http-response, pattern=^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/kff.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+kff = type=http-response, pattern=^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/kff.js, requires-body=true, max-size=-1, timeout=60
 
 # > 屈臣氏 微信小程序开屏(或许APP也可以干掉)
-watsons_225 = type=http-response, pattern=^https:\/\/mystore-gw\.watsonsvip\.com\.cn\/gfu\/popup\/advert\/launch, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/watsons.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+watsons = type=http-response, pattern=^https:\/\/mystore-gw\.watsonsvip\.com\.cn\/gfu\/popup\/advert\/launch, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/watsons.js, requires-body=true, max-size=-1, timeout=60
 
-qingju_230 = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qingju.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+qingju = type=http-response, pattern=^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/qingju.js, requires-body=true, max-size=-1, timeout=60
 
 # > 全家微会员 微信小程序净化
-FamilyMart_232 = type=http-response, pattern=^https:\/\/minifm\.maxxipoint\.com\/banner\/list, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/FamilyMart.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+FamilyMart = type=http-response, pattern=^https:\/\/minifm\.maxxipoint\.com\/banner\/list, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/FamilyMart.js, requires-body=true, max-size=-1, timeout=60
 
 # > 苏打校园APP 净化(需要卸载重装）@TEXAS提供
-soda_239 = type=http-response, pattern=^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ATOP, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soda.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+soda = type=http-response, pattern=^https:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ATOP, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soda.js, requires-body=true, max-size=-1, timeout=60
 
 # > 森茂小苑
-applet_261 = type=http-response, pattern=^https:\/\/[a-z]+\.smkj33\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/[a-z]+\.smkj33\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
-applet_262 = type=http-response, pattern=^https:\/\/d\.smkj33\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/d\.smkj33\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 世颜说
-applet_264 = type=http-response, pattern=^https:\/\/d\.syshhc\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/d\.syshhc\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 酸鸡汤、老爷花苑、御花园
-applet_266 = type=http-response, pattern=^https:\/\/[a-z]+\.ddly666\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/[a-z]+\.ddly666\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 搜罗好货
-applet_268 = type=http-response, pattern=^https:\/\/www\.i3zh\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/www\.i3zh\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 天书乱谈
-applet_273 = type=http-response, pattern=^https:\/\/[a-z]+\.tslt\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/[a-z]+\.tslt\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
-applet_274 = type=http-response, pattern=^https:\/\/b\.tslt\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/b\.tslt\.xyz\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 天泽百宝箱
-applet_276 = type=http-response, pattern=^https:\/\/(c|a)\.jxjt888\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/(c|a)\.jxjt888\.top\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 图层黑科技
-applet_278 = type=http-response, pattern=^https:\/\/m\.xgjyouhui\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/m\.xgjyouhui\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > T3出行 微信小程序净化
-T3_280 = type=http-response, pattern=^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/T3.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+T3 = type=http-response, pattern=^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/T3.js, requires-body=true, max-size=-1, timeout=60
 
-xiaotucc_296 = type=http-response, pattern=^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaotucc.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+xiaotucc = type=http-response, pattern=^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaotucc.js, requires-body=true, max-size=-1, timeout=60
 
 # > 小纸箱助手
-applet_298 = type=http-response, pattern=^https:\/\/xcx\.xianbaow\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/xcx\.xianbaow\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 小野分享
-applet_300 = type=http-response, pattern=^https:\/\/lysl2020\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https:\/\/lysl2020\.com\/wp\-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
 # > 小打卡
-xiaodaka_302 = type=http-response, pattern=^https?:\/\/uranus\.sharedaka\.com\/api\/v3\/user\/info\/get, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaodaka.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+xiaodaka = type=http-response, pattern=^https?:\/\/uranus\.sharedaka\.com\/api\/v3\/user\/info\/get, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaodaka.js, requires-body=true, max-size=-1, timeout=60
 
 # > 喜茶 微信小程序净化
-heytea_308 = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/service-portal\/vip, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/heytea.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+heytea = type=http-response, pattern=^https:\/\/go\.heytea\.com\/api\/service-portal\/vip, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/heytea.js, requires-body=true, max-size=-1, timeout=60
 
 # > 搜罗好货
-applet_310 = type=http-response, pattern=^https?:\/\/wp3\.lobdol\.cn\/wp-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+applet = type=http-response, pattern=^https?:\/\/wp3\.lobdol\.cn\/wp-json\/wp\/v2\/posts, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js, requires-body=true, max-size=-1, timeout=60
 
-T3_316 = type=http-response, pattern=^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13012\/getWaterflowInfo, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/T3.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+T3 = type=http-response, pattern=^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13012\/getWaterflowInfo, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/T3.js, requires-body=true, max-size=-1, timeout=60
 
-yx_324 = type=http-response, pattern=^https:\/\/api\.ulife\.group\/market\/homeIconDetail\/list\/v7, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/yx.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+yx = type=http-response, pattern=^https:\/\/api\.ulife\.group\/market\/homeIconDetail\/list\/v7, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/yx.js, requires-body=true, max-size=-1, timeout=60
 
 # > 一点点 微信小程序净化
-alittle-tea_326 = type=http-response, pattern=^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/alittle-tea.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+alittle-tea = type=http-response, pattern=^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/alittle-tea.js, requires-body=true, max-size=-1, timeout=60
 
 # > 掌上公交
-zhangshanggongjiao_335 = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+zhangshanggongjiao = type=http-response, pattern=^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js, requires-body=true, max-size=-1, timeout=60
 
 # > 扎比科技资源箱 弹框显示内容
-jabi_337 = type=http-response, pattern=^https:\/\/jabi\.coding\.net\/p\/xcx\/d\/xcx\/git\/raw\/master\/jabikj\.json, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jabi.js, requires-body=true, max-size=-1, script-updata-interval=0, timeout=60
+jabi = type=http-response, pattern=^https:\/\/jabi\.coding\.net\/p\/xcx\/d\/xcx\/git\/raw\/master\/jabikj\.json, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jabi.js, requires-body=true, max-size=-1, timeout=60

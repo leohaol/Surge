@@ -1,7 +1,8 @@
-#规则数量:148
+
+#规则数量:149
 #不支持的规则数量:0
 #已排除的规则数量:0
-#更新时间2023.12.4
+#更新时间2023.12.7
 #-----------------以下为解析后的规则-----------------#
 
 DOMAIN,ossgw.alicdn.com
@@ -127,6 +128,7 @@ DOMAIN,amdc.m.youku.com
 DOMAIN,api.sm.cn
 DOMAIN,apiv4-iyes.youku.com
 DOMAIN,baichuan-sdk.alicdn.com
+DOMAIN,cad.youku.com
 DOMAIN,huichuan-mc.sm.cn
 DOMAIN,huichuan.sm.cn
 DOMAIN,iyes.youku.com

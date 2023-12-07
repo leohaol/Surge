@@ -1,7 +1,7 @@
-#规则数量:9600
+#规则数量:9599
 #不支持的规则数量:0
 #已排除的规则数量:0
-#更新时间：2023.11.30
+#更新时间：2023.12.7
 #-----------------以下为解析后的规则-----------------#
 
 DOMAIN-SUFFIX,miaozhen.com
@@ -1234,7 +1234,6 @@ DOMAIN,ad.zijieapi.com
 DOMAIN-SUFFIX,-normal-lq.zijieapi.com
 DOMAIN-KEYWORD,ad-sign.byteimg.com
 DOMAIN-KEYWORD,huichuan-mc.sm.cn
-DOMAIN-KEYWORD,knockout
 DOMAIN-KEYWORD,extlog.snssdk.com
 DOMAIN-KEYWORD,mobads.baidu.com
 DOMAIN-KEYWORD,s3a.pstatp.com
