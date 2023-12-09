@@ -1,8 +1,7 @@
-
-#规则数量:149
+#规则数量:151
 #不支持的规则数量:0
 #已排除的规则数量:0
-#更新时间2023.12.7
+#2023.12.10
 #-----------------以下为解析后的规则-----------------#
 
 DOMAIN,ossgw.alicdn.com
@@ -63,6 +62,7 @@ DOMAIN-KEYWORD,pangolin.snssdk.com
 DOMAIN-KEYWORD,pglstatp-toutiao
 DOMAIN-KEYWORD,video-cn.snssdk.com
 DOMAIN-SUFFIX,ehaier.com
+DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.,extended-matching
 DOMAIN-KEYWORD,httpdns-,extended-matching
 DOMAIN-KEYWORD,adv.ccb.com
@@ -93,6 +93,7 @@ DOMAIN,al-log.d.meituan.net
 DOMAIN,babel-statistics-android.d.meituan.net
 DOMAIN,maplocatesdksnapshot.d.meituan.net
 DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,open.kuaishouzt.com
 DOMAIN,route-stats.d.meituan.net
 DOMAIN,aaid.uyunad.com
 DOMAIN,adui.tg.meitu.com
@@ -109,11 +110,11 @@ DOMAIN,ios.video.mpush.qq.com
 DOMAIN,otheve.beacon.qq.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,tpns.qq.com
-DOMAIN,vv6.video.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-KEYWORD,trace.qq.com
 DOMAIN-KEYWORD,trace.video.qq.com
+DOMAIN-KEYWORD,vv6.video.qq.com
 IP-CIDR,47.110.187.87/32,no-resolve
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
