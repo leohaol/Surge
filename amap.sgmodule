@@ -1,6 +1,6 @@
 #!name=高德地图
-#!desc=缺德地图有治了
-#更新时间：2023.12.7
+#!desc=缺德地图有治了  2023.12.12
+
 [MITM]
 
 hostname = %APPEND% m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com
