@@ -1,6 +1,6 @@
 #!name=哔哩哔哩
-#!desc=没有广告的哔哩哔哩更值得干杯
-#更新时间：2023.12.7
+#!desc=没有广告的哔哩哔哩更值得干杯 2023.12.12
+
 [MITM]
 
 hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,grpc.biliapi.net
@@ -10,6 +10,7 @@ hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,grpc
 # 首页 DefaultWord,推荐,热搜发现,右上角活动,标签页,观影页,直播,直播间商品广告浮窗
 ^https:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ - reject
 # 开屏广告 //app.bilibili.com
+^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH - reject
 ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject
 # IP请求,地理位置请求 //api.bilibili.com
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
@@ -17,6 +18,8 @@ hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,grpc
 [Map Local]
 
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
+^https:\/\/api\.bilibili\.com\/x\/mengqi\/v1\/resource\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 ^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
 
