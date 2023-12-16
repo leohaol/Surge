@@ -1,6 +1,6 @@
 #!name=MyBlockAds
 #!desc=去广告合集，以下app请使用单独配置文件：高德地图,哔哩哔哩,网易云音乐,微博,YouTube,知乎
-#!author=RuCu6   2023.12.15
+#!author=RuCu6
 
 [MITM]
 
@@ -52,73 +52,73 @@ hostname = %APPEND% ad.12306.cn, *.58cdn.com.cn, app.58.com, pic?.ajkimg.com, gw
 [Map Local]
 
 # 阿里云盘 //api.alipan.com, member.alipan.com
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 阿里巴巴 //acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 百度云 //pan.baidu.com, update.pan.baidu.com
-^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|act\/v2\/welfare\/list|rest\/2\.0\/pcs\/adx)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|act\/v2\/welfare\/list|rest\/2\.0\/pcs\/adx)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/update\.pan\.baidu\.com\/statistics\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/update\.pan\.baidu\.com\/statistics\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 美团 & 美团外卖//flowplus.meituan.net, img.meituan.net, s3plus.meituan.net
-^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$ data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 微信 //mp.weixin.qq.com
-^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|masonryfeed|relatedarticle)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 ## 搜索框,热词,卡片
-^https:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/api\.m\.mi\.com\/v1\/misearch\/search_input$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.m\.mi\.com\/v1\/misearch\/search_input$ data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/api\.m\.mi\.com\/v2\/search\/search_default$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.m\.mi\.com\/v2\/search\/search_default$ data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 ## 商品推荐信息流
-^https:\/\/api\.m\.mi\.com\/v1\/home\/page_feed(_v5)?$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.m\.mi\.com\/v1\/home\/page_feed(_v5)?$ data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 米家 //home.mi.com
-^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 中国移动 //client.app.coc.10086.cn
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 [Script]
 
