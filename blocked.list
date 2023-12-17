@@ -1,9 +1,9 @@
-# Update 2023.11.25 A2
 DOMAIN-SUFFIX,tw
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -19,6 +19,7 @@ DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 #SURGR
 DOMAIN-SUFFIX,surge.mitsea.com
