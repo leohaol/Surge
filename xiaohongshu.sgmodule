@@ -1,5 +1,5 @@
 #!name=小红书
-#!desc=移除信息流推广，去除水印
+#!desc=移除信息流推广，去除水印 2023.12.17
 #!author=RuCu6 fmz200
 
 [MITM]
@@ -9,14 +9,14 @@ hostname = %APPEND% edith.xiaohongshu.com, www.xiaohongshu.com
 [Map Local]
 
 # 惊喜弹窗
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data=“https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json”
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data=“https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json”
+^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 信息流
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data=“https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json”
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data=“https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json”
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 [Script]
 
@@ -33,13 +33,13 @@ xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/ap
 # 开屏广告
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
-xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
+xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
 # 图片水印,视频水印
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
-# live photo水印
-xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/live_photo\/save, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
+# 图片水印,实况照片水印
+xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
