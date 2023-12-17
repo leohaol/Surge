@@ -1,38 +1,39 @@
 #!name=高德地图
-#!desc=缺德地图有治了  2023.12.12
+#!desc=缺德地图有治了
+#!author=RuCu6 kokoryh  2023.12.17
 
 [MITM]
 
-hostname = %APPEND% m5.amap.com,m5-zb.amap.com,oss.amap.com,sns.amap.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com
 
 [Map Local]
 
 # 此条可以屏蔽首次进入的天气动效图层  但是会导致足迹不显示地图数据
-#^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+#^https:\/\/mps\.amap\.com\/ws\/mps\/scene\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 导航详情页,路线规划,地点详情页,搜索详情页,导航结束页
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 # 打车页,红点角标,弹窗,天气图标,推广卡片
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order\/car\/king_toolbox_car_bubble)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order_web\/friendly_information|tips\/onscene_visual_optimization)\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 [Script]
 
