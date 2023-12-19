@@ -1,5 +1,5 @@
 #!name=小红书
-#!desc=移除信息流推广，去除水印 2023.12.17
+#!desc=移除信息流推广，去除水印 2023.12.19
 #!author=RuCu6 fmz200
 
 [MITM]
@@ -13,15 +13,15 @@ hostname = %APPEND% edith.xiaohongshu.com, www.xiaohongshu.com
 
 ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
-# 信息流
+# 信息流,详情页感兴趣的人
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource\? data=”https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json“
 
 [Script]
 
-# 详情页,小部件
-xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
+# 详情页小部件,关注页感兴趣的人
+xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(note\/widgets|user\/followings\/followfeed), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
 # 搜索页
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
@@ -42,5 +42,7 @@ xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/ap
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
+
+xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
 
 xiaohongshu = type=http-response, pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js, requires-body=true, max-size=-1, timeout=60
