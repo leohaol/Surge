@@ -1,4 +1,4 @@
-#规则数量:151
+#规则数量:153
 #不支持的规则数量:0
 #已排除的规则数量:0
 
@@ -120,6 +120,8 @@ DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmatapk.nosdn.127.net
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
+DOMAIN,ipv4.music.163.com,extended-matching
+DOMAIN,ipv6.music.163.com,extended-matching
 DOMAIN-SUFFIX,163jiasu.com,extended-matching
 DOMAIN-SUFFIX,biz.weibo.com
 DOMAIN,sdkconfig.ad.xiaomi.com
