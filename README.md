@@ -1,8 +1,3 @@
-自用去广告
-
-https://raw.githubusercontent.com/leohaol/Surge/main/All-in-one-to-Ad-Rule.list
-
-https://raw.githubusercontent.com/leohaol/Surge/main/All-in-one-to-Ad.sgmodule
 
 装换格式去广告
 
