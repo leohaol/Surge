@@ -1,5 +1,5 @@
 const params = getParams($argument);
-const platform = params.platform || '微博';
+const platform = params.platform || '微信';
 const count = parseInt(params.count) || 6; 
 let platformValue;
 
