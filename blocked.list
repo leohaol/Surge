@@ -39,7 +39,7 @@ DOMAIN,books.itunes.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,radio.itunes.apple.com
-DOMAIN,amp-api.sandbox.apple.com
+
 # Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
