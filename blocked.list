@@ -4,13 +4,13 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,twimg.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,dropbox
-DOMAIN-SUFFIX,twimg.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,oculuscdn.com
@@ -60,3 +60,7 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,-spotify-com
+# > youtube
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
