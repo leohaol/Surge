@@ -11,8 +11,7 @@ DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 DOMAIN,ads-shopping.shouqianba.com,REJECT
 #猫眼电影
 DOMAIN,ad.maoyan.com,REJECT
-# 七麦
-DOMAIN,logger.qmai.cn,REJECT
+
 
 [URL Rewrite]
 
@@ -22,6 +21,9 @@ DOMAIN,logger.qmai.cn,REJECT
 
 #易捷加油小程序
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
+
+# 收钱吧小程序 @可莉🅥
+^https:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
 
 
 [Script]
@@ -70,4 +72,4 @@ DOMAIN,logger.qmai.cn,REJECT
 
 [MITM]
 
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, m.ctrip.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, m.ctrip.com, api.pinduoduo.com
