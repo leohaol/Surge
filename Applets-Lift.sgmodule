@@ -1,6 +1,18 @@
 #!name=App&小程序净化合集
 #!desc=去除一些冗余的模块
-#!update-time=2023.11.2-1
+#!update-time=2024.1.11
+
+[Rule]
+# 小程序通用规则
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsmsdy.video.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+# 收钱吧广告
+DOMAIN,ads-shopping.shouqianba.com,REJECT
+#猫眼电影
+DOMAIN,ad.maoyan.com,REJECT
+# 七麦
+DOMAIN,logger.qmai.cn,REJECT
 
 [URL Rewrite]
 
