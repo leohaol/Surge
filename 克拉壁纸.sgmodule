@@ -1,8 +1,0 @@
-#!name=克拉壁纸PRO
-#!desc=解锁克拉壁纸
-
-[Script]
-克拉壁纸 = type=http-response,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js,script-update-interval=0,max-size=0
-
-[MITM]
-hostname = %APPEND% buy.itunes.apple.com
