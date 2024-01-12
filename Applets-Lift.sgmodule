@@ -2,17 +2,6 @@
 #!desc=去除一些冗余的模块
 #!update-time=2024.1.11
 
-[Rule]
-# 小程序通用规则
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsmsdy.video.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-# 收钱吧广告
-DOMAIN,ads-shopping.shouqianba.com,REJECT
-#猫眼电影
-DOMAIN,ad.maoyan.com,REJECT
-
-
 [URL Rewrite]
 
 #中油好客e站小程序 
@@ -22,8 +11,6 @@ DOMAIN,ad.maoyan.com,REJECT
 #易捷加油小程序
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
 
-# 收钱吧小程序 @可莉🅥
-^https:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
 
 
 [Script]
@@ -72,4 +59,4 @@ DOMAIN,ad.maoyan.com,REJECT
 
 [MITM]
 
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, m.ctrip.com, api.pinduoduo.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, webchatapp.fcbox.com, dsp.fcbox.com, apis.alenable.com, vod-movie.maoyan.com, wx.maoyan.com, api.maoyan.com, m.ctrip.com
