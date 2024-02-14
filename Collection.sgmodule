@@ -26,5 +26,4 @@ JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/in
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
 
 [MITM]
-
 hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com
