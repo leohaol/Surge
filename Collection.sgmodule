@@ -10,8 +10,6 @@
 #易捷加油小程序  ocrifs.ejoy.sinopec.com
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
 
-
-
 [Script]
 #caiyunVIP   *.cyapi.cn, *.caiyunapp.com
 caiyun = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
@@ -22,7 +20,6 @@ spotify-json = type=http-request,pattern=^https:\/\/spclient\.wg\.spotify\.com\/
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 #简讯   api.tipsoon.com
 JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
-
 
 [Map Local]
 #简讯
