@@ -1,16 +1,24 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.2.20
+#!update-time=2024.2.20 A.M
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
-
 #易捷加油小程序  ocrifs.ejoy.sinopec.com
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
+ # 建设银行
+^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png - reject
+# 京东
+^http:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
+# 闲鱼 //gw.alicdn.com, acs.m.taobao.com
+^https:\/\/gw\.alicdn\.com\/mt\/ - reject
+^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
+^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
 
 [Script]
+# 解锁
 #caiyunVIP   *.cyapi.cn, *.caiyunapp.com
 caiyun = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
 # wangyidushuVIP      p.du.163.com
@@ -21,11 +29,17 @@ spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com
 #简讯   api.tipsoon.com
 JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
 
+# 去广告
+# 京东极速版 //api.m.jd.com
+replaceBody = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, max-size=-1, timeout=30, argument=jdLiteAdvertisingVO-%3Erucu6
+
 [Map Local]
 #简讯
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
 # 米家 //home.mi.com
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# 阿里云盘 //api.alipan.com, member.alipan.com
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com
