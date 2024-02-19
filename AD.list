@@ -1,4 +1,4 @@
-# 2024-02-20
+# 2024.2.20 A.M
 # 高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
@@ -6,6 +6,17 @@ DOMAIN,free-aos-cdn-image.amap.com
 # 建设银行
 DOMAIN-KEYWORD,adv.ccb.com
 # 京东
+DOMAIN-SUFFIX,jzt.jd.com
+DOMAIN-SUFFIX,img-x.jd.com
+DOMAIN-SUFFIX,du.jd.com
+DOMAIN-SUFFIX,c-nfa.jd.com
+DOMAIN-SUFFIX,cm.jd.com
+DOMAIN-KEYWORD,policy.jd.com
+DOMAIN-KEYWORD,kepler.jd.com
+DOMAIN-KEYWORD,bdsp.x.jd.com
+DOMAIN-KEYWORD,keplerapi.jd.com
+DOMAIN-KEYWORD,mapi.m.jd.com
+# 屏蔽DNS
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
@@ -15,3 +26,42 @@ DOMAIN,metrics-picture.d.meituan.net
 IP-CIDR,103.37.155.60/32,no-resolve
 # 阿里云盘
 IP-CIDR,203.107.1.1/24,no-resolve
+# 抖音
+DOMAIN-KEYWORD,bds.snssdk.com
+DOMAIN-KEYWORD,p3.pstatp.com
+# 小米米家
+DOMAIN,sdkconfig.ad.xiaomi.com
+# 淘宝
+DOMAIN-SUFFIX,apoll.m.taobao.com
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com
+DOMAIN-SUFFIX,w.m.taobao.com
+DOMAIN,tunion-api.m.taobao.com
+DOMAIN-SUFFIX,re.m.taobao.com
+DOMAIN-SUFFIX,agoodm.m.taobao.com
+DOMAIN-SUFFIX,ai.taobao.com
+DOMAIN-SUFFIX,api.waptest.taobao.com
+DOMAIN-SUFFIX,dsp.simba.taobao.com
+DOMAIN-SUFFIX,fav.simba.taobao.com
+DOMAIN-SUFFIX,m.simba.taobao.com
+DOMAIN-SUFFIX,mclick.simba.taobao.com
+DOMAIN-SUFFIX,re.taobao.com
+DOMAIN-SUFFIX,redirect.simba.taobao.com
+DOMAIN-SUFFIX,simba.m.taobao.com
+DOMAIN-SUFFIX,srd.simba.taobao.com
+DOMAIN-SUFFIX,temai.taobao.com
+DOMAIN-SUFFIX,textlink.simba.taobao.com
+DOMAIN-SUFFIX,unitacs.m.taobao.com
+DOMAIN-SUFFIX,acs4baichuan.m.taobao.com
+DOMAIN-SUFFIX,adashbc.ut.taobao.com
+DOMAIN-SUFFIX,adash-c.ut.taobao.com
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com
+DOMAIN-SUFFIX,tunion-api.m.taobao.com
+DOMAIN-SUFFIX,tns.simba.taobao.com
+DOMAIN-SUFFIX,click.mz.simba.taobao.com
+DOMAIN-SUFFIX,click.simba.taobao.com
+DOMAIN-SUFFIX,click.tz.simba.taobao.com
+DOMAIN-SUFFIX,stat.simba.taobao.com
+DOMAIN-SUFFIX,m-adash.m.taobao.com
+DOMAIN-SUFFIX,adashbc.m.taobao.com
+
