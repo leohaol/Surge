@@ -1,0 +1,17 @@
+# 2024-02-20
+# 高德地图
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+# 建设银行
+DOMAIN-KEYWORD,adv.ccb.com
+# 京东
+DOMAIN,dns.jd.com
+IP-CIDR,101.124.19.122/32,no-resolve
+IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
+# 美团
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+IP-CIDR,103.37.155.60/32,no-resolve
+# 阿里云盘
+IP-CIDR,203.107.1.1/24,no-resolve
