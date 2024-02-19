@@ -16,6 +16,10 @@
 ^https:\/\/gw\.alicdn\.com\/mt\/ - reject
 ^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
 ^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
+# 日产智联     oneapph5.dongfeng-nissan.com.cn
+# 开屏广告
+^https:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
 
 [Script]
 # 解锁
@@ -44,4 +48,4 @@ jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.actio
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
