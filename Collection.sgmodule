@@ -1,6 +1,6 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.2.20 A.M
+#!update-time=2024.3.5 P.M
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
@@ -23,8 +23,6 @@
 
 [Script]
 # 解锁
-#caiyunVIP   *.cyapi.cn, *.caiyunapp.com
-caiyun = type=http-response, pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user), requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
 # wangyidushuVIP      p.du.163.com
 Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
 # spotify VIP   spclient.wg.spotify.com
@@ -48,4 +46,4 @@ jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.actio
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com，*.cyapi.cn, *.caiyunapp.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
