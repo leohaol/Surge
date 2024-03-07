@@ -1,16 +1,4 @@
 
-装换格式去广告
-
-http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list/_end_/qx_RuCu6_MyBlockAds.list?type=rule-set&target=surge-rule-set&x=mall.bilibili.com%2Bpassport.bilibili.com&del=true&nore=true&sni=httpdns%2B163
-
-http://script.hub/file/_start_/https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/MyBlockAds.conf/_end_/MyBlockAds.sgmodule?type=qx-rewrite&target=surge-module
-
-http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list/_end_/fenliu.list?type=rule-set&target=surge-rule-set
-
-http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt/_end_/chongxie.sgmodule?type=qx-rewrite&target=surge-module
-
-http://script.hub/file/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/cleanup.snippet/_end_/cleanup.sgmodule?type=qx-rewrite&target=surge-module
-
 常用模块
 
 高德净化 
