@@ -33,8 +33,6 @@ jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.actio
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-img.gif"
 # 米家 //home.mi.com
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-# 阿里云盘 //api.alipan.com, member.alipan.com
-^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
