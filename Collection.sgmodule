@@ -1,6 +1,6 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.3.5 P.M
+#!update-time=2024.3.13 P.M
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
@@ -8,14 +8,8 @@
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
 #易捷加油小程序  ocrifs.ejoy.sinopec.com
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
- # 建设银行
-^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/(nf\/newfin\/activity|po\/poortheme\/activity)\/\w+\.png - reject
 # 京东
 ^http:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
-# 闲鱼 //gw.alicdn.com, acs.m.taobao.com
-^https:\/\/gw\.alicdn\.com\/mt\/ - reject
-^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4} - reject
-^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4} - reject
 # 日产智联     oneapph5.dongfeng-nissan.com.cn
 # 开屏广告
 ^https:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -25,9 +19,6 @@
 # 解锁
 # wangyidushuVIP      p.du.163.com
 Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
-# spotify VIP   spclient.wg.spotify.com
-spotify-json = type=http-request,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/,requires-body=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
-spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
 #简讯   api.tipsoon.com
 JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
 
@@ -46,4 +37,4 @@ jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.actio
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, spclient.wg.spotify.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, api.alipan.com, member.alipan.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
