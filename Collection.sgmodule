@@ -1,6 +1,6 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.3.13 P.M
+#!update-time=2024.3.31 P.M
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
@@ -22,11 +22,6 @@ Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/ga
 #简讯   api.tipsoon.com
 JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
 
-# 去广告
-# 京东极速版 //api.m.jd.com
-replaceBody = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-body.js, requires-body=true, max-size=-1, timeout=30, argument=jdLiteAdvertisingVO-%3Erucu6
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js, requires-body=true, max-size=-1, timeout=60
 
 [Map Local]
 #简讯
@@ -35,4 +30,4 @@ jingdong = type=http-response, pattern=^https:\/\/api\.m\.jd\.com\/client\.actio
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, api.m.jd.com, oneapph5.dongfeng-nissan.com.cn
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, oneapph5.dongfeng-nissan.com.cn
