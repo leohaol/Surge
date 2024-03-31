@@ -8,8 +8,6 @@
 ^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
 #易捷加油小程序  ocrifs.ejoy.sinopec.com
 ^https:\/\/ocrifs\.ejoy\.sinopec\.com\/advertitfs\/advert\/findAdvertInfo - reject
-# 京东
-^http:\/\/\w{32}\.jddebug\.com\/diagnose\? - reject
 # 日产智联     oneapph5.dongfeng-nissan.com.cn
 # 开屏广告
 ^https:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
