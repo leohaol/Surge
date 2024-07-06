@@ -1,4 +1,4 @@
-# 2024.3.30 P.M
+# 2024.7.6 AM
 
 #广告联盟
 DOMAIN,ad.zijieapi.com
@@ -62,7 +62,13 @@ DOMAIN-KEYWORD,mapi.m.jd.com
 DOMAIN,dns.jd.com
 IP-CIDR,101.124.19.122/32,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,no-resolve
+
 # 美团
+DOMAIN,al-log.d.meituan.net,REJECT
+DOMAIN,babel-statistics-android.d.meituan.net
+
+DOMAIN,route-stats.d.meituan.net
+
 DOMAIN,maplocatesdksnapshot.d.meituan.net
 DOMAIN,metrics-picture.d.meituan.net
 IP-CIDR,103.37.155.60/32,no-resolve
