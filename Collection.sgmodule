@@ -1,6 +1,6 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.6.23-1 P.M
+#!update-time=2024.7.6 AM
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
@@ -11,14 +11,29 @@
 
 [Script]
 # 解锁
+
 # wangyidushuVIP      p.du.163.com
 Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
+
 #简讯   api.tipsoon.com
 JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
 
+#去广告
+# 穿山甲广告联盟 修改加密广告配置/阻止上传等 汽水音乐/酷安/网易邮箱等  api-access.pangolin-sdk-toutiao*.com
+AD_SDKEY = type=http-response,pattern=^https:\/\/api-access\.pangolin-sdk-toutiao(\d|-\w)??\.com\/api\/ad\/union\/sdk\/settings,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/adsdk_chj.js
+
 [Map Local]
+
 # 米家 //home.mi.com
 ^https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
+# 中国移动开屏 client.app.coc.10086.cn
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) data="https://raw.githubusercontent.com/Keywos/rule/main/mocks//reject-200.txt"
+
+# 微信公众号底部 mp.weixin.qq.com
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad data="https://raw.githubusercontent.com/Keywos/rule/main/mocks//WeChat.json"
+
+
+
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com
+hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, client.app.coc.10086.cn, mp.weixin.qq.com, api-access.pangolin-sdk-toutiao*.com
