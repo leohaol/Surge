@@ -1,4 +1,4 @@
-# 2024.7.6 AM
+# 2024.7.8 PM
 
 #广告联盟
 DOMAIN,ad.zijieapi.com
@@ -26,21 +26,7 @@ DOMAIN-KEYWORD,volc
 DOMAIN,hdns.ksyun.com
 DOMAIN-KEYWORD,httpdns.,extended-matching
 DOMAIN-KEYWORD,httpdns-,extended-matching
-#Apple
-DOMAIN,advertising.apple.com
-DOMAIN,api-adservices.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,banners.itunes.apple.com
-DOMAIN,iad.apple.com
-DOMAIN,iadcontent.apple.com
-DOMAIN,iadctest.qwapi.com
-DOMAIN,iadmoo.apple.com
-DOMAIN,iadworkbench.apple.com
-DOMAIN,launch.apple.com
-DOMAIN,qwapi.apple.com
-DOMAIN-SUFFIX,advp.apple.com
-DOMAIN-SUFFIX,iad-apple.com
-DOMAIN-SUFFIX,iadsdk.apple.com
+
 # 高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
