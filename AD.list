@@ -1,25 +1,140 @@
-# 2024.7.8 PM
+# 2024.7.22 AM
 
 #广告联盟
-DOMAIN,ad.zijieapi.com
-DOMAIN,i.snssdk.com
-DOMAIN,is.snssdk.com
-DOMAIN,open.e.kuaishou.com
-DOMAIN,open.kuaishou.com
-DOMAIN,pagead2.googlesyndication-cn.com
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,www.googleadservices.com
-DOMAIN-SUFFIX,ads.linkedin.com
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,kuaishouzt.com
-DOMAIN-SUFFIX,miaozhen.com
+DOMAIN,mon.zijieapi.com
+DOMAIN,mssdk-bu.bytedance.com
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,lf-cdn-tos.bytescm.com
+DOMAIN,mssdk.volces.com
+DOMAIN,pangolin.snssdk.com
+DOMAIN,ssdk-sg.pangle.io
+DOMAIN,mssdk.volces.com
 DOMAIN-KEYWORD,-ad-sign.byteimg.com
-DOMAIN-KEYWORD,ads.g.doubleclick
-DOMAIN-KEYWORD,asiad.byteactivity
-DOMAIN-KEYWORD,pangolin-sdk-toutiao
-DOMAIN-KEYWORD,pangolin.snssdk.com
-DOMAIN-KEYWORD,pglstatp-toutiao
-DOMAIN-KEYWORD,video-cn.snssdk.com
+DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com
+DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao
+DOMAIN-KEYWORD,-analytics.bytescm.com
+DOMAIN-KEYWORD,-short.bytetos.com
+DOMAIN-KEYWORD,-ad.byteoversea.com
+DOMAIN-KEYWORD,-static.i18n-pglstatp.com
+# 讯飞AI营销
+DOMAIN-KEYWORD,iflyad.bj.openstorage.cn
+DOMAIN-KEYWORD,bjimp.voiceads.cn
+# InMobi - 邑盟信息技术（上海）有限公司
+DOMAIN,config.inmobi.cn
+# 北京锐讯灵通科技有限公司
+DOMAIN,ztoken.uyunad.com
+# 快手联盟 - 广告服务商
+DOMAIN,gdfp.gifshow.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN-SUFFIX,adukwai.com
+# 上海倍孜
+DOMAIN,sdk.beizi.biz
+# 秒针系统 - 广告服务商
+DOMAIN-SUFFIX,miaozhen.com
+# 艾狄墨搏 - 广告服务商
+DOMAIN,monitor.ssp.admobile.top
+DOMAIN,sdk.ssp.admobile.top
+DOMAIN-SUFFIX,admobile.top
+# 袤博 - 广告服务商
+DOMAIN,api-c.dutils.com
+DOMAIN,api-d.dutils.com
+DOMAIN,api-p0.yksdks.com
+DOMAIN,cache-verify.dutils.com
+DOMAIN,cdn-api-verify.dutils.com
+DOMAIN,devs-data.dutils.com
+DOMAIN,log-verify.dutils.com
+DOMAIN,m.mpl.dutils.com
+DOMAIN,api.share.mob.com
+DOMAIN,api.verify.mob.com
+DOMAIN,log-verify.mob.com
+DOMAIN,sdk.push.mob.com
+# 极光 - 广告服务商
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush.io
+# 百度联盟 - 广告服务商
+DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,wn.pos.baidu.com
+DOMAIN,bgg.baidu.com
+DOMAIN,als.baidu.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN,cpro.baidustatic.com
+DOMAIN,feed-image.baidu.com
+DOMAIN-SUFFIX,union.baidu.cn
+DOMAIN-SUFFIX,union.baidu.com
+# DOMAIN, win.gdt.qq.com, REJECT
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,i.gtimg.cn
+DOMAIN,info4.video.qq.com
+DOMAIN,info6.video.qq.com
+DOMAIN,ios.bugly.qq.com
+DOMAIN,ios.video.mpush.qq.com
+DOMAIN,mazu.m.qq.com
+DOMAIN,otheve.beacon.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,sdk.e.qq.com
+DOMAIN,tmead.y.qq.com-NO-DROP
+DOMAIN,tmeadbak.y.qq.com
+DOMAIN,tmeadcomm.y.qq.com
+DOMAIN,tpns.qq.com
+DOMAIN-KEYWORD,trace.qq.com
+DOMAIN-KEYWORD,trace.video.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,ugdtimg.com
+IP-CIDR,47.110.187.87/32,no-resolve
+# App全渠道统计
+DOMAIN-SUFFIX,openinstall.io
+# 个推
+DOMAIN-SUFFIX,mobileservice.cn
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,igexin.com
+# 友盟
+DOMAIN,cnlogs.umeng.com
+DOMAIN,errlog.umeng.com
+DOMAIN,errnewlog.umeng.com
+DOMAIN,ucc.umeng.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,utoken.umeng.com
+DOMAIN,deeplink.umeng.com
+DOMAIN,aspect-upush.umeng.com
+DOMAIN,plbslog.umeng.com
+DOMAIN,log.umtrack.com
+# 天目 - 广告服务商
+DOMAIN,sdk.tianmu.mobi
+# 上海优比客思科技有限公司 - 广告服务商
+DOMAIN,e-u1.ubixioe.com
+DOMAIN,sdk-data.ubixioe.com
+DOMAIN,tower.ubixioe.com
+DOMAIN,tx-cfg-u1.ubixioe.com
+DOMAIN,tx-data-u1.ubixioe.com
+# 阿里巴巴
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN,et.tanx.com
+DOMAIN-SUFFIX,ut.taobao.com
+# 网易
+DOMAIN,nex.163.com
+DOMAIN,iad.g.163.com
+DOMAIN,adx-bj.anythinktech.com
+DOMAIN,api.anythinktech.com
+DOMAIN,tk.anythinktech.com
+DOMAIN,da.anythinktech.com
+# 美团
+DOMAIN,al-log.d.meituan.net
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+# 京东
+DOMAIN,dsp-x.jd.com
+DOMAIN,xlog.jd.com
+DOMAIN,janapi.jd.com
 # > 收集用户隐私联盟，若有问题自行设置白名单
 DOMAIN-KEYWORD,volc
 # httpdns
