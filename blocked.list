@@ -6,8 +6,6 @@ DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-WILDCARD,gvt*.com
@@ -19,14 +17,10 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gmail
 
 # YouTube
-DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 
 DOMAIN-SUFFIX,youtu.be
