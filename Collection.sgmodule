@@ -1,6 +1,6 @@
 #!name=Collection
 #!desc=Advertising Purification & Unlock Collection
-#!update-time=2024.7.6 AM
+#!update-time=2024.9.29 PM
 
 [URL Rewrite]
 #中油好客e站小程序   minipro.95504.net
@@ -14,9 +14,6 @@
 
 # wangyidushuVIP      p.du.163.com
 Netease snail reading=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
-
-#简讯   api.tipsoon.com
-JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/JX.js, requires-body=true, max-size=-1, timeout=60
 
 
 
@@ -34,4 +31,4 @@ JX = type=http-response, pattern=^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/in
 
 
 [MITM]
-hostname = %APPEND% minipro.95504.net, ocrifs.ejoy.sinopec.com, p.du.163.com, api.tipsoon.com, home.mi.com, client.app.coc.10086.cn, mp.weixin.qq.com
+hostname = %APPEND% minipro.95504.net, p.du.163.com, api.tipsoon.com, home.mi.com, client.app.coc.10086.cn, mp.weixin.qq.com
