@@ -94,7 +94,7 @@ DOMAIN,books.itunes.apple.com
 DOMAIN,sandbox.itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,radio.itunes.apple.com
-
+DOMAIN,iosapps.itunes.apple.com // 解决外区下载下载慢问题
 # Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
