@@ -15,6 +15,7 @@ USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
 DOMAIN-SUFFIX,CN
 DOMAIN-KEYWORD,baidu
 
+
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msecnd.net
@@ -33,3 +34,7 @@ DOMAIN-SUFFIX,windowsupdate.microsoft.com
 DOMAIN,download.microsoft.com
 DOMAIN,wustat.windows.com
 DOMAIN,ntservicepack.microsoft.com
+
+DOMAIN-SUFFIX,leohaol.top // Added for: leohaol.top:5000
+DOMAIN,time.apple.com // Added for: time.apple.com:123
+DOMAIN,speedv6.m.jd.com // Added for: speedv6.m.jd.com:443
