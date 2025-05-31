@@ -13,12 +13,21 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN,weatherkit.apple.com 
-DOMAIN,vod.300hu.com
+DOMAIN-WILDCARD,*.300hu.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-KEYWORD,xiaohongshu
 DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
-IP-CIDR,47.246.23.171/32 // 支付宝
+DOMAIN-KEYWORD,alibaba
+DOMAIN-SUFFIX,1688.com 
+DOMAIN-KEYWORD,fnos // 飞牛
+DOMAIN-SUFFIX,5ddd.com // 飞牛
+DOMAIN-KEYWORD,fnnas // 飞牛
+DOMAIN,doh.pub
+DOMAIN-KEYWORD,360buyimg.com
+DOMAIN-WILDCARD,ali*.com
+DOMAIN,cdn.ynuf.aliapp.org // 支付宝
+DOMAIN-WILDCARD,*.alipayobjects.com // 支付宝
+DOMAIN-WILDCARD,*.alipay.com // 支付宝
+IP-CIDR,47.235.16.233/32 // 支付宝
