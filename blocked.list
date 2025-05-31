@@ -1,4 +1,3 @@
-#更新时间 2024.10.30 AM
 # Google
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
@@ -22,31 +21,9 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,yt.be
-
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ytimg.com
-
-# Facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-SUFFIX,fb.com
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,45.64.40.0/22,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,74.119.76.0/22,no-resolve
-IP-CIDR,103.4.96.0/22,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
-
-DOMAIN-KEYWORD,facebook
-DOMAIN-SUFFIX,fb.me
 
 # Instagram
 DOMAIN-SUFFIX,instagr.am
@@ -79,7 +56,6 @@ IP-CIDR,199.96.56.0/21,no-resolve
 IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR,209.237.192.0/19,no-resolve
 IP-CIDR,69.195.160.0/19,no-resolve
-
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,twimg.com
@@ -91,22 +67,22 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,beta.music.apple.com
 DOMAIN,books.itunes.apple.com
-DOMAIN,sandbox.itunes.apple.com
+
 DOMAIN,lookup-api.apple.com
 DOMAIN,radio.itunes.apple.com
-DOMAIN,iosapps.itunes.apple.com //解决外区下载下载慢问题
-# Web Preview
-DOMAIN,apps.apple.com
-DOMAIN,books.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,tv.apple.com
+
+# Telegram
+IP-ASN,62041,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
 
 #其他
 DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,blogspot
-DOMAIN-SUFFIX,oculuscdn.com
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,letsencrypt.org
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adguard-dns.com
+DOMAIN-KEYWORD,docker
