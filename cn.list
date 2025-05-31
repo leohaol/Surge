@@ -1,14 +1,15 @@
 DOMAIN-SUFFIX,CN
-DOMAIN-SUFFIX,leohaol.top // Added for: leohaol.top:5000
-DOMAIN,time.apple.com // Added for: time.apple.com:123
+DOMAIN-SUFFIX,leohaol.top
+DOMAIN,time.apple.com
 DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,jd.com // Added for: blackhole.m.jd.com:443
-DOMAIN,f.video.weibocdn.com // Added for: 
-DOMAIN-SUFFIX,zhihu.com // Added for: https://api.zhihu.com/order/v2/records/iap
+DOMAIN-SUFFIX,jd.com
+DOMAIN,f.video.weibocdn.com 
+DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,qq.com // Added for: oth.str.mdt.qq.com:8081
-DOMAIN,weatherkit.apple.com // Added for: weatherkit.apple.com:443
-DOMAIN,vod.300hu.com // Added for: vod.300hu.com:443
-
-DOMAIN-SUFFIX,tencent-cloud.net // Added for: apd-pcdnwxlogin.teg.tencent-cloud.net:11762
-DOMAIN-SUFFIX,xiaohongshu.com // Added for: https://edith.xiaohongshu.com/api/sns/v2/note/widgets
+DOMAIN-SUFFIX,qq.com
+DOMAIN,weatherkit.apple.com 
+DOMAIN,vod.300hu.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-KEYWORD,xiaohongshu
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,alicdn.com
