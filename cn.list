@@ -30,3 +30,4 @@ DOMAIN,cdn.ynuf.aliapp.org // 支付宝
 DOMAIN-WILDCARD,*.alipayobjects.com // 支付宝
 DOMAIN-WILDCARD,*.alipay.com // 支付宝
 IP-CIDR,47.235.16.233/32 // 支付宝
+DOMAIN-WILDCARD,*.jd.com
