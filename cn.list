@@ -21,3 +21,4 @@ DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
+IP-CIDR,47.246.23.171/32 // 支付宝
