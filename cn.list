@@ -6,9 +6,8 @@
 DOMAIN-SUFFIX,leohaol.top
 DOMAIN,time.apple.com
 DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,jd.com
 DOMAIN,f.video.weibocdn.com 
-DOMAIN-SUFFIX,zhihu.com
+DOMAIN-WILDCARD,*.zhihu.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN,weatherkit.apple.com 
@@ -32,3 +31,10 @@ DOMAIN-WILDCARD,*.alipay.com // 支付宝
 IP-CIDR,47.235.16.233/32 // 支付宝
 DOMAIN-WILDCARD,*.jd.com
 DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,meituan
+DOMAIN-WILDCARD,*.ccb.com // 建设银行
+DOMAIN,sdk.open.talk.gepush.com // 日产APP
+DOMAIN,nvitapp.venucia.com // 日产APP
+DOMAIN,sdk.open.talk.getui.net // 日产APP
+DOMAIN,ulogs.umengcloud.com // 日产APP
+DOMAIN,gy.gepush.com // 日产APP
