@@ -40,3 +40,14 @@ DOMAIN,ulogs.umengcloud.com // 日产APP
 DOMAIN,gy.gepush.com // 日产APP
 DOMAIN-KEYWORD,luckincoffeecdn // 瑞幸
 DOMAIN-KEYWORD,lkcoffee.com // 瑞幸
+DOMAIN-KEYWORD,smartmidea // 美的
+DOMAIN-KEYWORD,midea // 美的
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,ximalaya // 美的
+DOMAIN-KEYWORD,mijia // 米家
+DOMAIN-SUFFIX,mi.com // 米家
+DOMAIN-KEYWORD,xiaomi // 小米
+DOMAIN,miot-spec.org // 米家
+DOMAIN-SUFFIX,app-measurement.com // 米家
+DOMAIN-KEYWORD,tencentcs // 微信阅读
+DOMAIN-KEYWORD,myqcloud // 微信阅读
