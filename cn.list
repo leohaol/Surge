@@ -54,7 +54,7 @@ DOMAIN-KEYWORD,myqcloud // 微信阅读
 DOMAIN-SUFFIX,jd.com // 京东
 DOMAIN,www.bugutv.org // 布谷
 DOMAIN-KEYWORD,zsszyy //中医院
-#芒果TV
+# 芒果TV
 DOMAIN-KEYWORD,kltb
 DOMAIN-SUFFIX,hitv.com
 DOMAIN-KEYWORD,faceid
@@ -63,3 +63,10 @@ DOMAIN,www.qchannel01.cn
 DOMAIN-KEYWORD,mgtv
 DOMAIN,ef-dongfeng.tanx.com
 DOMAIN-KEYWORD,hunantv
+# 极空间
+DOMAIN-KEYWORD,umeng
+DOMAIN-KEYWORD,zenithspace
+#
+DOMAIN-SUFFIX,jddebug.com // JD
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,music.126.net
