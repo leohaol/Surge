@@ -3,7 +3,7 @@
 #DOMAIN-KEYWORD,
 #DOMAIN-WILDCARD,
 
-DOMAIN-SUFFIX,leohaol.top
+
 DOMAIN,time.apple.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN,f.video.weibocdn.com 
@@ -27,7 +27,7 @@ DOMAIN-KEYWORD,360buyimg.com
 DOMAIN-WILDCARD,ali*.com
 DOMAIN,cdn.ynuf.aliapp.org // 支付宝
 DOMAIN-WILDCARD,*.alipayobjects.com // 支付宝
-DOMAIN-WILDCARD,*.alipay.com // 支付宝
+DOMAIN-KEYWORD,alipay // 支付宝
 IP-CIDR,47.235.16.233/32 // 支付宝
 DOMAIN-WILDCARD,*.jd.com
 DOMAIN-KEYWORD,baidu
@@ -38,8 +38,10 @@ DOMAIN,nvitapp.venucia.com // 日产APP
 DOMAIN,sdk.open.talk.getui.net // 日产APP
 DOMAIN,ulogs.umengcloud.com // 日产APP
 DOMAIN,gy.gepush.com // 日产APP
+DOMAIN-SUFFIX,venucia.com // 日产APP
 DOMAIN-KEYWORD,luckincoffeecdn // 瑞幸
 DOMAIN-KEYWORD,lkcoffee.com // 瑞幸
+DOMAIN-SUFFIX,95516.com // 云闪付
 DOMAIN-KEYWORD,smartmidea // 美的
 DOMAIN-KEYWORD,midea // 美的
 DOMAIN-KEYWORD,aliyun
@@ -54,6 +56,7 @@ DOMAIN-KEYWORD,myqcloud // 微信阅读
 DOMAIN-SUFFIX,jd.com // 京东
 DOMAIN,www.bugutv.org // 布谷
 DOMAIN-KEYWORD,zsszyy //中医院
+DOMAIN-SUFFIX,jd.com
 # 芒果TV
 DOMAIN-KEYWORD,kltb
 DOMAIN-SUFFIX,hitv.com
@@ -66,7 +69,23 @@ DOMAIN-KEYWORD,hunantv
 # 极空间
 DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,zenithspace
+DOMAIN,vectormap0.bdimg.com
 #
 DOMAIN-SUFFIX,jddebug.com // JD
 DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,music.126.net 
+DOMAIN-SUFFIX,xunlei.com // NAS迅雷
+DOMAIN-SUFFIX,88cdn.com // NAS迅雷
+DOMAIN-SUFFIX,alicdn.com 
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-KEYWORD,tipsoon
+DOMAIN,easytomessage.com
+#扫描全能王
+DOMAIN-SUFFIX,intsig.net
+DOMAIN-SUFFIX,camscanner.com 
+#
+DOMAIN-SUFFIX,globalsign.com // 云闪付
+DOMAIN,mpool.unionpay.com // 云闪付
+DOMAIN,aks.jdpay.com // 京东
+DOMAIN-SUFFIX,alidns.com // 阿里
