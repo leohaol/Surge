@@ -89,3 +89,6 @@ DOMAIN-SUFFIX,globalsign.com // 云闪付
 DOMAIN,mpool.unionpay.com // 云闪付
 DOMAIN,aks.jdpay.com // 京东
 DOMAIN-SUFFIX,alidns.com // 阿里
+DOMAIN,is1-ssl.mzstatic.com // 苹果
+DOMAIN-KEYWORD,weibo
+DOMAIN-KEYWORD,meitu
