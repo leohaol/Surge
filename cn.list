@@ -28,14 +28,5 @@ DOMAIN,forum.zspace.cn
 DOMAIN-SUFFIX,xunlei.com // NAS迅雷
 DOMAIN-SUFFIX,88cdn.com // NAS迅雷
 DOMAIN,easytomessage.com
-#芒果TV
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN,www.qchannel01.cn
-DOMAIN-SUFFIX,miguku.com
-DOMAIN-SUFFIX,mgtv.com
-DOMAIN-KEYWORD,hunantv
-#小红书
-DOMAIN-SUFFIX,fengkongcloud.com
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xhscdn.net
-DOMAIN-SUFFIX,xiaohongshu.com
+#支付宝
+DOMAIN-KEYWORD,alipay
