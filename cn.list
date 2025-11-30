@@ -3,8 +3,7 @@
 #DOMAIN-KEYWORD,
 #DOMAIN-WILDCARD,
 
-
-DOMAIN,time.apple.com
+#其他
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN,f.video.weibocdn.com 
 DOMAIN-SUFFIX,windows.com
@@ -30,4 +29,8 @@ DOMAIN-SUFFIX,88cdn.com // NAS迅雷
 DOMAIN,easytomessage.com
 #支付宝
 DOMAIN-KEYWORD,alipay
-#真的
+#苹果
+DOMAIN,lcdn-locator.apple.com //内容快取定位服务
+DOMAIN,time.apple.com //时间同步服务
+DOMAIN,profile.gc.apple.com // 跟踪游戏成就、挑战朋友和查看排行榜的服务
+DOMAIN,gsp10-ssl.apple.com // 地图、定位服务或其他后台数据同步和更新
