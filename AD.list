@@ -1,2 +1,6 @@
+#DOMAIN,
+#DOMAIN-SUFFIX,
+#DOMAIN-KEYWORD,
+#DOMAIN-WILDCARD,
+
 DOMAIN-SUFFIX, mediation.unity3d.com
-DOMAIN, adashx.m.taobao.com
