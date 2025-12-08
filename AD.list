@@ -1,0 +1,6 @@
+#DOMAIN,
+#DOMAIN-SUFFIX,
+#DOMAIN-KEYWORD,
+#DOMAIN-WILDCARD,
+
+URL-REGEX,"^http:\/\/cjjl\.chelun\.com\/Index\/appConfig\?driving_cert_type=1&position=1&_cityCode=0750&ac_token=u99914692_tyQo8sWsof_adc34a3a20271b9334828de961308fed&channelid=80000&_token=ae656b45dd041bdb06d2ca538626a2d7&appversion=6\.4\.2&appChannel=APP%20Store&que_city_id=103&cUDID=00000000-0000-0000-0000-000000000000&appVersion=6\.4\.2&productId=28&os=ios&is_subject_100=0&type=3&packagename=com\.xueche\.supercoach&usertype=2&enr_city_id=264&openUDID=b1b689156f7e180cf1fdc90633868fd8d8efd7da&apiVersion=4&gd_citycode=0750&model=iPhone17%2C2&systemVersion=18\.2&app=SuperCoach$" //超级教练
