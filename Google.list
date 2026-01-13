@@ -4,29 +4,14 @@
 #DOMAIN-WILDCARD,
 
 # YouTube
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
+DOMAIN-KEYWORD,googlevideo.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,ggpht
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,wide-youtube.l.google.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-IP-CIDR,172.110.32.0/21,no-resolve
-IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR6,2620:120:e000::/40,no-resolve
-USER-AGENT,*YouTubeMusic*
-USER-AGENT,*com.google.ios.youtubemusic*
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-USER-AGENT,YouTubeMusic*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,com.google.ios.youtubemusic*
