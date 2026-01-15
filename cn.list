@@ -4,21 +4,22 @@
 #DOMAIN-WILDCARD,
 
 #其他
-DOMAIN,cloud.xdrig.com //红板报
+DOMAIN-SUFFIX,amap.com
 DOMAIN-KEYWORD,jd.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN,f.video.weibocdn.com 
 DOMAIN-SUFFIX,windows.com
-DOMAIN,weatherkit.apple.com 
 DOMAIN-WILDCARD,*.300hu.com
 DOMAIN-SUFFIX,tencent-cloud.net
 # 日产
 DOMAIN,sdk.open.talk.gepush.com 
-DOMAIN,nvitapp.venucia.com 
 DOMAIN,sdk.open.talk.getui.net 
 DOMAIN,ulogs.umengcloud.com 
 DOMAIN,gy.gepush.com 
 DOMAIN-SUFFIX,venucia.com 
+DOMAIN-SUFFIX,dongfeng-nissan.com.cn
+DOMAIN,b-gy.gepush.com
+DOMAIN,analysis-gw.szlanyou.com 
 # 极空间
 DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,zenithspace
@@ -30,8 +31,17 @@ DOMAIN,easytomessage.com
 #支付宝
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,aliyuncs
-#苹果
-DOMAIN,time.apple.com
-DOMAIN,books-analytics-events.apple.com
+DOMAIN-KEYWORD,aliyun
 #多邻国
 DOMAIN-KEYWORD,duolingo
+#美的
+DOMAIN-SUFFIX,smartmidea.net
+DOMAIN-SUFFIX,midea.com
+#苹果
+DOMAIN,sandbox.itunes.apple.com
+DOMAIN,xp.apple.com
+DOMAIN-WILDCARD,*.icloud.com.cn
+DOMAIN-WILDCARD,*.apple.com.cn
+DOMAIN,time.apple.com
+DOMAIN,books-analytics-events.apple.com
+DOMAIN,weatherkit.apple.com 

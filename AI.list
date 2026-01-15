@@ -1,6 +1,6 @@
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list
 #!date=2025-10-03 21:12:08
-#############################################
+########################################
 
 # OpenAI ChatGPT
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
@@ -20,14 +20,14 @@ DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, sora.com
 
 # Apple Intelligence
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,apple-relay.apple.com,Proxy
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,Proxy
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,Proxy
+DOMAIN-SUFFIX,gateway.icloud.com,Proxy
+DOMAIN-SUFFIX,guzzoni.apple.com,Proxy
+DOMAIN-SUFFIX,cp4.cloudflare.com,Proxy
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,Proxy
+DOMAIN-SUFFIX,apps.mzstatic.com,Proxy
 
 # GitHub Copilot
 DOMAIN, api.githubcopilot.com
