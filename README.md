@@ -1,12 +1,6 @@
 
 常用模块
 
-高德净化 
-https://raw.githubusercontent.com/kokoryh/Script/master/Surge/module/amap.sgmodule
-
-Youtube Block AD
-https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule
-
 BoxJs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
 

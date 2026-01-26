@@ -3,14 +3,7 @@
 #DOMAIN-KEYWORD,
 #DOMAIN-WILDCARD,
 
-#其他
-DOMAIN-SUFFIX,amap.com
-DOMAIN-KEYWORD,jd.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN,f.video.weibocdn.com 
-DOMAIN-SUFFIX,windows.com
-DOMAIN-WILDCARD,*.300hu.com
-DOMAIN-SUFFIX,tencent-cloud.net
+
 # 日产
 DOMAIN,sdk.open.talk.gepush.com 
 DOMAIN,sdk.open.talk.getui.net 
@@ -45,3 +38,14 @@ DOMAIN-WILDCARD,*.apple.com.cn
 DOMAIN,time.apple.com
 DOMAIN,books-analytics-events.apple.com
 DOMAIN,weatherkit.apple.com 
+DOMAIN,is1-ssl.mzstatic.com
+
+#其他
+DOMAIN-SUFFIX,amap.com
+DOMAIN-KEYWORD,jd.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN,f.video.weibocdn.com 
+DOMAIN-SUFFIX,windows.com
+DOMAIN-WILDCARD,*.300hu.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-KEYWORD,xhscdn

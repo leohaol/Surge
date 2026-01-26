@@ -82,7 +82,7 @@ DOMAIN-SUFFIX, mistral.ai
 DOMAIN, api.x.ai
 DOMAIN-SUFFIX, x.ai
 DOMAIN-SUFFIX, grok.com
-
+DOMAIN,xai.chronosphere.io
 # Trae AI
 DOMAIN, trae-api-sg.mchost.guru
 DOMAIN-SUFFIX, trae.ai
