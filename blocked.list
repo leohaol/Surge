@@ -19,7 +19,6 @@ IP-CIDR,173.194.0.0/16,no-resolve
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gmail
 
-
 # Instagram
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram

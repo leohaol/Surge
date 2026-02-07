@@ -36,8 +36,8 @@ DOMAIN-WILDCARD,*.apple.com.cn
 DOMAIN,time.apple.com
 DOMAIN,books-analytics-events.apple.com
 DOMAIN,weatherkit.apple.com 
-DOMAIN,is1-ssl.mzstatic.com
-
+DOMAIN-WILDCARD,*.mzstatic.com
+DOMAIN-SUFFIX,safebrowsing.apple 
 #其他
 DOMAIN-SUFFIX,amap.com
 DOMAIN-KEYWORD,jd.com
@@ -67,3 +67,16 @@ DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-KEYWORD,synology
 DOMAIN-KEYWORD,mijia
+DOMAIN-SUFFIX,mi.com 
+DOMAIN-SUFFIX,miui.com 
+DOMAIN,trade-api.retail.mi.com 
+DOMAIN,miot-spec.org 
+DOMAIN-KEYWORD,xiaomi
+DOMAIN-SUFFIX,mi-img.com 
+DOMAIN-SUFFIX,mi-fds.com 
+DOMAIN-SUFFIX,miinsurtech.com 
+DOMAIN,apmplus.volces.com
+DOMAIN-SUFFIX,myqcloud.com 
+DOMAIN-KEYWORD,goofish
+DOMAIN-SUFFIX,ucweb.com 
+DOMAIN-SUFFIX,volces.com 
