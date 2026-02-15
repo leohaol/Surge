@@ -107,4 +107,5 @@ DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,pinterest.com 
 DOMAIN-KEYWORD,follow
 DOMAIN-SUFFIX,posthog.com 
-DOMAIN-SUFFIX,grok.com // Added for: grok.com:443
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,fbcdn.net
