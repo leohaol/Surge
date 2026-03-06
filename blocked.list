@@ -109,20 +109,4 @@ DOMAIN-SUFFIX,posthog.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,fbcdn.net
 
-#自动收集
-DOMAIN,gateway-asset.icloud-content.com
-DOMAIN-SUFFIX,revenuecat.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,chronosphere.io
-DOMAIN-SUFFIX,surge-activation.com
-DOMAIN,kelee.one
-DOMAIN,v45.tiktokcdn.com
-DOMAIN,api-huacloud.net
-DOMAIN-SUFFIX,cr450.cc
-DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
-DOMAIN-SUFFIX,bugsnag.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,ampaeservices.com
-DOMAIN,cp10.cloudflare.com
-DOMAIN,edge-285.hkhkg2.icloud-content.com
-DOMAIN-SUFFIX,rc-backup.com
+
