@@ -19,6 +19,23 @@ IP-CIDR,173.194.0.0/16,no-resolve
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gmail
 
+# YouTube
+DOMAIN-KEYWORD,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,ggpht
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+
 # Instagram
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram
@@ -108,21 +125,3 @@ DOMAIN-KEYWORD,follow
 DOMAIN-SUFFIX,posthog.com 
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,fbcdn.net
-
-#自动收集
-DOMAIN,gateway-asset.icloud-content.com
-DOMAIN-SUFFIX,revenuecat.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,chronosphere.io
-DOMAIN-SUFFIX,surge-activation.com
-DOMAIN,kelee.one
-DOMAIN,v45.tiktokcdn.com
-DOMAIN,api-huacloud.net
-DOMAIN-SUFFIX,cr450.cc
-DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
-DOMAIN-SUFFIX,bugsnag.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,ampaeservices.com
-DOMAIN,cp10.cloudflare.com
-DOMAIN,edge-285.hkhkg2.icloud-content.com
-DOMAIN-SUFFIX,rc-backup.com

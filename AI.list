@@ -23,6 +23,7 @@ DOMAIN-SUFFIX, sora.com
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
@@ -55,6 +56,8 @@ DOMAIN, proactivebackend-pa.googleapis.com
 # Anthropic Claude
 DOMAIN-SUFFIX, anthropic.com
 DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claude.com
+DOMAIN-SUFFIX, clau.de
 DOMAIN-SUFFIX, claudeusercontent.com
 IP-CIDR, 160.79.104.0/23, no-resolve
 IP-CIDR6, 2607:6bc0::/48, no-resolve
@@ -82,7 +85,7 @@ DOMAIN-SUFFIX, mistral.ai
 DOMAIN, api.x.ai
 DOMAIN-SUFFIX, x.ai
 DOMAIN-SUFFIX, grok.com
-DOMAIN,xai.chronosphere.io
+
 # Trae AI
 DOMAIN, trae-api-sg.mchost.guru
 DOMAIN-SUFFIX, trae.ai
