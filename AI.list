@@ -1,6 +1,7 @@
 #!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list
-#!date=2025-10-03 21:12:08
-########################################
+#!tg-channel=https://t.me/inaisi
+#!date=2026-03-31 16:50:08
+#############################################
 
 # OpenAI ChatGPT
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
